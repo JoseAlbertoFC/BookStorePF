@@ -1,0 +1,3139 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1115,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "vQHmAAAAMAAJ",
+      "etag": "5hP44XIgdG8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vQHmAAAAMAAJ",
+      "volumeInfo": {
+        "title": "El candidato de Dios",
+        "authors": ["Luis G. Basurto"],
+        "publishedDate": "1986",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UTEXAS:059173026932267"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 92,
+        "printType": "BOOK",
+        "categories": ["Mexican literature"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vQHmAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vQHmAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=vQHmAAAAMAAJ&dq=%22%22&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=vQHmAAAAMAAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/El_candidato_de_Dios.html?hl=&id=vQHmAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vQHmAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QpVtAwAAQBAJ",
+      "etag": "t15XA7RJ5tU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QpVtAwAAQBAJ",
+      "volumeInfo": {
+        "title": "Las enfermedades metabólicas y su impacto en la salud",
+        "authors": [
+          "Aleph Alejandro Corona Morales",
+          "José Luis Castillo Hernández"
+        ],
+        "publisher": "Elsevier España",
+        "publishedDate": "2014-04-24",
+        "description": "El objetivo de esta obra es brindar en un solo volumen una actualización sobre el amplio tema de las enfermedades metabólicas y su impacto en la salud, así como presentar conceptos novedosos que se ponen a consideración y reflexión a través de sus once capítulos. Con este libro se pretende, además, sentar las bases para formar redes de colaboración académica para la investigación y avanzar en la puesta en marcha de soluciones factibles para la prevención de las enfermedades metabólicas. Por primera vez en un solo volumen todos los temas fundamentales relacionados con el impacto de las enfermedades metabólicas en la salud. Contenido dirigido tanto a los profesionales de la nutrición como a los estudiantes de pregrado y posgrado. Con un lenguaje accesible y conciso que refuerza su vertiente más pedagógica. Autores y colaboradores de alto nivel académico, nacionales e internacionales. Incluye resultados de investigaciones recientes llevadas a cabo por la Asociación Mexicana de Miembros de Facultades y Escuelas de Nutrición (AMMFEN).",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788490228319"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8490228310"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 184,
+        "printType": "BOOK",
+        "categories": ["Medical"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QpVtAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QpVtAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=QpVtAwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=QpVtAwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QpVtAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 4446.76,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 3538.01,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=QpVtAwAAQBAJ&rdid=book-QpVtAwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 4446760000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 3538010000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Las_enfermedades_metab%C3%B3licas_y_su_impac-sample-epub.acsm?id=QpVtAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Las_enfermedades_metab%C3%B3licas_y_su_impac-sample-pdf.acsm?id=QpVtAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QpVtAwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "El objetivo de esta obra es brindar en un solo volumen una actualización sobre el amplio tema de las enfermedades metabólicas y su impacto en la salud, así como presentar conceptos novedosos que se ponen a consideración y reflexión a ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8ERFrYv9VAIC",
+      "etag": "yScjqOcsv9s",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8ERFrYv9VAIC",
+      "volumeInfo": {
+        "title": "Aragon reyno de Christo, y dote de Maria Santissima",
+        "subtitle": "exaltado por la columna immobil de Nuestra Señora del Pilar ...",
+        "authors": ["Roque Alberto Faci"],
+        "publishedDate": "1750",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "BNC:1001962727"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 332,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "3.6.5.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8ERFrYv9VAIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8ERFrYv9VAIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=8ERFrYv9VAIC&printsec=frontcover&dq=%22%22&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=8ERFrYv9VAIC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8ERFrYv9VAIC"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=8ERFrYv9VAIC&rdid=book-8ERFrYv9VAIC&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com.ar/books/download/Aragon_reyno_de_Christo_y_dote_de_Maria.epub?id=8ERFrYv9VAIC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com.ar/books/download/Aragon_reyno_de_Christo_y_dote_de_Maria.pdf?id=8ERFrYv9VAIC&hl=&output=pdf&sig=ACfU3U0rLV5yjZDtYKbtj87YtKsLf1FbHQ&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8ERFrYv9VAIC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yhbwCwAAQBAJ",
+      "etag": "bu0tLTfmLZQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yhbwCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Sprint",
+        "subtitle": "El método para resolver problemas y testar nuevas ideas en solo 5 días",
+        "authors": ["Jake Knapp", "John Zeratsky", "Braden Kowitz"],
+        "publisher": "CONECTA",
+        "publishedDate": "2016-05-26",
+        "description": "Creado por Jake Knapp, John Zeratsky y Braden Kowitz, tres socios de Google Ventures, SPRINT es un método único e infalible de 5 días para solventar problemas empresariales complicados y conseguir que la viabilidad de un proyecto se implante rápidamente. Probado con éxito en más de 100 ocasiones. Tanto los emprendedores como los directivos tienen que enfrentarse todos los días a dilemas importantes: ¿Dónde hay que poner las prioridades y por dónde hay que empezar?, ¿cuántas reuniones son necesarias para dar con la solución más adecuada? Ahora ya disponemos de un método seguro para responder a estas cuestiones cruciales: el Sprint. El diseñador Jake Knapp creó este proceso de cinco días en Google, donde los sprints se empleaban para todo tipo de proyectos, desde el Google Search hasta Google X. En Google Ventures empezó a trabajar con Braden Kowitz y John Zeratsky y los tres han conducido más de cien sprints con empresas del sector de la telefonía móvil, del comercio electrónico, la sanidad, las finanzas y otros. Como guía práctica para resolver importantes problemas empresariales, Sprint puede resultar muy útil para todo tipo de equipos de cualquier dimensión, desde pequeñas startups hasta grandes empresas multinacionales, desde equipos de profesores a empresas sin ánimo de lucro. Se trata de un libro para cualquiera con una oportunidad, idea o problema que necesite una respuesta rápida. La opinión de los expertos: «Lea este libro y siga sus consejos si quiere desarrollar productos mejores y más deprisa.» Ev Williams, fundador de Medium y Twitter «Sprint ofrece una fórmula transformadora para testar ideas, muy útil tanto si se aplica a una startup como a cualquier gran organización. En tan solo cinco días, podremos pasar de una idea inicial al prototipo y la decisión final ahorrándonos un montón de horas y dinero. Una lectura obligatoria para emprendedores de cualquier tipo.» Eric Ries, autor de El método Lean Startup «Todos los directivos que conozco están preocupados por lo mismo: ¿Nos estamos moviendo lo suficientemente rápido? Sprint nos ofrece un método paso a paso para resolver problemas de envergadura y avanzar en lo que realmente importa con rapidez. Un sprint es la cura para los males de la empresas en un mundo que va cada día más rápido.» Beth Comstock, vice-presidenta de General Electric",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788416029754"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "841602975X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.16.14.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yhbwCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yhbwCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=yhbwCwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=yhbwCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=yhbwCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2238.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 2238.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=yhbwCwAAQBAJ&rdid=book-yhbwCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2238990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 2238990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Sprint-sample-epub.acsm?id=yhbwCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Sprint-sample-pdf.acsm?id=yhbwCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yhbwCwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Creado por Jake Knapp, John Zeratsky y Braden Kowitz, tres socios de Google Ventures, SPRINT es un método único e infalible de 5 días para solventar problemas empresariales complicados y conseguir que la viabilidad de un proyecto se ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "lG1bAAAAMAAJ",
+      "etag": "YvvHw0hRQCo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lG1bAAAAMAAJ",
+      "volumeInfo": {
+        "title": "La Sagrada Biblia: Antiguo Testamento",
+        "publishedDate": "1824",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "WISC:89094612959"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "averageRating": 3,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.6.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lG1bAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lG1bAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=lG1bAAAAMAAJ&printsec=frontcover&dq=%22%22&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=lG1bAAAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lG1bAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=lG1bAAAAMAAJ&rdid=book-lG1bAAAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com.ar/books/download/La_Sagrada_Biblia_Antiguo_Testamento.epub?id=lG1bAAAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com.ar/books/download/La_Sagrada_Biblia_Antiguo_Testamento.pdf?id=lG1bAAAAMAAJ&hl=&output=pdf&sig=ACfU3U0aHHLE3-gavPwbY0mAp5mGUDpvXw&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=lG1bAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "EAtvswEACAAJ",
+      "etag": "3tC0RuPRBkw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/EAtvswEACAAJ",
+      "volumeInfo": {
+        "title": "Empieza con el porqué : cómo los grandes líderes motivan a actuar",
+        "authors": ["Simon Sinek"],
+        "publisher": "Urano",
+        "publishedDate": "2018-05",
+        "description": "Para Sinek, lo importante no es tanto que es lo que haces como el por que lo haces. Lo esencial es saber por que haces lo que haces, por que existes. Aprender a formular las preguntas adecuadas te permitiran tener una empresa inspiradora, proyectos innovadores y gente comprometida para desarrollarlos. Sinek explica como crear el marco adecuado en una organizacion para conseguir esos propositos.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8492921889"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788492921881"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=EAtvswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=EAtvswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=EAtvswEACAAJ&dq=%22%22&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=EAtvswEACAAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Empieza_con_el_porqu%C3%A9_c%C3%B3mo_los_grandes.html?hl=&id=EAtvswEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=EAtvswEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Para Sinek, lo importante no es tanto que es lo que haces como el por que lo haces."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "fQcKDgAAQBAJ",
+      "etag": "IBFRp+mzweU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/fQcKDgAAQBAJ",
+      "volumeInfo": {
+        "title": "Milagro en el camino",
+        "authors": ["Corín Tellado"],
+        "publisher": "Ediciones Corín Tellado",
+        "publishedDate": "2017-02-14",
+        "description": "Este libro nos lleva al conflicto bélico de Kosovo, donde una familia tiene que huir de semejante horror. En su viaje a pie con destino España suceden cosas maravillosas que sólo se pueden catalogar como milagros. Aunque la vida les ha tratado mal a este carpintero y a su esposa, ellos no decaen en sus principios cristianos y siguen adelante, consiguiendo llegar al lugar deseado. Lo que no esperan en ese pueblecito es que una persona pueda dar tanto sin pedir nada a cambio. Esta fue la primera obra que Corín Tellado publicó en internet, en el año 2000.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788491625704"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8491625704"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 200,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.7.7.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=fQcKDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=fQcKDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=fQcKDgAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=fQcKDgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=fQcKDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 579.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 579.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=fQcKDgAAQBAJ&rdid=book-fQcKDgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 579990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 579990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Milagro_en_el_camino-sample-epub.acsm?id=fQcKDgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Milagro_en_el_camino-sample-pdf.acsm?id=fQcKDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=fQcKDgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Lo que no esperan en ese pueblecito es que una persona pueda dar tanto sin pedir nada a cambio. Esta fue la primera obra que Corín Tellado publicó en internet, en el año 2000."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0Xt6CgAAQBAJ",
+      "etag": "Emi13LzFjgc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0Xt6CgAAQBAJ",
+      "volumeInfo": {
+        "title": "El libro sin dibujos",
+        "authors": ["B. J. Novak"],
+        "publisher": "Grupo Planeta Spain",
+        "publishedDate": "2015-10-06",
+        "description": "¡Peligro! ¡Este libro tiene una apariencia muy seria pero, en realidad, es totalmente ridículo! Si un niño te propone leerlo, que sepas que te está jugando una mala pasada. Acabarás diciendo palabras tontorronas y ¡haciendo que todos los que están a tu alrededor rían y rían sin parar! No digas que no te avisé... Sorprendentemente simple e ingenioso al mismo tiempo, El libro sin dibujos provoca la risa cada vez que lo abrimos, crea una experiencia agradable e inspiradora, para compartir. Sirve para introducir a los más pequeños en la poderosa idea de que la palabra escrita puede resultar una fuente inacabable de travesuras y alegría.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788408147206"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "840814720X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 48,
+        "printType": "BOOK",
+        "categories": ["Juvenile Nonfiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.9.9.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0Xt6CgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0Xt6CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=0Xt6CgAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=0Xt6CgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=0Xt6CgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 999.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 999.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=0Xt6CgAAQBAJ&rdid=book-0Xt6CgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 999990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 999990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/El_libro_sin_dibujos-sample-epub.acsm?id=0Xt6CgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/El_libro_sin_dibujos-sample-pdf.acsm?id=0Xt6CgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=0Xt6CgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "No digas que no te avisé... Sorprendentemente simple e ingenioso al mismo tiempo, El libro sin dibujos provoca la risa cada vez que lo abrimos, crea una experiencia agradable e inspiradora, para compartir."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "s-o0DQAAQBAJ",
+      "etag": "Rq1NVXGN2gc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/s-o0DQAAQBAJ",
+      "volumeInfo": {
+        "title": "La magia desde dentro: así se hizo animales fantásticos y dónde encontrarlos",
+        "authors": ["Ian Nathan"],
+        "publisher": "Harlequin, una división de HarperCollins Ibérica",
+        "publishedDate": "2016-11-25",
+        "description": "REGRESO AL MUNDO DE LA MAGIA Descubre cómo el director David Yates, el productor David Heyman y un talentoso equipo de nomajs trasladaron a la pantalla Animales fantásticos y dónde encontrarlos, de J. K. Rowling. Conoce a Newt Scamander, magizoólogo, y explora maravillas como el MACUSA, homólogo estadounidense del Ministerio de la Magia, el bar clandestino The Blind Pig, guarida del inframundo mágico, los secretos mágicos de la maleta de Newt y los animales fantásticos. Permite que La magia desde dentro: así se hizo Animales fantásticos y dónde encontrarlos te lleve de viaje cinematográfico hasta el Nueva York de los años 20. Descubre cosas sobre los trajes, las varitas, los efectos especiales, averigua a quién pertenece cada varita, qué famoso mago es amigo de Newt, quién es un legilimante, ¡y qué animales acaban en el zoo! Lleno de fotos emocionantes y secretos detrás de las cámaras, revelados por J. K. Rowling, David Yates, el diseñador de producción Stuart Craig, Eddie Redmayne y el r esto de estrellas, este libro es el complemento definitivo a la película, la introducción perfecta a Animales fantásticos y dónde encontrarlos. “Me pareció divertido. Emocionante. Y conmovedor. Trasladaba toda la fantasía y la imaginación de Harry Potter al Nueva York del charlestón y la ley seca. Un escenario muy emocionante por el que moverse” Eddie Redmayne",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788491390886"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "849139088X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 144,
+        "printType": "BOOK",
+        "categories": ["Performing Arts"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=s-o0DQAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=s-o0DQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=s-o0DQAAQBAJ&pg=PP1&dq=%22%22&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=s-o0DQAAQBAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/La_magia_desde_dentro_as%C3%AD_se_hizo_anima.html?hl=&id=s-o0DQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=s-o0DQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qG70DwAAQBAJ",
+      "etag": "AJMK7KKGa5o",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qG70DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Las maravillas",
+        "authors": ["Elena Medel"],
+        "publisher": "Anagrama",
+        "publishedDate": "2020-10-07",
+        "description": "La primera novela de Elena Medel: un recorrido por las últimas décadas de la historia de España y un retrato lírico y honesto de dos mujeres trabajadoras. ¿Cuál es el peso de la familia en nuestras vidas, y cuál es el peso del dinero en nuestras vidas? ¿Qué sucede cuando una madre decide no cuidar de su hija, y qué sucede cuando una hija decide no cuidar de su madre? ¿Habríamos sido diferentes de haber nacido en otro lugar, en otro tiempo, en otro cuerpo? En esta novela hay dos mujeres: María, que a finales de la década de los sesenta deja su vida en una ciudad del sur para trabajar en Madrid, y Alicia, que nace más de treinta años después y repite su camino por motivos diferentes. Sabemos lo que las separa, pero... ¿Qué las une? ¿Qué les pertenece, qué han perdido? Las maravillas es una novela sobre el dinero. Una novela sobre la falta de dinero: sobre la manera en la que nos define el dinero que no tenemos. Es también una novela sobre cuidados, responsabilidades y expectativas; sobre la precariedad que no responde a la crisis sino a la clase, y sobre quiénes −qué voces, en qué circunstancias− contarán las historias que nos permitan conocer nuestros orígenes y nuestro pasado. Las maravillas recorre las últimas décadas de la historia de España: desde el final de la dictadura hasta el estallido feminista, contado desde la periferia de una gran ciudad y en las voces −y en los cuerpos− de quienes no pueden manifestarse porque tienen que trabajar. En Las maravillas, a su manera una novela de aprendizaje, hay también pisos compartidos, líneas lentas del transporte público, raciones en bares con platos salpicados de aceite. Y de nuevo: la falta de dinero. Sobre eso trata esta novela deslumbrante, que ya antes de su publicación sedujo a algunos de los más destacados editores internacionales y será traducida a quince idiomas.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788433941886"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8433941887"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 228,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qG70DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qG70DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=qG70DwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=qG70DwAAQBAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Las_maravillas.html?hl=&id=qG70DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Las_maravillas-sample-epub.acsm?id=qG70DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Las_maravillas-sample-pdf.acsm?id=qG70DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qG70DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "La primera novela de Elena Medel: un recorrido por las últimas décadas de la historia de España y un retrato lírico y honesto de dos mujeres trabajadoras. ¿Cuál es el peso de la familia en nuestras vidas, y cuál es el peso del dinero ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "tK1AyAEACAAJ",
+      "etag": "K7XquE3PzFg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tK1AyAEACAAJ",
+      "volumeInfo": {
+        "title": "Juego Infinito, El",
+        "authors": ["Simon Sinek"],
+        "publisher": "Urano",
+        "publishedDate": "2020-02-28",
+        "description": "Último gran éxito de Simon Sinek. En este libro la idea principal es saber discriminar cuando estás jugando un juego finito y cuando uno infinito. Es un concepto muy sencillo, pero el hecho de que la gente no lo tenga claro hace que se produzcan muchos conflictos y problemas innecesarios. Hay juegos que son finitos: un partido de baloncesto, una carrera de coches en la cual hay un ganador, algún perdedor y otros con distintos resultados. La gestión de una empresa, así como la vida, son juegos infinitos. El juego de la empresa no se acaba con los resultados de un año. La vida no se acaba cuando uno se gradúa. No hay ganadores en los juegos infinitos, son juegos permanentes. Cada tipo de juego tiene sus reglas determinadas, y si jugamos los infinitos con las reglas de los finitos nos estaremos equivocando y pudiendo causar mucho daño.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8416997233"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788416997237"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": ["Communication in management"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=tK1AyAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=tK1AyAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=tK1AyAEACAAJ&dq=%22%22&hl=&cd=11&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=tK1AyAEACAAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Juego_Infinito_El.html?hl=&id=tK1AyAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=tK1AyAEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Último gran éxito de Simon Sinek. En este libro la idea principal es saber discriminar cuando estás jugando un juego finito y cuando uno infinito."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ew7TbwAACAAJ",
+      "etag": "0bNaSGdL8Po",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ew7TbwAACAAJ",
+      "volumeInfo": {
+        "title": "Reinicia",
+        "subtitle": "Borra lo aprendido y piensa la empresa de otra forma",
+        "authors": ["Jason Fried", "David Heinemeier Hansson"],
+        "publishedDate": "2010-09-15",
+        "description": "La mayor&ía de los libros de empresa dan el mismo viejo consejo: escribe un plan de negocios, estudia a la competencia, busca inversores, etc.,etc. Reinicia muestra una forma m&ás r&ápida y sencilla de triunfar en los negocios. La verdad es que se necesita menos de lo que se dice. No hace falta ni ser un workaholic, ni perder tiempo con papeleos, reuniones y miles de conversaciones intrascendentes. Ni siquiera hace falta tener una oficina. Lo que se necesita es dejar de hablar y ponerse a trabajar y este libro ense&ña a ser m&ás productivo, evitar trabajar como un loco, a no endeudarse y muchos otros provocativos consejos contraintuitivos que inspirar&án y modificar&án la forma de pensar del lector.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8492452587"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788492452583"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 283,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ew7TbwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ew7TbwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=ew7TbwAACAAJ&dq=%22%22&hl=&cd=12&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=ew7TbwAACAAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Reinicia.html?hl=&id=ew7TbwAACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ew7TbwAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "La mayoría de los libros de empresa dan el mismo viejo consejo: escribe un plan de negocios, estudia a la competencia, busca inversores, etc.,etc. Reinicia muestra una forma más rápida y sencilla de triunfar en los negocios."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "YAhBEAAAQBAJ",
+      "etag": "jIpfcGwOvF0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YAhBEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Gran panda y pequeño dragón",
+        "authors": ["James Norbury"],
+        "publisher": "NUBE DE TINTA",
+        "publishedDate": "2021-10-07",
+        "description": "UNA HISTORIA INSPIRADA EN LA FILOSOFÍA ORIENTAL QUE ENAMORARÁ A GRANDES Y PEQUEÑOS. Este libro narra el viaje de dos amigos con tendencia a perderse. Como la mayoría de las personas. Gran Panda y Pequeño Dragón suelen terminar encontrándose, pero cuando les cuesta recuperar el rumbo, aceptan dónde están y disfrutan de su lugar en el mundo. En este precioso recorrido por las estaciones del año, ambos aprenderán que lo verdaderamente importante no es la meta, sino la compañía. UN CUENTO ILUSTRADO QUE INVITA A VIVIR EN EL PRESENTE Y A BUSCAR LA INSPIRACIÓN PARA SUPERAR LAS SORPRESAS DE LA VIDA.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788418050008"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8418050004"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 160,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YAhBEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YAhBEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=YAhBEAAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=13&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=YAhBEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=YAhBEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1740.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 1740.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=YAhBEAAAQBAJ&rdid=book-YAhBEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1740990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 1740990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Gran_panda_y_peque%C3%B1o_drag%C3%B3n-sample-epub.acsm?id=YAhBEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Gran_panda_y_peque%C3%B1o_drag%C3%B3n-sample-pdf.acsm?id=YAhBEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=YAhBEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Como la mayoría de las personas. Gran Panda y Pequeño Dragón suelen terminar encontrándose, pero cuando les cuesta recuperar el rumbo, aceptan dónde están y disfrutan de su lugar en el mundo."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "JfnPrNPyYC4C",
+      "etag": "90SydlLAPOE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JfnPrNPyYC4C",
+      "volumeInfo": {
+        "title": "El viaje de Mina",
+        "authors": ["Michael Ondaatje"],
+        "publisher": "ALFAGUARA",
+        "publishedDate": "2012-03-21",
+        "description": "«Por medio de cualquier explicación sobre la trama y los personajes resulta imposible transmitir la brillantez hipnótica de El viaje de Mina. Es absolutamente... bueno, Ondaatjesco.» The Guardian A principios de los años cincuenta, Michael, un chico de once años a quien sus amigos apodan Mina, se embarca en un transatlántico que se dirige desde Colombo hacia Inglaterra. En el comedor lo sientan en la modesta «mesa del gato», la más alejada de la mesa del capitán, con un excéntrico grupo de pasajeros y otros dos jóvenes, Cassius y Ramadhin. De noche asisten, fascinados, a los paseos por cubierta de un preso encadenado cuyo delito los obsesionará para siempre, mientras que la hermosa y enigmática Emily se convierte en la causa del despertar del deseo sexual. La narración se desplaza a los años de vida adulta de los protagonistas y pone de relieve la diferencia entre la magia de la niñez y la melancolía del conocimiento adquirido. Reseñas: «El viaje de Mina es el libro más conmovedor de Ondaatje. Un viaje que el lector jamás olvidarña.» The Vancouver Sun «Una forma de narrar que es un milagro. Piénsese en las vidas en alta mar de Joseph Conrad con una vigorizante aportación de La isla del tesoro y unos toques de Mark Twain.» The Scotsman «Ondaajte es un superdotado relatando incidentes cuyos encantamientos empapan al lector en oleadas.» The Daily Telegraph «En esta fascinante novela Michael Ondaatje nos guía, como por arte de magia, a través de sus brillantes visiones. Evoca imágenes que nos atraen hacia los vericuetos de su imaginación al tiempo que los detalles son iluminados por sus palabras.» The New York Times Book Review «Auténtico heredero de Faulkner y García Márquez, Ondaatje cuenta historias que a menudo parecen colisiones entre el tiempo y el espacio.» The Boston Globe «Ondaatje tiene increíbles dotes narrativas: una prosa hermosa y clara como el agua de lluvia, la destreza de un compositor en el asombroso desarrollo de sus historias, estilo para el suspense y, no menos importante, personajes que nos conmueven como la muerte de algún familiar.» Toronto Globe and Mail «Ondaatje entra directamente en territorio de Conrad: un lugar en el que el lector desea vivir. Elegiaca, madura y nostálgica, una magnífica evocación de la niñez y de tiempos que han quedado irremisiblemente en el pasado.» Kirkus Reviews",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788420400884"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8420400882"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 328,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.25.23.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=JfnPrNPyYC4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=JfnPrNPyYC4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=JfnPrNPyYC4C&printsec=frontcover&dq=%22%22&hl=&cd=14&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=JfnPrNPyYC4C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=JfnPrNPyYC4C"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1491.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 1491.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=JfnPrNPyYC4C&rdid=book-JfnPrNPyYC4C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1491990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 1491990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/El_viaje_de_Mina-sample-epub.acsm?id=JfnPrNPyYC4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/El_viaje_de_Mina-sample-pdf.acsm?id=JfnPrNPyYC4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=JfnPrNPyYC4C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "«Por medio de cualquier explicación sobre la trama y los personajes resulta imposible transmitir la brillantez hipnótica de El viaje de Mina."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3Tb7DwAAQBAJ",
+      "etag": "EjelB+ckPAs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3Tb7DwAAQBAJ",
+      "volumeInfo": {
+        "title": "El niño, el topo, el zorro y el caballo",
+        "authors": ["Charlie Mackesy"],
+        "publisher": "SUMA INTERNACIONAL",
+        "publishedDate": "2020-10-15",
+        "description": "Un arrollador fenómeno mundial sobre la bondad y la esperanza. El libro que ha conquistado el corazón de más de cuatro millones de lectores. Descubre El Principito del siglo XXI. Un cuento universal e inspirador para todas las edades. Un niño, un topo, un zorro y un caballo se encuentran en un día de primavera y establecen una amistad inesperada, profunda e inquebrantable. Juntos aprenderán que lo que más necesita nuestro mundo es un poco de amabilidad, que el amor no precisa de lo extraordinario para florecer, que nada puede derrotar a la bondad, que la vida no tiene que ser perfecta y que, cuando se acerquen nubes de tormenta, lo único que tienes que hacer es seguir adelante. En las páginas deeste libro, lleno de arte y ternura, encontrarás cuatro personajes inolvidables y un mensaje atemporal sobre la importancia del amor que dejará huella en el lector. La crítica ha dicho... «Una fábula ilustrada donde estos personajes de delicado trazo van guiando al lector por una guía vital para ser feliz con lo \"sencillo\" y atender más a las cosas que realmente importan.» La Vanguardia «Desembarca en España el fenómeno editorial que ha hecho que las grandes cadenas de librerías de Estados Unidos y de Reino Unido se pongan de acuerdo en cuál es el libro perfecto para regalar en Navidad. Y, en realidad, durante todo el año.» El Mundo «Vaya por delante una advertencia: da igual dónde se tope uno con El niño, el topo, el zorro y el caballo: la primera lectura será allí mismo. Del tirón. Es imposible empezar a hojearlo sin llegar hasta el final. Y que nadie se sienta raro si mientras lo lee, se le mete algo en el ojo. Lo raro es que no ocurra.» GQ «Esconde una profunda reflexión sobre el alma humana para calar en el corazón de pequeños y mayores... Un tesoro para compartir en familia.» Clara «Las conversaciones de un niño con varios animales (un topo, un zorro y un caballo) estructuran este precioso libro que habla del amor, de la amistad y de cómo elegimos estar en el mundo... Su lectura proporciona una gran sonrisa y una sensación de bienestar.» El Periódico «Llega con el objetivo de dar algo de esperanza a unos lectores agotados con el añito que llevamos.» Elle «Un niño, un topo, un zorro y un caballo: la receta para un best seller navideño.» The Guardian «Un cuento dulce... Sus mensajes son universales.» The Washington Post «Pura alegría.» Evening Standard «Un gran éxito.» The Philadelphia Inquirer «Una delicia encantadora... Si hubiera clases sobre cómo ser una buena persona, este sería el libro de texto.» Horse Nation Los lectores opinan... «Tiene mucha delicadeza y una sensibilidad admirable. No solo las ilustraciones consiguen transmitir sentimientos, sino que las frases y los diálogos son únicos.» Blog Libros encantados «Es una preciosidad, de principio a fin, no solo por el arte que hay en sus páginas, sino por todo lo que enseña en tan poquito.» filologalectora en Instagram",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788491295105"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8491295100"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 128,
+        "printType": "BOOK",
+        "categories": ["Self-Help"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3Tb7DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3Tb7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=3Tb7DwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=15&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=3Tb7DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3Tb7DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1740.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 1740.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=3Tb7DwAAQBAJ&rdid=book-3Tb7DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1740990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 1740990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/El_ni%C3%B1o_el_topo_el_zorro_y_el_caballo-sample-epub.acsm?id=3Tb7DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/El_ni%C3%B1o_el_topo_el_zorro_y_el_caballo-sample-pdf.acsm?id=3Tb7DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3Tb7DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Y, en realidad, durante todo el año». El Mundo «Vaya por delante una advertencia: da igual dónde se tope uno con El niño, el topo, el zorro y el caballo: la primera lectura será allí mismo. Del tirón."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "InpOEAAAQBAJ",
+      "etag": "RdlUIBN+00U",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/InpOEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Del asesinato considerado como una de las bellas artes",
+        "authors": ["Thomas de Quincey"],
+        "publisher": "Editorial Verbum",
+        "publishedDate": "2018-12-18",
+        "description": "En este ensayo de ficción Thomas de Quincey reivindica el arte del asesinato bajo criterios estéticos y destaca sus aspectos macabros. El libro está compuesto por dos artículos publicados en la revista Blackwood Magazine en 1827 y 1829 y un post scriptum de 1854. El primer artículo, narrado en primera persona, tiene un formato de conferencia pronunciada en la Sociedad de Conocedores de Asesinato –aficionados al asesinato– y su tono es totalmente irónico, por lo que se considera todo un clásico del humor inglés. De Quincy habla de la muerte pero desde una perspectiva diferente a lo que se había escrito hasta el momento, desde el punto de vista del asesino. Habla de su moral, de aquel que disfruta y se recrea con el homicidio como si se tratara de un espectáculo, y del aspecto estético.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788490747766"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8490747768"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 300,
+        "printType": "BOOK",
+        "categories": ["Literary Collections"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=InpOEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=InpOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=InpOEAAAQBAJ&pg=PA1&dq=%22%22&hl=&cd=16&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=InpOEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=InpOEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2575.57,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 1802.9,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=InpOEAAAQBAJ&rdid=book-InpOEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2575570000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 1802900000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Del_asesinato_considerado_como_una_de_la-sample-pdf.acsm?id=InpOEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=InpOEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "En este ensayo de ficción Thomas de Quincey reivindica el arte del asesinato bajo criterios estéticos y destaca sus aspectos macabros."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "LmoyzwEACAAJ",
+      "etag": "QDgEKPdJyWg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/LmoyzwEACAAJ",
+      "volumeInfo": {
+        "title": "Alcohólicos anónimos",
+        "publishedDate": "1955",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "OCLC:20193651"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 151,
+        "printType": "BOOK",
+        "categories": ["Alcoholism"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.ar/books?id=LmoyzwEACAAJ&dq=%22%22&hl=&cd=17&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=LmoyzwEACAAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Alcoh%C3%B3licos_an%C3%B3nimos.html?hl=&id=LmoyzwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=LmoyzwEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qxccEAAAQBAJ",
+      "etag": "BK3lKoUFJPw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qxccEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Klara y el Sol",
+        "authors": ["Kazuo Ishiguro"],
+        "publisher": "Anagrama",
+        "publishedDate": "2021-03-03",
+        "description": "La esperada novela de Kazuo Ishiguro tras el Premio Nobel. Una historia de ciencia ficción que indaga en lo que nos hace humanos. Klara es una AA, una Amiga Artificial, especializada en el cuidado de niños. Pasa sus días en una tienda, esperando a que alguien la adquiera y se la lleve a una casa, un hogar. Mientras espera, contempla el exterior desde el escaparate. Observa a los transeúntes, sus actitudes, sus gestos, su modo de caminar, y es testigo de algunos episodios que no acaba de entender, como una extraña pelea entre dos taxistas. Klara es una AA singular, es más observadora y más dada a hacerse preguntas que la mayoría de sus congéneres. Y, como sus compañeros, necesita del Sol para alimentarse, para cargarse de energía... ¿Qué le espera en el mundo exterior cuando salga de la tienda y se vaya a vivir con una familia? ¿Comprende bien los comportamientos, los repentinos cambios de humor, las emociones, los sentimientos de los humanos? Esta es la primera novela de Kazuo Ishiguro tras ser galardonado con el Premio Nobel. En ella vuelve a jugar con la ciencia ficción, como ya hizo en Nunca me abandones, y nos regala una deslumbrante parábola sobre nuestro mundo, como también ofreció en El gigante enterrado. Emergen en estas páginas su más que probada potencia fabuladora, la exquisitez de su prosa rebosante de matices y esa capacidad única para explorar la esencia del ser humano y lanzar preguntas turbadoras: ¿qué es lo que nos define como personas? ¿Cuál es nuestro papel en el mundo? ¿Qué es el amor?... Narrada por la curiosa e inquisitiva Klara, un ser artificial que se hace preguntas muy humanas, la novela es un deslumbrante tour de force en el que Ishiguro vuelve a emocionarnos y a abordar temas de calado que pocos narradores contemporáneos osan afrontar.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788433942630"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8433942638"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 205,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=qxccEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=qxccEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=qxccEAAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=18&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=qxccEAAAQBAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Klara_y_el_Sol.html?hl=&id=qxccEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Klara_y_el_Sol-sample-epub.acsm?id=qxccEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Klara_y_el_Sol-sample-pdf.acsm?id=qxccEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=qxccEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "La esperada novela de Kazuo Ishiguro tras el Premio Nobel."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "piI0DwAAQBAJ",
+      "etag": "S5GRZn/+odM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/piI0DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Armas de titanes",
+        "subtitle": "Los secretos, trucos y costumbres de aquellos que han alcanzado el éxito",
+        "authors": ["Tim Ferriss"],
+        "publisher": "Deusto",
+        "publishedDate": "2017-10-24",
+        "description": "Durante dos años Tim Ferriss realizó entrevistas en profundidad a más de doscientos destacados personajes para su podcast The Tim Ferriss Show. Este libro recoge las rutinas, trucos, consejos, ejercicios y tácticas que estos triunfadores le contaron. Entre muchas otras cosas, descubrirás: - Cómo optimizar tus mañanas con la rutina de Tony Robbins - Cómo consigue el mago de Hollywood Robert Rodríguez convertir sus debilidades en puntos fuertes - Cómo usa Arnold Schwarzenegger la guerra psicológica - Cómo pasar a la ofensiva en tu vida como hace el inversor millonario Chris Sacca - Cómo hacer preguntas al estilo del superventas Malcolm Gladwell - Cómo desatar tu potencial creativo como el escritor Paulo Coelho Pero no todos los protagonistas del libro son famosos, también se encuentran científicos, militares, aventureros, empresarios, pensadores creativos e investigadores, entre otras profesiones, que en estas páginas nos enseñan a ser más ricos, más sabios y a estar más sanos.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788423428991"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8423428990"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 673,
+        "printType": "BOOK",
+        "categories": ["Self-Help"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.10.11.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=piI0DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=piI0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=piI0DwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=19&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=piI0DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=piI0DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2399.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 2399.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=piI0DwAAQBAJ&rdid=book-piI0DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2399990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 2399990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Armas_de_titanes-sample-epub.acsm?id=piI0DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Armas_de_titanes-sample-pdf.acsm?id=piI0DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=piI0DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Durante dos años Tim Ferriss realizó entrevistas en profundidad a más de doscientos destacados personajes para su podcast The Tim Ferriss Show."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yalGzgEACAAJ",
+      "etag": "pa3Xe1S7SIA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yalGzgEACAAJ",
+      "volumeInfo": {
+        "title": "Hábitos atómicos",
+        "subtitle": "cambios pequeños, resultados extraordinarios",
+        "authors": ["James Clear"],
+        "publishedDate": "2020",
+        "description": "A menudo pensamos que para cambiar de vida tenemos que pensar en hacer cambios grandes. Nada más lejos de la realidad. Según el reconocido experto en hábitos James Clear, el cambio real proviene del resultado de cientos de pequeñas decisiones: hacer dos flexiones al día, levantarse cinco minutos antes o hacer una corta llamada telefónica.Clear llama a estas decisiones \"hábitos atómicos\": tan pequeños como una partícula, pero tan poderosos como un tsunami. En este libro innovador nos revela exactamente cómo esos cambios minúsculos pueden crecer hasta llegar a cambiar nuestra carrera profesional, nuestras relaciones y todos los aspectos de nuestra vida.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8418118032"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788418118036"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": ["Behavior modification"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yalGzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yalGzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=yalGzgEACAAJ&dq=%22%22&hl=&cd=20&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=yalGzgEACAAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/H%C3%A1bitos_at%C3%B3micos.html?hl=&id=yalGzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yalGzgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Según el reconocido experto en hábitos James Clear, el cambio real proviene del resultado de cientos de pequeñas decisiones: hacer dos flexiones al día, levantarse cinco minutos antes o hacer una corta llamada telefónica.Clear llama a ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "_f90DwAAQBAJ",
+      "etag": "7gy3NNlpRhg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_f90DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Sistema nervioso",
+        "authors": ["Lina Meruane"],
+        "publisher": "LITERATURA RANDOM HOUSE",
+        "publishedDate": "2018-11-01",
+        "description": "El esperado regreso a la novela de la autora de Sangre en el ojo, Premio Sor Juana Inés de la Cruz Esta es la historia de una familia amarrada por una trama obsesiva: la precariedad del cuerpo, sus males incesantes, la inminencia de la pérdida. En esta particular biografía clínica de todo un clan, cada miembro va eludiendo los embates de la vida con ansiedad, con afecto, con resentimiento y violencia, con culpa, con imaginación, con chispazos de humor negro. Y con malentendidos que hacen saltar los circuitos del nervioso sistema familiar. El pasado y el presente orbitan por estas páginas narradas desde la perspectiva de una protagonista que, radicada en el extranjero, mantiene un equívoco contacto con su familia mientras intenta escribir una tesis astronómica que va moviéndose por las estrellas y las galaxias e internándose por agujeros negros cada vez más profundos. La prosa perspicaz, meticulosa y eléctrica de la autora hila diestramente universos físicos #cósmicos y corpóreos# amenazados por la extinción; ese tejido constituye el eje de este sistema narrativo con que Lina Meruane regresa a la novela #tras la premiada Sangre en el ojo# y consolida una contundente trayectoria literaria que ya cumple dos décadas.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789569766886"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9569766883"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=_f90DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=_f90DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=_f90DwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=21&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=_f90DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_f90DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 449.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 449.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=_f90DwAAQBAJ&rdid=book-_f90DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 449990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 449990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Sistema_nervioso-sample-epub.acsm?id=_f90DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Sistema_nervioso-sample-pdf.acsm?id=_f90DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=_f90DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "La prosa perspicaz, meticulosa y eléctrica de la autora hila diestramente universos físicos #cósmicos y corpóreos# amenazados por la extinción; ese tejido constituye el eje de este sistema narrativo con que Lina Meruane regresa a la ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "A02-pwAACAAJ",
+      "etag": "rmW7bLgI7d8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/A02-pwAACAAJ",
+      "volumeInfo": {
+        "title": "La ardilla miedosa encuentra un amigo",
+        "authors": ["Mélanie Watt"],
+        "publishedDate": "2011",
+        "description": "Scaredy Squirrel, a squirrel who never leaves his nut tree because he's afraid of the unknown, finds someone perfectly safe to make friends with. Join him on his journey to friendship.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8415207212"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788415207214"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": ["Fear"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=A02-pwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=A02-pwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.ar/books?id=A02-pwAACAAJ&dq=%22%22&hl=&cd=22&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=A02-pwAACAAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/La_ardilla_miedosa_encuentra_un_amigo.html?hl=&id=A02-pwAACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=A02-pwAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Scaredy Squirrel, a squirrel who never leaves his nut tree because he&#39;s afraid of the unknown, finds someone perfectly safe to make friends with. Join him on his journey to friendship."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "szbDDwAAQBAJ",
+      "etag": "yiZY9ayzkQ8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/szbDDwAAQBAJ",
+      "volumeInfo": {
+        "title": "La red de Alice",
+        "authors": ["Kate Quinn"],
+        "publisher": "SUMA INTERNACIONAL",
+        "publishedDate": "2020-01-06",
+        "description": "LA NOVELA HISTÓRICA DEL AÑO En 1915 una red de valerosas espías dejó un legado de gloria y sacrificio. Pero también de traición. Treinta años después, ha llegado la hora de la verdad. 1947. La joven americana Charlie St. Clair está embarazada, soltera y a punto de ser expulsada de su muy decente familia. Mientras su mundo se viene abajo, su única ilusión es la débil esperanza de que su amada prima Rose, que desapareció en la Francia ocupada por los nazis durante la Segunda Guerra Mundial, siga viva. 1915. Un año después del estallido de la Gran Guerra, Eve Gardiner está deseando unirse a la lucha contra los alemanes, así que no duda un instante cuando es reclutada como espía de la organización clandestina conocida como «la red de Alice». Tres décadas más tarde, obsesionada por la traición que destruyó la red, Eve pasa sus días entre botellas de alcohol encerrada en su ruinosa casade Londres. Hasta que una joven americana aparece en su puerta pronunciando un nombre que Eve no ha escuchado desde hace décadas y embarcada en una misión: averiguar la verdad sin importar a dónde conduzca. Heroísmo, amor y suspense en una apasionante novela inspirada en el episodio histórico real de la red de mujeres espías que salvó a más de mil soldados de la muerte. **Más de 1.000.000 de ejemplares vendidos **En las listas de best sellers de The New York Times y USA Today **Finalista en la categoría de Mejor Novela Histórica de los Premios Goodreads 2018 **Número 1 en ficción histórica para el Globe and Mail **Uno de los mejores libros del año para la National Public Radio de EE. UU. **Seleccionado para el Club de Lectura de Reese Witherspoon **Entre las mejoresnovelas históricas del año para BookBub **Novela del verano para Good Housekeeping, Parade, Library Journal y Goodreads La crítica ha dicho... «Las vidas de dos mujeres indomables se entrelazan en una historia que echa chispas de suspense... Un placer de lectura.» NPR «Quinn se revela como una de las mejores autoras del género... Los fans de la novela histórica, las historias de espías y los dramas emocionantes van a adorar este libro.» BookPage «Una novela histórica increíble... ¡De obligada lectura!» Historical Novel Society «Una lectura poderosa que serás incapaz de abandonar.» RT Book Reviews «Una fascinante mezcla de novela histórica, misterio y narrativa femenina. Este libro tiene algo que ofrecer a todo tipo de lectores.» Library Journal «Verdaderamente fascinante y absorbente.» Kirkus Reviews En los blogs: «En mi opinión, el punto fuerte de esta novela histórica es el componente real en el que se basa este título de amor y suspense.» El aventurero de papel «La trama del libro gira en torno a estas heroínas, hoy casi olvidadas, que querían luchar por su país; pero los carteles de reclutamiento que mira la oficinista Eve Gardiner solo van dirigidos a los hombres #Aún hay un sitio en la fila para ti#.» Las lecturas de Guillermo «Me he encontrado con una lucha de coraje y valentía, de mujeres y sororidad en medio de un hecho histórico real que me ha mantenido en vilo más de lo que me esperaba.» Diario de una chicka lit «Me ha enamorado todo de este libro... Que esté basado en hechos y personajes reales, junto con una trama que engancha, hace de La red de Alice un imprescindible de la novela histórica.» Welcome to Pinkiland «Una lectura emotiva, interesante y entretenida que me ha permitido conocer más sobre dos de mis períodos históricos favoritos y descubrir a dos mujeres que tienen mucho que contar.» Vorágine interna",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788491292920"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8491292926"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 576,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=szbDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=szbDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=szbDDwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=23&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=szbDDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=szbDDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 3235.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 3235.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=szbDDwAAQBAJ&rdid=book-szbDDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3235990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 3235990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/La_red_de_Alice-sample-epub.acsm?id=szbDDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/La_red_de_Alice-sample-pdf.acsm?id=szbDDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=szbDDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "LA NOVELA HISTÓRICA DEL AÑO En 1915 una red de valerosas espías dejó un legado de gloria y sacrificio."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "86hsAwAAQBAJ",
+      "etag": "h0xWjLyTjZ8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/86hsAwAAQBAJ",
+      "volumeInfo": {
+        "title": "Sula",
+        "authors": ["Toni Morrison"],
+        "publisher": "DEBOLS!LLO",
+        "publishedDate": "2014-05-22",
+        "description": "Una obra maestra de la ganadora del Premio Nobel de Literatura 1993. Esta es la historia de Sula y Nel, dos niñas que crecen juntas en un barrio de negros, compartiendo sus sueños e ilusiones. Ambas son precoces y curiosas, hijas de familias pobres. Pero el tiempo pasa y, cuando Nel se casa, Sula se marcha del suburbio para ir a la universidad y viajar por el país. Diez años después, Sula regresa e involuntariamente destruye la familia y la felicidad de Nel. A partir de entonces, los pintorescos habitantes del suburbio la consideran una bruja malvada... Ambientada en los EE.UU. en el período de entreguerras, Sula es un portentoso retrato del poder de lo femenino en una comunidad pobre y rural de negros, donde las mujeres reinan como madres, hechiceras y depositarias de la tradición oral. Reseña: «Un aullido de amor y rabia, travieso y divertido, duro y amargo.» The New York Times",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788490623374"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8490623376"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 224,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.17.16.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=86hsAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=86hsAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=86hsAwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=24&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=86hsAwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=86hsAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1491.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 1491.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=86hsAwAAQBAJ&rdid=book-86hsAwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1491990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 1491990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Sula-sample-epub.acsm?id=86hsAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Sula-sample-pdf.acsm?id=86hsAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=86hsAwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Pero el tiempo pasa y, cuando Nel se casa, Sula se marcha del suburbio para ir a la universidad y viajar por el país. Diez años después, Sula regresa e involuntariamente destruye la familia y la felicidad de Nel."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ERImDgAAQBAJ",
+      "etag": "6kTCw/ZTuKw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ERImDgAAQBAJ",
+      "volumeInfo": {
+        "title": "Yo no hice mi tarea porque ...",
+        "authors": ["Davide Cali", "Benjamin Chaud"],
+        "publisher": "Chronicle Books",
+        "publishedDate": "2017-04-04",
+        "description": "En esta edición en español de la selección Junior Library Guild Yo No Hice Mi Tarea Porque . . . la tarea (o ausencia de ella) es la inspiración para una mirada divertidísima a las historias no tan verdaderas que surgen cuando un trabajo no se acompleta: reptiles gigantes invaden el barrio; duendes esconden los lápices; un perro enorme se come a un perro pequeño y el día se pierde en el veterinario. Y luego está el problema con las plantas carnívoras. . . . Las excusas no terminan, cada una más absurda que la siguiente. Con ilustraciones llenas de detalle y texto simpáticamente retorcido, este favorito por Davide Cali y Benjamin Chaud divertirá a los niños y sus papás, y por supuesto a cualquiera que haya tenido un momento de flojera estudiantil (¿y quién no ha tenido uno de esos?).",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781452159515"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1452159513"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 45,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ERImDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ERImDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=ERImDgAAQBAJ&pg=PP1&dq=%22%22&hl=&cd=25&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=ERImDgAAQBAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Yo_no_hice_mi_tarea_porque.html?hl=&id=ERImDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Yo_no_hice_mi_tarea_porque-sample-pdf.acsm?id=ERImDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ERImDgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "En esta edición en español de la selección Junior Library Guild Yo No Hice Mi Tarea Porque . . . la tarea (o ausencia de ella) es la inspiración para una mirada divertidísima a las historias no tan verdaderas que surgen cuando un ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VsUdBgAAQBAJ",
+      "etag": "szZKU/Q9M9A",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VsUdBgAAQBAJ",
+      "volumeInfo": {
+        "title": "Los dones de la imperfección",
+        "subtitle": "Líbrate de quien crees que deberías ser y abraza a quien realmente eres",
+        "authors": ["Brené Brown"],
+        "publisher": "AGUILAR",
+        "publishedDate": "2014-05-19",
+        "description": "¡No te pierdas el especial de Netflix de una hora, Brené Brown: The Call to Courage! Cuando nuestras vergüenzas y temores mienten, a menudo los escuchamos de todos modos. Frustran nuestra gratitud, aceptación y compasión, nuestra bondad. Ellos insisten: \"No soy digno\". Pero somos dignos de autodescubrimiento, crecimiento personal y amor ilimitado. Con el éxito de ventas de Brené Brown en el New York Times, Los dones de la imperfección (The Gifts of Imperfection), que ha vendido más de 2 millones de copias en más de 30 idiomas diferentes, y Forbes recientemente nombró a uno de los \"Cinco libros que realmente cambiarán su perspectiva de la vida\", encontramos coraje para superar el miedo paralizante y la autoconciencia, fortaleciendo nuestra conexión con el mundo. Una guía motivadora e inspiradora para una vida incondicional, en lugar del libro de autoayuda promedio, con este innovador trabajo, Brené Brown, Ph.D., refuerza el proceso de autoestima y desarrollo personal a través de su sincera y sincera narración. Con investigación original y mucho aliento, explora la psicología de liberar nuestras definiciones de una vida \"imperfecta\" y abrazar la vida de manera auténtica. Los \"diez puntos de referencia\" de Brown son puntos de referencia para la autenticidad que pueden ayudar a cualquiera a establecer una práctica para una vida de belleza honesta, una vida perfectamente imperfecta. Ahora más que nunca, todos debemos cultivar los sentimientos de autoestima, así como la aceptación y el amor por nosotros mismos. En un mundo donde los insultos, las críticas y los temores se difunden de manera demasiado generosa junto con los mensajes de belleza, logros y expectativas poco realistas, buscamos formas de \"profundizar\" y encontrar verdad y gratitud en nuestras vidas. Un nuevo camino hacia adelante significa que no podemos aferrarnos demasiado a nuestros propios pensamientos contraproducentes o al dolor desplazado en nuestro mundo. En cambio, podemos abrazar la imperfección.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781941999134"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1941999131"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 165,
+        "printType": "BOOK",
+        "categories": ["Self-Help"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.12.11.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VsUdBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VsUdBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=VsUdBgAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=26&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=VsUdBgAAQBAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Los_dones_de_la_imperfecci%C3%B3n.html?hl=&id=VsUdBgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VsUdBgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Con el éxito de ventas de Brené Brown en el New York Times, Los dones de la imperfección (The Gifts of Imperfection), que ha vendido más de 2 millones de copias en más de 30 idiomas diferentes, y Forbes recientemente nombró a uno de ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "9of-AgAAQBAJ",
+      "etag": "yQmRqu3qugw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9of-AgAAQBAJ",
+      "volumeInfo": {
+        "title": "Elantris",
+        "authors": ["Brandon Sanderson"],
+        "publisher": "B DE BOOKS",
+        "publishedDate": "2015-01-01",
+        "description": "Una novela imprescindible para los amantes de la fantasía épica, por el consagrado autor del género Brandon Sanderson. «La más bella novela de fantasía que se escribirá en muchos años.» Orson Scott Card, autor de El juego de Ender Bienvenidos a la ciudad de Elantris, la poderosa y bella capital de Arelon llamada «la ciudad de los dioses». Antaño famosa sede de inmortales, lugar repleto de poderosa magia, Elantris ha caído en desgracia. Ahora solo acoge a los nuevos «muertos en vida», postrados en una insufrible «no-vida» tras una misteriosa y terrible transformación. Un matrimonio de Estado destinado a unir los reinos de Arelon y Teod se frustra, ya que el novio, Raoden, el príncipe de Arelon, sufre inesperadamente la Transformación, se convierte en un «muerto en vida» y debe refugiarse en Elantris. Su reciente esposa, la princesa Sarene de Teod, creyéndolo muerto, se ve obligada a incorporarse a la vida de Arelon y su nueva capital, Kae. Mientras, el embajador y alto sacerdote de otro reino vecino, Fjordell, usará su habilidad política para intentar dominar Arelod y Teod con el propósito de someterlos a su emperador y su dios. Reseña: «Una obra inolvidable que en cada lectura es capaz de ofrecer nuevos matices y hallazgos. Una verdadera maravilla.» Miguel Barceló, autor de Ciencia Ficción. Nueva guía de lectura Reseña: «Una obra inolvidable que en cada lectura es capaz de ofrecer nuevos matices y hallazgos. Una verdadera maravilla.» Miguel Barceló, autor de Ciencia Ficción. Nueva guía de lectura",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788490194744"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8490194742"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 735,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.8.8.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9of-AgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9of-AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=9of-AgAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=27&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=9of-AgAAQBAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Elantris.html?hl=&id=9of-AgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Elantris-sample-epub.acsm?id=9of-AgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Elantris-sample-pdf.acsm?id=9of-AgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9of-AgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Una novela imprescindible para los amantes de la fantasía épica, por el consagrado autor del género Brandon Sanderson. «La más bella novela de fantasía que se escribirá en muchos años.» Orson Scott Card, autor de El juego de Ender ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "le6-DwAAQBAJ",
+      "etag": "Y+paDHSjDew",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/le6-DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Juego de mentiras",
+        "authors": ["Ruth Ware"],
+        "publisher": "SALAMANDRA",
+        "publishedDate": "2018-06-28",
+        "description": "Tras el desbordante éxito de La mujer del camarote 10, Ruth Ware vuelve con un thriller psicológico sobre el complejo mundo de la amistad femenina, la fuerza destructora de las palabras dichas y no dichas, y la imposibilidad de eludir nuestros compromisos. Cuando Isa recibe un mensaje en plena madrugada que dice «os necesito», comprende enseguida que el pasado ha vuelto para ajustar cuentas. Pese a que ha hecho lo indecible por olvidar aquel episodio oscuro que marcó su adolescencia, su fidelidad a Kate se antepone a todos sus temores. Así que no duda un instante en tomar el primer tren desde Londres hasta el pueblo costero de Salten, donde la marea baja acaba de dejar al descubierto los restos de un cadáver. Al mismo lugar acudirán Fatima y Thea, las otras dos chicas de aquel cuarteto tan especial que en el internado formaban una piña, una unión que culminó en una promesa solemne. Aficionadas al peligroso juego de las mentiras y a saltarse las normas del colegio, sus caminos se separaron de forma abrupta y dramática. Ahora, este reencuentro súbito las obliga a revisar sus recuerdos y a compartir sus secretos sobre el episodio que cambió sus vidas, aunque con ello afloren unas cuantas verdades para las que quizá no estén preparadas. Críticas: «Un thriller estremecedor y muy inteligente. Una lectura conmovedora.» The Sunday Mirror «Espeluznante, cautivador e ingenioso.» Daily Express «Atrapa desde la primera página.» Stylist «Tenso y provocador.» The Independent «Intensamente claustrofóbico.» The Sunday Times «Quien se siente a leer este libro hará bien en cancelar todos los planes previstos para el fin de semana, porque no querrá levantarse del asiento.» Kirkus Review «Adictivo, absorbente y muy inquietante, Juego de mentiras es de lectura obligada para los amantes del thriller psicológico.» Crime by the Book",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788417384210"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8417384219"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 384,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=le6-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=le6-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=le6-DwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=28&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=le6-DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=le6-DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1242.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 1242.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=le6-DwAAQBAJ&rdid=book-le6-DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1242990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 1242990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Juego_de_mentiras-sample-epub.acsm?id=le6-DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Juego_de_mentiras-sample-pdf.acsm?id=le6-DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=le6-DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Una lectura conmovedora.» The Sunday Mirror «Espeluznante, cautivador e ingenioso.» Daily Express «Atrapa desde la primera página.» Stylist «Tenso y provocador.» The Independent «Intensamente claustrofóbico.» The Sunday Times ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zk0aEAAAQBAJ",
+      "etag": "LVyp2iMnpAk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zk0aEAAAQBAJ",
+      "volumeInfo": {
+        "title": "La biblioteca de París",
+        "authors": ["Janet Skeslien Charles"],
+        "publisher": "SALAMANDRA",
+        "publishedDate": "2021-04-15",
+        "description": "Una historia de valentía y traición basada en las vicisitudes de los trabajadores de la Biblioteca Americana de París en la Segunda Guerra Mundial. París, 1939. La joven Odile Souchet lo tiene todo: un atractivo novio oficial de policía y un trabajo de ensueño en la Biblioteca Americana de París. Pero cuando estalla la guerra y los nazis marchan sobre París, Odile se expone a perder todo lo que le importa, incluida su querida biblioteca. Sabe que en los momentos difíciles los templos de la cultura peligran porque los libros contienen palabras e ideas prohibidas que deben destruirse. Odile no puede permitir que eso suceda: debe salvar esas páginas, de modo que puedan nutrir la mente de quien llegue después. Junto con sus compañeros, se une a la Resistencia y pone el centro a disposición de los judíos: expulsados de sus casas, tras los libros se sienten seguros, y Odile los defenderá cueste lo que cueste. La crítica ha dicho... «La biblioteca de París es una novela fresca y emocionante que celebra el papel de las bibliotecas como núcleos de comunidad, especialmente cuando las más necesitamos. Nos muestra que la literatura puede ser una vía de escape, un catalizador para la conexión humana y una brújula moral en tiempos oscuros. Una lectura sumamente agradable, con mucho corazón, y rebosante de referencias que harán las delicias de los aficionados a los libros». Matthew Sullivan, autor de Midnight at the Bright Ideas Bookstore «Una carta de amor a París, al poder de los libros y a la belleza de las amistades intergeneracionales». Booklist «Un libro encantandor, rico en detalles... los lectores de literatura histórica se verán atrapadospor el realismo de la narración y la amistad que se forja entre una viuda y una joven solitaria». Publisher's Weekly",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788418363108"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "841836310X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 488,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zk0aEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zk0aEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=zk0aEAAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=29&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=zk0aEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zk0aEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1989.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 1989.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=zk0aEAAAQBAJ&rdid=book-zk0aEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1989990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 1989990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/La_biblioteca_de_Par%C3%ADs-sample-epub.acsm?id=zk0aEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/La_biblioteca_de_Par%C3%ADs-sample-pdf.acsm?id=zk0aEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zk0aEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Una historia de valentía y traición basada en las vicisitudes de los trabajadores de la Biblioteca Americana de París en la Segunda Guerra Mundial."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "EhDWzgEACAAJ",
+      "etag": "7dZ2M5ml1Pw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/EhDWzgEACAAJ",
+      "volumeInfo": {
+        "title": "La vida invisible de Addie LaRue",
+        "authors": ["V. E. Schwab"],
+        "publishedDate": "2021",
+        "description": "Una vida que nadie recuerda. Una historia que nunca olvidarás.Tras hacer un pacto con el diablo, Addie entrega su alma a cambio de la inmortalidad. Sin embargo, ningún trato faustiano está exento de consecuencias: el diablo le entregará la inmortalidad que tanto desea, pero le quitará algo que ella anhelará durante toda su existencia: la posibilidad de ser recordada. Addie abandona su pequeño pueblo natal en la Francia del siglo xviii y comienza un viaje que la lleva por todo el mundo, mientras aprende a vivir una vida en la que nadie la recuerda y todo lo que posee acaba perdido o roto. Durante trescientos años, Addie LaRue no será más que la musa de numerosos artistas a lo largo de la historia, y tendrá que aprender a enamorarse de nuevo cada día, y a ser olvidada a la mañana siguiente. Su único compañero en este viaje es su oscuro demonio de hipnóticos ojos verdes, quien la visita cada año en el día del aniversario de su trato. Completamente sola, a Addie no le queda más remedio que enfrentarse a él, comprenderlo y, tal vez, ganarle la partida. Pero un día, en una librería de segunda mano de Manhattan, Addie conoce a alguien que pone su mundo del revés... Por primera vez, alguien la recuerda. ¿Será este el punto final de la vida de Addie LaRue? ¿O tan solo serán puntos suspensivos?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9874777753"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789874777751"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 500,
+        "printType": "BOOK",
+        "categories": ["American fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=EhDWzgEACAAJ&dq=%22%22&hl=&cd=30&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=EhDWzgEACAAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/La_vida_invisible_de_Addie_LaRue.html?hl=&id=EhDWzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=EhDWzgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Una vida que nadie recuerda."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "W1o5EAAAQBAJ",
+      "etag": "7TuTIRmaz34",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/W1o5EAAAQBAJ",
+      "volumeInfo": {
+        "title": "ARMA ACORAZADA SOVIÉTICA",
+        "publisher": "AK-INTERACTIVE, S.L.",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 133,
+        "printType": "BOOK",
+        "categories": ["Art"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=W1o5EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=W1o5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=W1o5EAAAQBAJ&pg=PP1&dq=%22%22&hl=&cd=31&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=W1o5EAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=W1o5EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 6007.35,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 6007.35,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=W1o5EAAAQBAJ&rdid=book-W1o5EAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 6007350000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 6007350000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/ARMA_ACORAZADA_SOVI%C3%89TICA-sample-pdf.acsm?id=W1o5EAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=W1o5EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4oa4DwAAQBAJ",
+      "etag": "8UoEDhSAguk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4oa4DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Horton cuida un nido (Horton Hatches the Egg Spanish Edition)",
+        "authors": ["Dr. Seuss"],
+        "publisher": "Random House Books for Young Readers",
+        "publishedDate": "2019-11-12",
+        "description": "¡Edición en español y rimada del clásico de Dr. Seuss en el que se nos presenta por primera vez a Horton el elefante! Querido durante generaciones por su bondad y lealtad, Horton el elefante es uno de los personajes más icónicos y respetados de la literatura infantil. En este libro, en el que Horton pronuncia las palabras «Va en serio lo que dije, y lo que dije así lo siento… Un elefante es leal, ¡y es leal al cien por ciento!», vemos recompensada su integridad con una sorpresa final que encantará a los lectores de todas las edades. Las ediciones rimadas en español de los clásicos de Dr. Seuss, publicadas por Random House, brindan la maravillosa oportunidad de disfrutar de sus historias a más de treinta y ocho millones de personas hispanohablantes en Estados Unidos. Los lectores podrán divertirse con las ediciones en español de The Cat in the Hat (El Gato Ensombrerado); Green Eggs and Ham (Huevos verdes con jamón); One Fish, Two Fish, Red Fish, Blue Fish (Un pez, dos peces, pez rojo, pez azul); The Lorax (El Lórax); Oh, the Places You'll Go! (¡Oh, cuán lejos llegarás!); How the Grinch Stole Christmas! (¡Cómo el Grinch robó la Navidad!); The Cat in the Hat Comes Back (El Gato Ensombrerado ha regresado); I Can Read Wwth My Eyes Shut! (¡Yo puedo leer con los ojos cerrados!); Horton Hears a Who! (¡Horton escucha a Quién!); The 500 Hats of Bartholomew Cubbins (Los 500 sombreros de Bartolomé Cubbins); There's a Wocket in My Pocket! (¡Hay un Molillo en mi Bolsillo!); Mr. Brown Can Moo! Can You? (¡El Sr. Brown hace Muuu! ¿Podrías hacerlo tú?); Ten Apples Up on Top! (¡Diez manzanas en la cabeza!); What Pet Should I Get? (¿Cómo podré decidir qué mascota elegir?); Yertle the Turtle and Other Stories (Yoruga la Tortuga y otros cuentos); Oh, the Thinks You Can Think! (¡Oh, piensa en todo lo que puedes pensar!); The Foot Book! (¡Cuántos, cuántos pies!); Happy Birthday to You! (¡Feliz cumpleaños!); Come Over to My House (Ven a mi casa); Dr. Seuss's Sleep Book (¡Dormilones!); Would You Rather Be a Bullfrog? (¿Preferirías ser una rana?); Horton Hatches the Egg (Horton cuida un nido); y Dr. Seuss's 1 2 3 (Cuenta con Dr. Seuss 1 2 3). A rhymed, Spanish edition of the Dr. Seuss classic that first introduced Horton the Elephant! Beloved by generations for his kindness and loyalty, Horton the Elephant is one of the most iconic and honorable characters in children's literature. In this book—the comic classic in which Horton utters the line \"I meant what I said, and I said what I meant. . . . An elephant's faithful, one hundred per cent!\"—we see his integrity rewarded with a surprise ending that will delight readers of all ages.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781984831439"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1984831437"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 65,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4oa4DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4oa4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=4oa4DwAAQBAJ&pg=PP1&dq=%22%22&hl=&cd=32&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=4oa4DwAAQBAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Horton_cuida_un_nido_Horton_Hatches_the.html?hl=&id=4oa4DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4oa4DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "XB4lCwAAQBAJ",
+      "etag": "sBYFaZ67ZvU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/XB4lCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Oso pardo, oso pardo, ¿qué ves ahí?",
+        "authors": ["Bill Martin, Jr."],
+        "publisher": "Henry Holt and Company (BYR)",
+        "publishedDate": "2015-12-22",
+        "description": "Con más de cinco millones de ejemplares vendidos de la edición en ingles, Oso pardo, oso pardo, ¿que ves ahí? ha abierto las puertas de la imaginación a varias generaciones de niños. Para esta edición, publicada en 1992 en conmemoración del vigésimo quinto aniversario de la primera edición, Bill Martin Jr recupero el texto original y Eric Carle lo reilustró, basándose en los originales, pero utilizando colores más brillantes.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781250107749"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1250107741"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 40,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=XB4lCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=XB4lCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.ar/books?id=XB4lCwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=33&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=XB4lCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=XB4lCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 3651.06,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 3651.06,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=XB4lCwAAQBAJ&rdid=book-XB4lCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3651060000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 3651060000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Oso_pardo_oso_pardo_qu%C3%A9_ves_ah%C3%AD-sample-epub.acsm?id=XB4lCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Oso_pardo_oso_pardo_qu%C3%A9_ves_ah%C3%AD-sample-pdf.acsm?id=XB4lCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=XB4lCwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Bill Martin Jr.&#39;s rhythmic text speaks directly to young children, and Eric Carle&#39;s gorgeous illustrations hold children enraptured reading after reading. With this translation of Oso pardo, oso pardo, ¿qué ves ahí?"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "daxCZbpW5OUC",
+      "etag": "ibtmulWJgt0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/daxCZbpW5OUC",
+      "volumeInfo": {
+        "title": "Compendio de Artilleria, ó instruccion sobre armas y municiones de guerra",
+        "authors": ["José Odriozola y Oñativia"],
+        "publishedDate": "1827",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UCM:5325068211"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 279,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.4.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=daxCZbpW5OUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=daxCZbpW5OUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=daxCZbpW5OUC&printsec=frontcover&dq=%22%22&hl=&cd=34&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=daxCZbpW5OUC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=daxCZbpW5OUC"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=daxCZbpW5OUC&rdid=book-daxCZbpW5OUC&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com.ar/books/download/Compendio_de_Artilleria_%C3%B3_instruccion_s.epub?id=daxCZbpW5OUC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com.ar/books/download/Compendio_de_Artilleria_%C3%B3_instruccion_s.pdf?id=daxCZbpW5OUC&hl=&output=pdf&sig=ACfU3U2vegEr5DBpjMPSgASlE-yV14co4Q&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=daxCZbpW5OUC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KUydDwAAQBAJ",
+      "etag": "neUXoWBFjEc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KUydDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Buenas noches camioncito azul",
+        "authors": ["Alice Schertle"],
+        "publisher": "Houghton Mifflin Harcourt",
+        "publishedDate": "2030-06-01",
+        "description": "¡Bip! ¡Bip! ¡Bip! ¡Es hora de dormir! Da las buenas noches con el camioncito Azul y sus amigos. ¡Un libro perfecto para leer en voz alta a la hora de acostarse de esta exitosa serie! Se avecina una tormenta, y el camioncito Azul y su buen amigo Sapo se apresuran a irse a la cama. Pero ¿quién puede dormir con todo ese ruido? No pasa mucho tiempo antes de que otros amigos aparezcan buscando refugiarse de la tormenta. Los truenos y rayos sí pueden dar miedo, pero juntos es fácil ser valientes. Cuando las nubes se van y el cielo se despeja, ¡ya es el momento para un paseo a la hora de acostarse! ¡Bip! ¡Bip! Shhh... Beep! Beep! Beep! It's time for sleep!​ Say goodnight with Little Blue Truck and friends--a perfect bedtime read-aloud in this bestselling series!​ A storm is brewing and Little Blue Truck and his good friend Toad are hurrying home for bed. But who can sleep with all that racket? It’s not long before other friends show up seeking safety from the storm. Thunder and lightening sure can be scary, but it’s easy to be brave together. When the clouds roll on and the sky is clear, it’s all aboard for a bedtime ride! Beep! Beep! Shhh . . .",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780358330714"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0358330718"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=KUydDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=KUydDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=KUydDwAAQBAJ&dq=%22%22&hl=&cd=35&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=KUydDwAAQBAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Buenas_noches_camioncito_azul.html?hl=&id=KUydDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=KUydDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Beep! Beep! It&#39;s time for sleep!​ Say goodnight with Little Blue Truck and friends--a perfect bedtime read-aloud in this bestselling series!​ A storm is brewing and Little Blue Truck and his good friend Toad are hurrying home for bed."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "aUnVDwAAQBAJ",
+      "etag": "gdjAdA4ghLY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/aUnVDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Verity. La sombra de un engaño",
+        "authors": ["Colleen Hoover"],
+        "publisher": "Editorial Planeta",
+        "publishedDate": "2020-06-23",
+        "description": "Lowen Ashleigh, autora al borde de la bancarrota, recibe un encargo que le cambiará la vida: Jeremy, el flamante marido de Verity Crawford, una de las autoras más importantes del momento, la contrata para terminar la serie de libros en la que trabajaba su mujer antes de sufrir un grave accidente que la ha dejado en coma. Lowen se instala en la mansión del matrimonio para poder trabajar en las notas en las que trabajaba Verity, con la esperanza de encontrar material suficiente para empezar con su encargo, pero lo que no esperaba descubrir en la caótica oficina es una autobiografía de la propia Verity, escondida para que nunca salga a la luz.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788408227328"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8408227327"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 297,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.4.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=aUnVDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=aUnVDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=aUnVDwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=36&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=aUnVDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=aUnVDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2399.99,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 2399.99,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=aUnVDwAAQBAJ&rdid=book-aUnVDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2399990000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 2399990000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Verity_La_sombra_de_un_enga%C3%B1o-sample-epub.acsm?id=aUnVDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Verity_La_sombra_de_un_enga%C3%B1o-sample-pdf.acsm?id=aUnVDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=aUnVDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Lowen Ashleigh recibe un encargo que le cambiará la vida: Jeremy, el flamante marido de Verity Crawford, una de las autoras más importantes del momento, la contrata para terminar la serie de libros en la que trabajaba su mujer antes de ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "C9U6EAAAQBAJ",
+      "etag": "UjcMuOQEz2o",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/C9U6EAAAQBAJ",
+      "volumeInfo": {
+        "title": "Abeloff. Oncología clínica",
+        "authors": [
+          "John E. Niederhuber",
+          "James O. Armitage",
+          "James H Doroshow",
+          "Michael B. Kastan",
+          "Joel E. Tepper"
+        ],
+        "publisher": "Elsevier Health Sciences",
+        "publishedDate": "2020-04-15",
+        "description": "Presenta de manera muy completa y equilibrada entre ciencias básicas y perspectiva clínica los conocimientos más actuales en la especialidad. Pone especial énfasis en la biología del cáncer, anatomía patológica, diagnóstico, tratamiento, pronóstico, rehabilitación y prevención. Cada capítulo se abre con los puntos clave Tiene un fuerte contenido visual que lo distingue de los demás productos que están en el mercado. Explica al lector cómo seleccionar las pruebas diagnósticas más adecuadas. Muestra cómo se están aplicando en la práctica diaria las últimas investigaciones. Su práctico formato permite acceder al contenido más completo en cualquier momento y en cualquier lugar a través de ExpertConsult.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788491137177"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8491137173"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 6315,
+        "printType": "BOOK",
+        "categories": ["Medical"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.4.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=C9U6EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=C9U6EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=C9U6EAAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=37&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=C9U6EAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=C9U6EAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 41456.12,
+          "currencyCode": "ARS"
+        },
+        "retailPrice": {
+          "amount": 41456.12,
+          "currencyCode": "ARS"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=C9U6EAAAQBAJ&rdid=book-C9U6EAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 41456120000,
+              "currencyCode": "ARS"
+            },
+            "retailPrice": {
+              "amountInMicros": 41456120000,
+              "currencyCode": "ARS"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.ar/books/download/Abeloff_Oncolog%C3%ADa_cl%C3%ADnica-sample-epub.acsm?id=C9U6EAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=C9U6EAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Muestra cómo se están aplicando en la práctica diaria las últimas investigaciones. Su práctico formato permite acceder al contenido más completo en cualquier momento y en cualquier lugar a través de ExpertConsult."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nHwnAAAACAAJ",
+      "etag": "a5X7G4Tjk5E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nHwnAAAACAAJ",
+      "volumeInfo": {
+        "title": "Ardilla Miedosa",
+        "authors": ["Mélanie Watt"],
+        "publisher": "Ediciones Sm",
+        "publishedDate": "2006",
+        "description": "Meet Scaredy Squirrel, a squirrel who never leaves his nut tree because he's afraid of the unknown \"out there.\" But then, something unexpected happens that may just change his outlook.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9706888667"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789706888662"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 34,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=nHwnAAAACAAJ&dq=%22%22&hl=&cd=38&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=nHwnAAAACAAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ardilla_Miedosa.html?hl=&id=nHwnAAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nHwnAAAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Conoce a Scaredy Squirrel, una ardilla que nunca deja su nuez porque le tiene miedo a lo desconocido &quot;allá afuera&quot;. Pero luego, sucede algo inesperado que puede cambiar su perspectiva."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "MfHADwAAQBAJ",
+      "etag": "9vP8PsDfjig",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/MfHADwAAQBAJ",
+      "volumeInfo": {
+        "title": "La ladrona de fruta",
+        "authors": ["Peter Handke"],
+        "publisher": "Alianza Editorial",
+        "publishedDate": "2019-12-05",
+        "description": "La última y esperada novela del Premio Nobel de Literatura 2019 Alexia, a la que todos llaman «la ladrona de fruta», va a emprender una «Expedición-de-una-sola-mujer» por la Picardía francesa en busca de su madre. Antes de partir, su padre le da algunos consejos para el camino. Pero el relato no se inicia con Alexia, sino con el narrador, que parte un día de agosto de la «bahía de nadie»: ¿para qué?, ¿para observar a «la ladrona de fruta»?, ¿para acompañarla en silencio? No: para dar fe de sus experiencias y aventuras en su viaje iniciático. \"La ladrona de frutas\" es Peter Handke en estado puro; la «Última epopeya» según su propia definición. Peter Handke, Premio Nobel de Literatura 2019, es todo un clásico contemporáneo de la literatura en lengua alemana. Sus libros, traducidos a más de 35 idiomas, han sido publicados en Alianza Editorial desde 1976. En 2017 fue nombrado Doctor Honoris Causa por la Universidad de Alcalá de Henares. \"Como todas las obras de Handke, \"La ladrona de fruta\" es un libro muy singular, uno que es consciente de su singularidad. Hay en él cosas maravillosas y extrañas y, como no podía ser de otro modo en un Perceval moderno, algunas heridas que la narración no puede sanar, sino a lo sumo cubrir.\" Die Literarische Welt \"Este libro es un regalo, un nuevo hito en la obra de uno de los autores más grandes de nuestro tiempo.\" WDR",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788491818021"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8491818022"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 392,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=MfHADwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=MfHADwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=MfHADwAAQBAJ&dq=%22%22&hl=&cd=39&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=MfHADwAAQBAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/La_ladrona_de_fruta.html?hl=&id=MfHADwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=MfHADwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot;La ladrona de frutas&quot; es Peter Handke en estado puro; la «Última epopeya» según su propia definición. Peter Handke, Premio Nobel de Literatura 2019, es todo un clásico contemporáneo de la literatura en lengua alemana."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "aIsIEAAAQBAJ",
+      "etag": "FzPckvSicYY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/aIsIEAAAQBAJ",
+      "volumeInfo": {
+        "title": "La Casa Holandesa",
+        "authors": ["Patchett, Ann"],
+        "publisher": "Grupo Editorial Patria",
+        "publishedDate": "2020-11-11",
+        "description": "Dice el dicho que la vida da muchas vueltas, y la vida de los Conroy dio más de una. Primero, Ciryl, padre de los protagonistas, inteligentemente invierte en bienes inmuebles que lo sacarán de la pobreza. Como símbolo de su buena fortuna compra la Casa Holandesa en las afueras de Filadelfia. Es una casa enorme y de un estilo poco común, pero es genial por lo enorme de su construcción y sus grandes jardines. No obstante, su esposa Eldna no congenia con aquella opulencia y se marcha a hacer el bien a los pobres. Sus hijos, Maeve, la mayor, y Danny, el menor, quedan a cargo del padre, sin saber qué sucedió con su madre. Cuando el padre se casa por segunda ocasión, la vida para los hermanos Conroy da un nuevo giro que pondrá a prueba todo lo que ellos han depositado en esa casa. En La Casa Holandesa, estos dos hermanos serán las víctimas de los adultos que les rodean, y cuando años más tarde ellos mismos sean adultos, el vínculo creado entre ellos será indestructible, aunque como suele pasar, uno de ellos será la parte más debilitada, más dependiente y, por lo tanto, la que dejará más de lado su propia vida para lograr que la otra levante el vuelo. La autora nos presenta personajes con carisma, con sus secretos y misterios, con sus altas y bajas emocionales. Esto es precisamente lo que ocurre en un drama familiar, el cual no puede ponerse al mismo nivel de una mansión grande y lujosa. Ella plantea a una familia y sus conflictos, los cuales hay que entender desde la profundidad del perdón y la compasión.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9786075505893"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "607550589X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 392,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=aIsIEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=aIsIEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink": "http://books.google.com.ar/books?id=aIsIEAAAQBAJ&dq=%22%22&hl=&cd=40&source=gbs_api",
+        "infoLink": "http://books.google.com.ar/books?id=aIsIEAAAQBAJ&dq=%22%22&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/La_Casa_Holandesa.html?hl=&id=aIsIEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "AR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "AR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=aIsIEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "En La Casa Holandesa, estos dos hermanos serán las víctimas de los adultos que les rodean, y cuando años más tarde ellos mismos sean adultos, el vínculo creado entre ellos será indestructible, aunque como suele pasar, uno de ellos ..."
+      }
+    }
+  ]
+}
