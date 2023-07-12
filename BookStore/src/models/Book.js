@@ -1,9 +1,8 @@
 const { DataTypes, Sequelize } = require("sequelize");
 
 module.exports = (sequelize) => {
-
   sequelize.define(
-    "User",
+    "Book",
     {
       id: {
         type: DataTypes.UUID,
@@ -11,11 +10,11 @@ module.exports = (sequelize) => {
         allowNull: false,
         defaultValue: Sequelize.UUIDV4,
       },
-      name: {
+      title: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      birthday: {
+      author: {
         type: DataTypes.STRING,
         allowNull: false,
       },
@@ -23,56 +22,50 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      phone: {
+      lenguage: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      phoneCode: {
+      image: {
         type: DataTypes.STRING,
         allowNull: false,
       },
       gender: {
-        type: DataTypes.STRING,
+        type: DataTypes.ARRAY(DataTypes.STRING),
+        defaultValue: [],
         allowNull: true,
       },
-      email: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        unique: true,
-      },
-      password: {
-        type: DataTypes.STRING,
+      sinopsis: {
+        type: DataTypes.TEXT,
         allowNull: false,
       },
-      confirmPassword: {
+      price: {
+        type: DataTypes.FLOAT,
+        allowNull: false,
+      },
+      publishedDate: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      dniPasaport: {
+      pdfLink: {
         type: DataTypes.STRING,
-        allowNull: true,
+        allowNull: false,
       },
       status: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
         defaultValue: true,
       },
-      rol: {
-        type: DataTypes.ENUM("user", "admin"),
-        defaultValue: "user",
+      editorial: {
+        type: DataTypes.STRING,
         allowNull: false,
       },
-      thirdPartyCreated: {
-        type: DataTypes.BOOLEAN,
+      numPages: {
+        type: DataTypes.INTEGER,
         allowNull: false,
-        defaultValue: false,
-      },
-      photoUser: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
-        allowNull: true,
       },
     },
     { timestamps: true, 
-      paranoid: true }
+        paranoid: true }
   );
 };
