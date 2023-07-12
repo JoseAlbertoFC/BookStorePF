@@ -71,6 +71,11 @@ module.exports = (sequelize) => {
         type: DataTypes.ARRAY(DataTypes.STRING),
         allowNull: true,
       },
+      listWish: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
+        defaultValue: [],
+        allowNull: true,
+      },
     },
     { timestamps: true, 
       paranoid: true }
