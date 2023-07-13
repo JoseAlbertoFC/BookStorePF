@@ -4,7 +4,6 @@ const nodemailer = require("nodemailer");
 // Dany trabajar en la coneccion de la data de usurio para llenar los campos de name ,from, to ,subjet
 
 const envioCorreo = async (result, res) => {
-    console.log(result)
   try {
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -22,7 +21,7 @@ const envioCorreo = async (result, res) => {
       subject: "Comprobante de pago",
       html: `
       <head>
-        <title>Recibo de Pago - Hotel Reserva</title>
+        <title>Recibo de Pago - E-Books Gracias por tu compra</title>
         <style>
             /* Estilos CSS para el recibo de pago */
             body {
@@ -77,12 +76,12 @@ const envioCorreo = async (result, res) => {
         <div class="container">
             <h1>Recibo de Pago</h1>
            
-                 <p><strong>Hotel Reserva</strong></p>
-                <p>Dirección del hotel, Ciudad</p>
-                <p>Teléfono: 123-456789</p>
-                <p>Gracias port tu Reserva ${name}</p>
+                 <p><strong>Gracias por tu compra en E-books</strong></p>
+                <p>Dirección Libreria, Ciudad</p>
+                <p>Teléfono: 81-23-43-43-45</p>
+                <p>Gracias port tu Compra ${name}</p>
            
-            <h2>Detalles de la Reserva</h2>
+            <h2>Detalles de la Compra</h2>
             <table class="table">
                  <thead>
                     <tr>
@@ -111,7 +110,7 @@ const envioCorreo = async (result, res) => {
     
             <!-- Agregar la imagen -->
             <div class="image-container">
-                <img src="https://invisionstudio.com/wp-content/uploads/2015/06/Hotels-360-Tours-Property-Photography-Architecural-Photography-Hotel-Photography.jpg" alt="Imagen del hotel">
+                <img src="https://th.bing.com/th/id/R.f54d2bb15ee1f6dea4c14bf2ca44e9ce?rik=XlqxAjggAgf%2b0g&riu=http%3a%2f%2fwww.writersblockbookstore.com%2fsites%2fwritersblockbookstore.com%2ffiles%2fBookstore+image+2017.jpg&ehk=KksPEtWr1lpM2zUm3h2O87075ImBAgViDTeJd%2fLdrSQ%3d&risl=&pid=ImgRaw&r=0">
             </div>
         </div>
     </body>

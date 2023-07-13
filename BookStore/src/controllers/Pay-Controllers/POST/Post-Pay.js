@@ -7,7 +7,6 @@ const newPay = async (
    
 
 ) => {
-  console.log(result)
   // Recibe el Pago con Todos los  datos  del recibo.
   try {
     const newPay = new Pay({
@@ -24,7 +23,7 @@ const newPay = async (
      data_aprove:result.data_aprove,
      total_paid_amount:result.total_paid_amount,
      net_received_amount:result.net_received_amount,
-     userId: result.userId,
+    
      
     });
     // Guardamos en la base de datos el nuevo pago que acabamos de generar.
@@ -33,10 +32,10 @@ const newPay = async (
     // Tenemos la relacion con la tabla user y bookings para agregar estos datos a nuestro recibo.
     const payWithDetails = await Pay.findOne({
       where: { id: newPay.id },
-      include: [
-        { model: User, as: 'user', attributes: ['name', 'email', 'dniPasaport'] },
-        { model: Pay, as: 'Pay', attributes: ['idpay', 'orderNumber','metodo','amount'] },
-      ],
+      // include: [
+        // { model: User, as: 'user', attributes: ['name', 'email', 'dniPasaport'] },
+        // { model: Pay, as: 'Pay', attributes: ['idpay', 'orderNumber','metodo','amount'] },
+      // ],
     });
 
     // Retornamos el pago realizado junto con la relacion de las demas tablas user y bookings.
