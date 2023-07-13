@@ -4,6 +4,8 @@ const {PayMercado} = require("./MercadoPago")
 
 const {Whatsapp} = require('./Whatsapp')
 
+const {StripePay} = require('./Stripe')
+
 //Esto viene de la carpete de handlers
 //const ratingRoutes = require("./Rating");
 
@@ -22,6 +24,10 @@ router.use('/',PayMercado)
 //Whatssap
 
 router.use('/',Whatsapp)
+
+//Stripe
+
+router.use('/',StripePay)
 
 
 
