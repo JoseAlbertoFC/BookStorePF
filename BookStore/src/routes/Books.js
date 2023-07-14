@@ -1,6 +1,7 @@
 const { Router } = require("express");
 const { getBooks } = require("../handlers/Books/GET/getBooks");
 const { postBook } = require("../handlers/Books/POST/postBook");
+const { putBook } = require("../handlers/Books/UPDATE/putBook");
 
 const booksRoutes = Router();
 
@@ -30,6 +31,7 @@ booksRoutes.get("/getBooks", getBooks);
 
 booksRoutes.post("/postBook", postBook);
 
+booksRoutes.put("/updateBook/:id", putBook);
 
 module.exports = { 
     booksRoutes 
