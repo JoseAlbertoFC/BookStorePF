@@ -15,7 +15,7 @@ const createBook = async (
   numPages
 ) => {
   try {
-    const newBook = new Book({
+    const newBook = await Book.create({
       title,
       author,
       country,
@@ -30,11 +30,10 @@ const createBook = async (
       numPages
     });
 
-    const savedBook = await newBook.save();
-
-    return savedBook;
+    return newBook;
   } catch (error) {
-    throw new Error(error.message);
+    console.log(error.message)
+    throw new Error({ error: error.message });
   }
 };
 
