@@ -1,40 +1,40 @@
 const automaticResponses = [
     {
-        keyword: 'hola',
-        response: '¡Hola! Bienvenido a Gotrip, tu plataforma de reservas de hoteles.'
+    keyword: 'hola',
+    response: '¡Hola! Bienvenido a E-Books, tu plataforma con los mejores libros.'
     },
     {
-        keyword: 'habitaciones',
-        response: 'Gotrip ofrece una amplia variedad de habitaciones en nuestros hoteles asociados.'
+    keyword: 'libros',
+    response: 'E-Books ofrece una amplia variedad de libros con los mejores autores.'
     },
     {
-        keyword: 'disponibilidad',
-        response: 'Para verificar la disponibilidad de habitaciones, proporciona la fecha de check-in, check-out y número de huéspedes en el formulario.'
+    keyword: 'disponibilidad',
+    response: 'Para verificar la disponibilidad de algún título, consulta nuestra sección de libros disponibles.'
     },
     {
-        keyword: 'tarifas',
-        response: 'Las tarifas de nuestros hoteles varían según la temporada y la disponibilidad.'
+    keyword: 'precios',
+    response: 'Los precios de nuestros libros varían según el autor y la edición.'
     },
     {
-        keyword: 'reservar',
-        response: 'Puedes reservar una habitación proporcionando tu nombre completo, número de teléfono y correo electrónico.'
+    keyword: 'comprar',
+    response: 'Puedes comprar un libro proporcionando tu nombre completo, dirección de entrega y método de pago.'
     },
     {
-        keyword: 'cancelar',
-        response: 'Si deseas cancelar tu reserva, comunícate con nuestro equipo de atención al cliente al número 123456789.'
+    keyword: 'cancelar',
+    response: 'Si deseas cancelar tu compra, comunícate con nuestro equipo de atención al cliente al número 123456789.'
     },
     {
-        keyword: 'ayuda',
-        response: 'Estoy aquí para ayudarte en lo que necesites.'
+    keyword: 'ayuda',
+    response: 'Estoy aquí para ayudarte en lo que necesites.'
     },
     {
-        keyword: 'adios',
-        response: '¡Gracias por contactarnos! Si tienes más preguntas, no dudes en volver. ¡Que tengas un buen día!'
+    keyword: 'adios',
+    response: '¡Gracias por visitarnos! Si tienes más preguntas, no dudes en volver. ¡Que tengas un buen día!'
     },
     {
-        keyword: 'default',
-        response: 'Disculpa, no he entendido tu pregunta. Por favor, sé más específico.'
+    keyword: 'default',
+    response: 'Disculpa, no he entendido tu pregunta. Por favor, sé más específico en tu consulta.'
     }
-];
+    ];
 
 module.exports = automaticResponses;
