@@ -15,14 +15,14 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       author: {
-        type: DataTypes.STRING,
+        type: DataTypes.ARRAY(DataTypes.STRING),
         allowNull: false,
       },
       country: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      lenguage: {
+      language: {
         type: DataTypes.STRING,
         allowNull: false,
       },
@@ -32,7 +32,6 @@ module.exports = (sequelize) => {
       },
       gender: {
         type: DataTypes.ARRAY(DataTypes.STRING),
-        defaultValue: [],
         allowNull: true,
       },
       sinopsis: {
