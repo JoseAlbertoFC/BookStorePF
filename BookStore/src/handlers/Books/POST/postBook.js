@@ -33,7 +33,7 @@ const postBook = async (req, res, next) => {
         res.status(200).json(result);
       } catch (error) {
         next(error.message);
-        res.status(400).send(error.message );
+        res.status(400).send(error.message);
       }
 }
 
