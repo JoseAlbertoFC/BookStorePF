@@ -8,13 +8,9 @@ const { Whatsapp } = require("./Whatsapp");
 
 const {StripePay} = require('./Stripe')
 
-const { Email } = require("./Email");
-
 const router = Router();
 
-//TODO Espacio de Dany Ruiz
-
-//TODO ************************************************************************************************
+//TODO Espacio de Dany Ruiz************************************************************************************************
 //Mercado Pago
 
 router.use("/", PayMercado);
@@ -27,12 +23,13 @@ router.use("/", Whatsapp);
 
 router.use('/',StripePay)
 
-//Correo
+//TODO Espacio de Dany Ruiz************************************************************************************************
 
-router.use("/", Email);
-
-//TODO ************************************************************************************************
-
+//TODO Espacio de Jose A Fuenmayor*****************************************************************************************
+//************Books**************
 router.use("/", booksRoutes);
+
+
+//TODO Espacio de Jose A Fuenmayor*****************************************************************************************
 
 module.exports = router;
