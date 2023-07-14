@@ -6,13 +6,9 @@ const { booksRoutes } = require("./Books");
 
 const { Whatsapp } = require("./Whatsapp");
 
-//Esto viene de la carpete de handlers
-//const ratingRoutes = require("./Rating");
+const {StripePay} = require('./Stripe')
 
 const router = Router();
-
-// Ejemplo:
-//router.use("/", ratingRoutes);
 
 //TODO Espacio de Dany Ruiz
 
@@ -25,8 +21,12 @@ router.use("/", PayMercado);
 
 router.use("/", Whatsapp);
 
+//Stripe
+
+router.use('/',StripePay)
 
 //TODO ************************************************************************************************
+
 router.use("/", booksRoutes);
 
 module.exports = router;

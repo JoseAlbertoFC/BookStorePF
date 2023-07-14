@@ -1,13 +1,15 @@
 const express = require('express');
 const morgan = require('morgan');
+const path = require("path");
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const routes = require('./routes/index.js');
 require('./db.js');
+const stripe = require('stripe')('process.env.Sripe_SECRET');
 
 const server = express();
 server.name = 'API';
-
+server.use(express.urlencoded({ extended: true }));
 server.use(express.urlencoded({ extended: true, limit: '50mb' }));
 server.use(express.json({ limit: '50mb' }));
 server.use(morgan('dev'));
@@ -32,6 +34,9 @@ server.use((req, res, next) => {
 server.set('view engine', 'ejs');
 server.use('/', routes);
 
+//Stripe
+
+server.use(express.static(path.resolve("src/handlers/Stripe/Templates-Prueba")));
 
 server.use((err, req, res, next) => {
   const status = err.status || 500;
