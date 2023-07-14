@@ -2,6 +2,7 @@ const { Router } = require("express");
 const { getBooks } = require("../handlers/Books/GET/getBooks");
 const { postBook } = require("../handlers/Books/POST/postBook");
 const { putBook } = require("../handlers/Books/UPDATE/putBook");
+const { deleteBook } = require("../handlers/Books/DELETE/deleteBook");   
 
 const booksRoutes = Router();
 
@@ -32,6 +33,8 @@ booksRoutes.get("/getBooks", getBooks);
 booksRoutes.post("/postBook", postBook);
 
 booksRoutes.put("/updateBook/:id", putBook);
+
+booksRoutes.delete("/deleteBook/:id", deleteBook);
 
 module.exports = { 
     booksRoutes 
