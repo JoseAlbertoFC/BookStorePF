@@ -6,7 +6,9 @@ const { booksRoutes } = require("./Books");
 
 const { Whatsapp } = require("./Whatsapp");
 
-const {StripePay} = require('./Stripe')
+const {StripePay} = require('./Stripe');
+
+const { commentsRoutes } = require("./Comments");
 
 const router = Router();
 
@@ -29,6 +31,7 @@ router.use('/',StripePay)
 //************Books**************
 router.use("/", booksRoutes);
 
+router.use("/", commentsRoutes);
 
 //TODO Espacio de Jose A Fuenmayor*****************************************************************************************
 

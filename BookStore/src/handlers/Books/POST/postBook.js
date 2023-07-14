@@ -1,6 +1,6 @@
 const { createBook } = require("../../../controllers/Books/POST/createBook");
 
-const postBook = async (req, res, next) => {
+const postBook = async (req, res) => {
     const {
         title,
         author,
@@ -32,8 +32,8 @@ const postBook = async (req, res, next) => {
         );
         res.status(200).json(result);
       } catch (error) {
-        next(error.message);
-        res.status(400).send(error.message);
+        console.log(error.message)
+        res.status(400).json({ error: error.message });
       }
 }
 
