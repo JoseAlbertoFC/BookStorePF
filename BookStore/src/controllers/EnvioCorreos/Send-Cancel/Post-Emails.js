@@ -3,9 +3,8 @@ const nodemailer = require("nodemailer");
 
 // Dany trabajar en la coneccion de la data de usurio para llenar los campos de name ,from, to ,subjet
 
-//TODO El objeto dataPay solo viene por la parte de Pago 
-
-const envioCorreo = async (name,email,mensaje,subjet, res) => {
+const envioCorreo = async (result, res) => {
+  console.log(result)
   try {
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -16,14 +15,14 @@ const envioCorreo = async (name,email,mensaje,subjet, res) => {
       secure: true, // Habilitar la conexión segura
     });
 
-    
+    const name = `${result.name}`;
     const mailOptions = {
       from: "hoteldeveloperfull@gmail.com",
-      to: `${email}`,
-      subject: `${subjet}`,
+      to: `${result.email}`,
+      subject: "Lamentamos Tu decision",
       html: `
       <head>
-        <title>Mensaje de E-Books</title>
+        <title>Cancelaste Tu compra con exito</title>
         <style>
             /* Estilos CSS para el recibo de pago */
             body {
@@ -48,15 +47,24 @@ const envioCorreo = async (name,email,mensaje,subjet, res) => {
                 width: 100%;
                 border-collapse: collapse;
                 margin-bottom: 20px;
-            }
-            .table th, .table td {
+                table-layout: fixed; /* Fijar el ancho de las columnas */
+              }
+              
+              .table th,
+              .table td {
                 padding: 8px;
                 border: 1px solid #ccc;
-            }
-            .table th {
+                word-wrap: break-word; /* Ajustar el texto automáticamente */
+                max-width: 150px; /* Máximo ancho de las celdas */
+                overflow: hidden; /* Ocultar contenido que excede el ancho máximo */
+                text-overflow: ellipsis; /* Agregar puntos suspensivos (...) para contenido truncado */
+              }
+              
+              .table th {
                 background-color: #f0f0f0;
                 text-align: left;
-            }
+              }
+              
             .total {
                 text-align: right;
             }
@@ -76,17 +84,24 @@ const envioCorreo = async (name,email,mensaje,subjet, res) => {
     </head>
     <body>
         <div class="container">
-            <h1>Mensaje de  E-Books</h1>
+            <h1>Cancelacion</h1>
            
-                <p><strong>Querido(a) ${name}</strong></p>
-                
+                 <p><strong>Gracias por tu compra en E-books</strong></p>
+                <p>Dirección Libreria, Ciudad</p>
+                <p>Teléfono: 81-23-43-43-45</p>
+                <p>Vuelve pronto ${name} Compra cancelada E-Books</p>
            
-            <h2>Mensaje:</h2>
-            <p>${mensaje}</p>
-           
-           
+            <h2>Pago Cancelado</h2>
+            
+            <h3>Adios</h3>
+            <div class="total">
+                <!-- Total a pagar -->
+            </div>
     
-           
+            <!-- Agregar la imagen -->
+            <div class="image-container">
+                <img src="https://th.bing.com/th/id/R.f54d2bb15ee1f6dea4c14bf2ca44e9ce?rik=XlqxAjggAgf%2b0g&riu=http%3a%2f%2fwww.writersblockbookstore.com%2fsites%2fwritersblockbookstore.com%2ffiles%2fBookstore+image+2017.jpg&ehk=KksPEtWr1lpM2zUm3h2O87075ImBAgViDTeJd%2fLdrSQ%3d&risl=&pid=ImgRaw&r=0">
+            </div>
         </div>
     </body>
       `,
@@ -94,11 +109,11 @@ const envioCorreo = async (name,email,mensaje,subjet, res) => {
 
     transporter.sendMail(mailOptions, function (error, info) {
       if (error) {
-       
         console.log(error);
+        return
       } else {
         console.log("Correo enviado: " + info.response);
-      
+        return
       }
     });
 
