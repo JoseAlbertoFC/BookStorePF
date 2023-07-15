@@ -5,7 +5,7 @@ const deleteBook = async (req, res) => {
 
     try {
       const result = await destroyBook(id);
-      if (result === 0) return res.status(400).json("This booking was not deleted correctly");
+      if (result === 0) return res.status(400).json("This Book was not deleted correctly");
       res.status(200).json("This Book was successfully removed");
     } catch (error) {
       res.status(400).json({ error: error.message });
