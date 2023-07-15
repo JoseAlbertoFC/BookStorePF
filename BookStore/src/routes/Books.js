@@ -28,6 +28,126 @@ const booksRoutes = Router();
  *         description: Error en la solicitud de obtención de libros.
  */
 
+/**
+ * @swagger
+ * /postBook:
+ *   post:
+ *     summary: Crear un nuevo libro
+ *     tags: [Books]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               title:
+ *                 type: string
+ *               author:
+ *                 type: string
+ *               country:
+ *                 type: string
+ *               language:
+ *                 type: string
+ *               image:
+ *                 type: string
+ *               gender:
+ *                 type: string
+ *               sinopsis:
+ *                 type: string
+ *               price:
+ *                 type: number
+ *               publishedDate:
+ *                 type: string
+ *               pdfLink:
+ *                 type: string
+ *               editorial:
+ *                 type: string
+ *               numPages:
+ *                 type: number
+ *     responses:
+ *       200:
+ *         description: Nuevo libro creado exitosamente
+ *       500:
+ *         description: Error al crear el libro
+ */
+
+/**
+ * @swagger
+ * /updateBook/{id}:
+ *   put:
+ *     summary: Actualizar un libro existente
+ *     tags: [Books]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: integer
+ *         description: ID del libro a actualizar
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               title:
+ *                 type: string
+ *               author:
+ *                 type: string
+ *               country:
+ *                 type: string
+ *               language:
+ *                 type: string
+ *               image:
+ *                 type: string
+ *               gender:
+ *                 type: string
+ *               sinopsis:
+ *                 type: string
+ *               price:
+ *                 type: number
+ *               publishedDate:
+ *                 type: string
+ *               pdfLink:
+ *                 type: string
+ *               editorial:
+ *                 type: string
+ *               numPages:
+ *                 type: number
+ *     responses:
+ *       200:
+ *         description: Libro actualizado exitosamente
+ *       404:
+ *         description: Libro no encontrado
+ *       500:
+ *         description: Error al actualizar el libro
+ */
+
+/**
+ * @swagger
+ * /deleteBook/{id}:
+ *   delete:
+ *     summary: Eliminar un libro existente
+ *     tags: [Books]
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: integer
+ *         description: ID del libro a eliminar
+ *     responses:
+ *       200:
+ *         description: Libro eliminado exitosamente
+ *       404:
+ *         description: Libro no encontrado
+ *       500:
+ *         description: Error al eliminar el libro
+ */
+
+
 booksRoutes.get("/getBooks", getBooks);
 
 booksRoutes.post("/postBook", postBook);
