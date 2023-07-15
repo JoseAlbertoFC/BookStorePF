@@ -1,15 +1,24 @@
 const { readBooks } = require("../../../controllers/Books/GET/readBooks");
-const { readBookByName} = require("../../../controllers/Books/GET/readBookByName");
+const { readBookByName } = require("../../../controllers/Books/GET/readBookByName");
+const { readBookByAuthor } = require("../../../controllers/Books/GET/readBookByAuthor")
 
-const getBooks = async (req, res, next) => {
-  const { title } = req.query;
+const getBooks = async (req, res) => {
+  const { title, author } = req.query;
 
   try {
-    const result = title ? await readBookByName(title) : await readBooks();
+  if (title) {
+    const result = await readBookByName(title);
     res.status(200).json(result);
+  } else if (author) {
+    const result = await readBookByAuthor(author);
+    res.status(200).json(result);
+  } else {
+    const result = await readBooks();
+    res.status(200).json(result);
+  }
   } catch (error) {
-    next(error.message);
-    res.status(400).send(error.message);
+    console.log(error.message);
+    res.status(400).json({ error: error.message });
   }
 };
 
