@@ -18,7 +18,7 @@ const envioCorreo = async (result, res) => {
     const mailOptions = {
       from: "hoteldeveloperfull@gmail.com",
       to: `${result.email}`,
-      subject: "Comprobante de pago",
+      subject: "Comprobante de pago Status Pending",
       html: `
       <head>
         <title>Recibo de Pago - E-Books Gracias por tu compra</title>
@@ -83,12 +83,12 @@ const envioCorreo = async (result, res) => {
     </head>
     <body>
         <div class="container">
-            <h1>Recibo de Pago</h1>
+            <h1>Estas a un solo paso</h1>
            
                  <p><strong>Gracias por tu compra en E-books</strong></p>
                 <p>Dirección Libreria, Ciudad</p>
                 <p>Teléfono: 81-23-43-43-45</p>
-                <p>Gracias port tu Compra ${name}</p>
+                <p>Gracias port tu Compra ${name} Termina el proceso de Pago en La plataforma E-Books</p>
            
             <h2>Detalles de la Compra</h2>
             <table class="table">

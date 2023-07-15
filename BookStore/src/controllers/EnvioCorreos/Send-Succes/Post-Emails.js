@@ -4,6 +4,7 @@ const nodemailer = require("nodemailer");
 // Dany trabajar en la coneccion de la data de usurio para llenar los campos de name ,from, to ,subjet
 
 const envioCorreo = async (result, res) => {
+ 
   try {
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -14,7 +15,7 @@ const envioCorreo = async (result, res) => {
       secure: true, // Habilitar la conexión segura
     });
 
-    const name = `${result.name}`;
+    
     const mailOptions = {
       from: "hoteldeveloperfull@gmail.com",
       to: `${result.email}`,
@@ -83,12 +84,12 @@ const envioCorreo = async (result, res) => {
     </head>
     <body>
         <div class="container">
-            <h1>Recibo de Pago</h1>
+            <h1>Gracias por tu compra</h1>
            
                  <p><strong>Gracias por tu compra en E-books</strong></p>
                 <p>Dirección Libreria, Ciudad</p>
                 <p>Teléfono: 81-23-43-43-45</p>
-                <p>Gracias port tu Compra ${name}</p>
+                <p>Gracias port tu Compra ${result.name} en E-Books</p>
            
             <h2>Detalles de la Compra</h2>
             <table class="table">
@@ -97,9 +98,9 @@ const envioCorreo = async (result, res) => {
                         <th>No.</th>
                         <th>Orden de Pago</th>
                         <th>Metodo de pago</th>
-                        <th>Tipo de pago</th>
+                        
                         <th>Status de Pago</th>
-                        <th>Total</th>
+                       
                     </tr>
                 </thead>
                 <tbody>
@@ -107,9 +108,9 @@ const envioCorreo = async (result, res) => {
                         <td>${result.idpay}</td>
                         <td>${result.order}</td>
                         <td>${result.orderType}</td>
-                        <td>${result.operationType}</td>
+                  
                         <td>${result.data_aprove}</td>
-                        <td>$${result.total_paid_amount}</td>
+                        
                     </tr>
                 </tbody>
             </table>
