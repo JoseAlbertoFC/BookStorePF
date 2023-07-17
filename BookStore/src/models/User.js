@@ -43,11 +43,7 @@ module.exports = (sequelize) => {
       password: {
         type: DataTypes.STRING,
         allowNull: false,
-      },
-      confirmPassword: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
+      },    
       dniPasaport: {
         type: DataTypes.STRING,
         allowNull: true,
@@ -58,10 +54,16 @@ module.exports = (sequelize) => {
         defaultValue: true,
       },
       rol: {
-        type: DataTypes.ENUM("user", "admin"),
-        defaultValue: "user",
+        type: DataTypes.ENUM("user", "admin","new"),
+        defaultValue: "new",
         allowNull: false,
       },
+      dateChange: { 
+          type: DataTypes.DATE,
+          allowNull: true,
+          //defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),//Sequelize.NOW,
+      },
+
       thirdPartyCreated: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
