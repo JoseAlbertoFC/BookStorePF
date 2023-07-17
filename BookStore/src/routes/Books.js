@@ -4,6 +4,8 @@ const { postBook } = require("../handlers/Books/POST/postBook");
 const { putBook } = require("../handlers/Books/UPDATE/putBook");
 const { deleteBook } = require("../handlers/Books/DELETE/deleteBook");
 const { getBookById } = require("../handlers/Books/GET/getBookById");
+const { restoreBook } = require("../handlers/Books/UPDATE/restoreBook");
+const { getDeletedBooks } = require("../handlers/Books/GET/getDeletedBooks");
 
 const booksRoutes = Router();
 
@@ -151,11 +153,15 @@ const booksRoutes = Router();
 
 booksRoutes.get("/getBooks", getBooks);
 
+booksRoutes.get("/getDeletedBooks", getDeletedBooks);
+
 booksRoutes.get("/bookDetail/:id", getBookById);
 
 booksRoutes.post("/postBook", postBook);
 
 booksRoutes.put("/updateBook/:id", putBook);
+
+booksRoutes.put("/restoreBook/:id", restoreBook);
 
 booksRoutes.delete("/deleteBook/:id", deleteBook);
 
