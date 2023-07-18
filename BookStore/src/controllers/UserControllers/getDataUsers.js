@@ -1,5 +1,5 @@
 const {User} = require("../../db.js")
-
+const { Op } = require("sequelize");
 
 const getAllUsers = async()=>{
     const  dataState = {
@@ -85,29 +85,43 @@ const getUserByParams = async(querysVars)=>{
         };
     try{       
         const whereCondition = {}; // Objeto para almacenar las condiciones de búsqueda
-        const keyValues = ["country", "gender","rol","status"];
+        const keyValues = ["country", "gender","rol","status","listWish"];
 
         Object.entries(querysVars).forEach(([key, value]) => {
-            if (keyValues.includes(key)) {
-              whereCondition[key] = value;
+            
+            if (keyValues.includes(key)) {                
+               if(key  === "listWish" ){
+                whereCondition[key] = { [Op.contains ]: value };
+               }else{
+                whereCondition[key] = value;
+               }
             } else {
               whereCondition[key] = { [Op.iLike]: `%${value}%` };
             }
           });
+            console.log(whereCondition)
 
-          const users = await User.findAll({ 
-            whereCondition: whereCondition
+          const userFind = await User.findAll({ 
+            where: whereCondition,
         });
-        dataState.state = true;
-        dataState.text = "Search successful";
-        dataState.detail = users;
-        return dataState
+        if(userFind.length >0){
+            dataState.state = true;
+            dataState.text = "Search successful***";
+            dataState.detail = userFind;
+            return (JSON.stringify(dataState))
+        }else{
+            dataState.state = false;
+            dataState.text = "Search not found";
+            dataState.detail = userFind;
+            return (JSON.stringify(dataState))
+        }
+
 
     }catch(err){
         //throw Error(err.message);
         dataState.state = false;
         dataState.text = err.message;
-        throw new Error(JSON.stringify(dataState));     
+        throw Error(JSON.stringify(dataState));     
     }
 }
 
