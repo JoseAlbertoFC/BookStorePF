@@ -36,18 +36,14 @@ module.exports = (sequelize) => {
         allowNull: true,
       },
       email: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING,       
         allowNull: false,
         unique: true,
       },
       password: {
         type: DataTypes.STRING,
         allowNull: false,
-      },
-      confirmPassword: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
+      },    
       dniPasaport: {
         type: DataTypes.STRING,
         allowNull: true,
@@ -58,23 +54,31 @@ module.exports = (sequelize) => {
         defaultValue: true,
       },
       rol: {
-        type: DataTypes.ENUM("user", "admin"),
-        defaultValue: "user",
+        type: DataTypes.ENUM("user", "admin","new"),
+        defaultValue: "new",
         allowNull: false,
+      },
+      dateChange: { 
+          type: DataTypes.DATE,
+          allowNull: true,
+          //defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),//Sequelize.NOW,
+      },
+      token:{
+        type: DataTypes.STRING,
+        allowNull: true,
       },
       thirdPartyCreated: {
         type: DataTypes.BOOLEAN,
-        allowNull: false,
+        allowNull: true,
         defaultValue: false,
       },
       photoUser: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
+        type: DataTypes.STRING,
         allowNull: true,
       },
       listWish: {
         type: DataTypes.ARRAY(DataTypes.STRING),
-        defaultValue: [],
-        allowNull: true,
+        defaultValue: [],       
       },
     },
     { timestamps: true, 

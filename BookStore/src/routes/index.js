@@ -10,6 +10,8 @@ const {StripePay} = require('./Stripe');
 
 const { commentsRoutes } = require("./Comments");
 
+const {routeUsers} = require("./user.js");
+
 const router = Router();
 
 //TODO Espacio de Dany Ruiz************************************************************************************************
@@ -34,5 +36,8 @@ router.use("/", booksRoutes);
 router.use("/", commentsRoutes);
 
 //TODO Espacio de Jose A Fuenmayor*****************************************************************************************
+
+router.use("/", routeUsers);
+
 
 module.exports = router;
