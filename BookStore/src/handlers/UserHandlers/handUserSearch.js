@@ -28,11 +28,16 @@ const getUsers = async (req, res) => {
 
 
 const getUsersbyId = async (req, res) => {
-    const identificateVal = req.params;
+    const {idUser} = req.params;
     try {
-            const dataUsers = await getUserByIdentificator(identificate);
+            const dataUsers = await getUserByIdentificator(idUser);
+            if (dataUsers.state) {
+                res.status(200).json(dataUsers)            
+            }else {
+                res.status(400).json(dataUsers)
+            }
     } catch (error) {
-        
+        res.status(500).json({message: error.message})
     }
 
 }

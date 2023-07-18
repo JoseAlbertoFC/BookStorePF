@@ -1,12 +1,12 @@
 const {User} = require("../../db.js")
 
-const  dataState = {
-    state: false,
-    text:"",
-    detail:""        
-    };
 
 const getAllUsers = async()=>{
+    const  dataState = {
+        state: false,
+        text:"",
+        detail:""        
+        };
     try{
         const users = await User.findAll()
         if (users.length > 0){
@@ -26,50 +26,68 @@ const getAllUsers = async()=>{
     }
 }
 
-const getUserByIdentificator = async(valID)=>{
+const getUserByIdentificator = async(idUser)=>{
+    const  dataState = {
+        state: false,
+        text:"",
+        detail:""        
+        };
     try{
-        const user ={}
-
-        if(validateUUID(valID)){
-            user = await User.findByPk(id)
+        let userFind ={}
+        console.log("valID",idUser)
+        if(validateUUID(idUser)){
+            console.log("valID(1)",idUser)
+            userFind = await User.findByPk(idUser)
+            console.log("userFind--",userFind.length)
         }else{
-            if(!validateEmail(variable) ){
+            if(!validateEmail(idUser) ){
+                console.log("validateEmail--",validateEmail)
                 dataState.state = false;
                 dataState.text = "No users found";
                 return dataState
             }else   {
-                user = await User.findOne({
+                console.log("valID(2)",idUser)
+                userFind = await User.findOne({
                     where: {
-                        email: variable
+                        email: idUser
                     }
                 })
             }
         }
-        if(user.length > 0){
+        console.log("userFind......",userFind)
+        if(userFind !== null){
+            
             dataState.state = true;
             dataState.text = "Search successful";
-            dataState.detail = user;
+            dataState.detail = userFind ;
             return dataState
         }else{
+            
             dataState.state = false;
             dataState.text = "No users found";
             return dataState
         }       
     } catch(err){
-        //throw Error(err.message);
+        console.log(err);
         dataState.state = false;
-        dataState.text = err.message;
+        dataState.text = err;
+        dataState.detail = err;
         throw new Error(JSON.stringify(dataState));     
     }
 }
 
 
-const getUserByParams = async(variables)=>{
+const getUserByParams = async(querysVars)=>{
+    const  dataState = {
+        state: false,
+        text:"",
+        detail:""        
+        };
     try{       
         const whereCondition = {}; // Objeto para almacenar las condiciones de búsqueda
         const keyValues = ["country", "gender","rol","status"];
 
-        Object.entries(querysHotel).forEach(([key, value]) => {
+        Object.entries(querysVars).forEach(([key, value]) => {
             if (keyValues.includes(key)) {
               whereCondition[key] = value;
             } else {

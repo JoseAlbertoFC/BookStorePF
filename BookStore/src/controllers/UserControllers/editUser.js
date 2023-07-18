@@ -8,6 +8,7 @@ const updUserData =  async(idUser, updatedData) => {
         };
 
     try{
+        console.log("idUser",idUser)
         if(!idUser){
             dataState.state = true;
             dataState.text = "The id User is required";
@@ -30,7 +31,7 @@ const updUserData =  async(idUser, updatedData) => {
                 dataState.text = "No data to update";
                 return dataState;
             }
-        }
+         }
 
     }catch (err){
         dataState.state = true;

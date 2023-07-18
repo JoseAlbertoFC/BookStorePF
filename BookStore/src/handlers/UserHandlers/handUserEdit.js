@@ -12,7 +12,7 @@ const putEditUser = async(req, res) => {
             }else{
             res.status(500).json(userDataUpd);
             }
-    } catch(err){
+    } catch(error){
         res.status(500).json(error)
     }
 }

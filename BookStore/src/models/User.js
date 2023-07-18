@@ -36,7 +36,7 @@ module.exports = (sequelize) => {
         allowNull: true,
       },
       email: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING,       
         allowNull: false,
         unique: true,
       },
@@ -63,20 +63,22 @@ module.exports = (sequelize) => {
           allowNull: true,
           //defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),//Sequelize.NOW,
       },
-
+      token:{
+        type: DataTypes.STRING,
+        allowNull: true,
+      },
       thirdPartyCreated: {
         type: DataTypes.BOOLEAN,
-        allowNull: false,
+        allowNull: true,
         defaultValue: false,
       },
       photoUser: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
+        type: DataTypes.STRING,
         allowNull: true,
       },
       listWish: {
         type: DataTypes.ARRAY(DataTypes.STRING),
-        defaultValue: [],
-        allowNull: true,
+        defaultValue: [],       
       },
     },
     { timestamps: true, 
