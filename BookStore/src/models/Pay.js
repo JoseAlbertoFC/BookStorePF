@@ -15,7 +15,11 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
 
-      },
+        },
+        bookIds: {
+            type: DataTypes.ARRAY(DataTypes.STRING), 
+            allowNull: false,
+        },
       idpay:{
         type: DataTypes.STRING,
         allowNull: false,

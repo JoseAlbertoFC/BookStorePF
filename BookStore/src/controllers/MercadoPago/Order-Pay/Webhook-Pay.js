@@ -5,7 +5,8 @@ const { envioCorreo } = require("../../EnvioCorreos/Post-Emails");
 
 // La funcion de pago captura el id  el pago el bokingid y el userid para poder generar el recibo con la informacion de pago.
 
-const WEBHOOK_PAY = async ({payment,id, IdBook, email, name,userId}) => {
+const WEBHOOK_PAY = async ({ payment, id, IdBook, email, name, userId, titleBooks, }) => {
+    console.log(titleBooks)
   try {
     if (payment.type === "payment") {
       const data = await mercadopago.payment.findById(id);

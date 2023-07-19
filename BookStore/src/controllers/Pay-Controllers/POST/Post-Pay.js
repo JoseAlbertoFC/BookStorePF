@@ -9,7 +9,7 @@ const newPay = async (
 ) => {
    
   // Recibe el Pago con Todos los  datos  del recibo.
-  try {
+    try {
     const newPay = new Pay({
      amount: result.total_paid_amount,
      paymentDate: result.data_aprove,
@@ -23,16 +23,19 @@ const newPay = async (
      currentOperation:result.currentOperation,
      data_aprove:result.data_aprove,
      total_paid_amount:result.total_paid_amount,
-        net_received_amount: result.net_received_amount,
-        bookId: result.IdBook ? result.IdBook : result.bookId,
+     net_received_amount: result.net_received_amount,
+     bookId: result.IdBook ? result.IdBook : result.bookId,
      userId: result.userId,
+     bookIds: result.bookIds,
 
     
      
     });
      
     // Guardamos en la base de datos el nuevo pago que acabamos de generar.
-    const savedPay = await newPay.save();
+        const savedPay = await newPay.save();
+
+    
 
     // Tenemos la relacion con la tabla user y bookings para agregar estos datos a nuestro recibo.
     const payWithDetails = await Pay.findOne({
