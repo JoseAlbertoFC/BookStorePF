@@ -10,7 +10,11 @@ const {StripePay} = require('./Stripe');
 
 const { commentsRoutes } = require("./Comments");
 
+<<<<<<< Updated upstream
 const {routeUsers} = require("./user.js");
+=======
+const { ChatGptRoute } = require("./ChatGpt");
+>>>>>>> Stashed changes
 
 const router = Router();
 
@@ -25,7 +29,12 @@ router.use("/", Whatsapp);
 
 //Stripe
 
-router.use('/',StripePay)
+router.use('/', StripePay)
+
+
+//ChatGpt
+
+router.use('/', ChatGptRoute)
 
 //TODO Espacio de Dany Ruiz************************************************************************************************
 
