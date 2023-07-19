@@ -45,7 +45,8 @@ Book.belongsTo(User, { as: "user", foreignKey: "userId" });
 Book.belongsTo(Pay, { as: "pay", foreignKey: "payId" });
 
 Pay.belongsTo(User, { as: "user", foreignKey: "userId" });
-Pay.hasMany(Book, { as: "books", foreignKey: "payId" });
+//Pay.hasMany(Book, { as: "books", foreignKey: "payId" });
+Pay.belongsTo(Book, { as: "books", foreignKey: "bookId" });
 
 Comment.belongsTo(Book, { as: "books", foreignKey: "bookId" });
 Comment.belongsTo(User, { as: "user", foreignKey: "userId" });

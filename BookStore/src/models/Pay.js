@@ -17,7 +17,7 @@ module.exports = (sequelize) => {
 
       },
       idpay:{
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false,
       },
       orderNumber:{
@@ -66,10 +66,8 @@ module.exports = (sequelize) => {
       },
       paymentDate: {
         type: DataTypes.STRING,
-        allowNull: false,
-        validate: {
-          isDate: true,
-        },
+        allowNull: true,
+        
       },
       paymentStatus: {
         type: DataTypes.STRING,

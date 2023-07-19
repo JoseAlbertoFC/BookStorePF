@@ -17,7 +17,7 @@ const ORDER_PAY = async ({carrito, name, email,typeMoney,IdBook,userId}) => {
   }));
 
   // En este apartado en desarrollo tienes que correr el ngrok en una consola aparte y copiar el url que te brinda.
-  const notificationURL ="https://ebc6-2806-2f0-49a1-ff6e-712d-3ad9-efdd-9086.ngrok.io/webhook-pago";
+    const notificationURL ="https://f130-2806-2f0-49a1-ff6e-a16d-2783-cab5-f207.ngrok.io/webhook-pago";
   const additionalData = {
     IdBook: IdBook,
     email: email,
@@ -37,9 +37,9 @@ const ORDER_PAY = async ({carrito, name, email,typeMoney,IdBook,userId}) => {
   const compra = await mercadopago.preferences.create({
     items,
     back_urls: {
-      success: "https://ebc6-2806-2f0-49a1-ff6e-712d-3ad9-efdd-9086.ngrok.io/succes",
-      failure: "https://ebc6-2806-2f0-49a1-ff6e-712d-3ad9-efdd-9086.ngrok.io/failure",
-      pending: "https://ebc6-2806-2f0-49a1-ff6e-712d-3ad9-efdd-9086.ngrok.io/pending",
+        success: "https://f130-2806-2f0-49a1-ff6e-a16d-2783-cab5-f207.ngrok.io/succes",
+        failure: "https://f130-2806-2f0-49a1-ff6e-a16d-2783-cab5-f207.ngrok.io/failure",
+        pending: "https://f130-2806-2f0-49a1-ff6e-a16d-2783-cab5-f207.ngrok.io/pending",
     },
     notification_url: notificationURLWithParams,
   });
