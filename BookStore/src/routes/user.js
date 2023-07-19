@@ -1,5 +1,5 @@
 const { Router } = require ("express");
-const { getUsersbyId,     getUsers,    putEditUser,registerUser} = require("../handlers/UserHandlers/indexHandlers.js");
+const { getUsersbyId,     getUsers,    putEditUser,registerUser,deleteUser} = require("../handlers/UserHandlers/indexHandlers.js");
 const router = require("./index.js");
 
 
@@ -11,6 +11,7 @@ routeUsers.get('/findUser',getUsers)
 routeUsers.get('/findUser/:idUser',getUsersbyId)
 routeUsers.put('/updUser',putEditUser)
 routeUsers.post('/newUser',registerUser)
+routeUsers.delete('/delUser',deleteUser)
 //routeUsers.post('/loginUser',loginUser)
 
 module.exports = {routeUsers}
