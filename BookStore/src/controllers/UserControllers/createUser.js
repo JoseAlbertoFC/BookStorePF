@@ -1,6 +1,7 @@
 const {User} = require("../../db.js")
 const bcrypt = require('bcrypt');
 const crypto = require('crypto');
+const {userNotification} = require('./notification.js');
 
 const saltRounds = 11;
 
@@ -50,6 +51,15 @@ const userRegister = async (name, birthday,country, phone, phoneCode, gender, em
             // console.log("created",created); 
             console.log("entro created");
             if (newUser) {
+                // userNotification = async (typeNotification,dataNotification)               
+                const dataNotification = {
+                    idNotification : 1,
+                    idUser: newUser.id,
+                    name: newUser.name,
+                    email: newUser.email,
+                    token: newUser.token
+                }
+                const enviacorreo = await userNotification(dataNotification)
             // await db.query("INSERT INTO users SET?", objRegister);
             dataState.state = true;
             dataState.text = "User registered successfully";

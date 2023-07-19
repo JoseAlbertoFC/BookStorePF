@@ -87,18 +87,18 @@ const getUserByParams = async(querysVars)=>{
         const whereCondition = {}; // Objeto para almacenar las condiciones de búsqueda
         const keyValues = ["country", "gender","rol","status","listWish"];
 
-        Object.entries(querysVars).forEach(([key, value]) => {
-            
-            if (keyValues.includes(key)) {                
-               if(key  === "listWish" ){
-                whereCondition[key] = { [Op.contains ]: value };
-               }else{
+        for (const [key, value] of Object.entries(querysVars)) {
+            if (keyValues.includes(key)) {
+              if (key === "listWish") {                
+                whereCondition[key] = {[Op.contains]: [value] };
+                // { [Op.any]: [value] };
+              } else {
                 whereCondition[key] = value;
-               }
+              }
             } else {
               whereCondition[key] = { [Op.iLike]: `%${value}%` };
             }
-          });
+          }
             console.log(whereCondition)
 
           const userFind = await User.findAll({ 
@@ -108,12 +108,12 @@ const getUserByParams = async(querysVars)=>{
             dataState.state = true;
             dataState.text = "Search successful***";
             dataState.detail = userFind;
-            return (JSON.stringify(dataState))
+            return dataState
         }else{
             dataState.state = false;
             dataState.text = "Search not found";
             dataState.detail = userFind;
-            return (JSON.stringify(dataState))
+            return dataState
         }
 
 
