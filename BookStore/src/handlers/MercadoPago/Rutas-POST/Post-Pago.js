@@ -3,12 +3,12 @@
 const {ORDER_PAY} = require('../../../controllers/MercadoPago/Order-Pay/Order-Pay')
 
 const Payment = async (req,res) => {
-  const {name,email,IdBook,carrito,typeMoney,userId}= req.body
+    const { name, email, IdBook, carrito,typeMoney,userId}= req.body
 
 
   try {
 
-    const result = await ORDER_PAY({carrito,name,email,IdBook,typeMoney,userId})
+      const result = await ORDER_PAY({ carrito, name, email, IdBook, typeMoney, userId })
 
     
 

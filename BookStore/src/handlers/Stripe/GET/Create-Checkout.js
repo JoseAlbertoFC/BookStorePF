@@ -5,9 +5,11 @@ const Checkout = async (req,res) => {
   
   try{
       const result = await createSession({ items, email, idBook, user, userId })
+      if(result.id) throw new Error("No se pudo crear el pago en la base de datos")
     res.status(200).json(result)
-  }catch(error){
-    res.status(400).json({message:error.message})
+  } catch (error) {
+      console.log(error.message)
+    res.status(400).json({error:error.message})
   }
 
 }
