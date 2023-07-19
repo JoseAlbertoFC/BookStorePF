@@ -10,11 +10,10 @@ const {StripePay} = require('./Stripe');
 
 const { commentsRoutes } = require("./Comments");
 
-<<<<<<< Updated upstream
 const {routeUsers} = require("./user.js");
-=======
+
 const { ChatGptRoute } = require("./ChatGpt");
->>>>>>> Stashed changes
+
 
 const router = Router();
 
