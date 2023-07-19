@@ -1,6 +1,6 @@
 // Libreria a utilizar para el envio de correos automatico
 const nodemailer = require("nodemailer");
-
+//
 // Dany trabajar en la coneccion de la data de usurio para llenar los campos de name ,from, to ,subjet
 
 //TODO El objeto dataPay solo viene por la parte de Pago 
@@ -18,7 +18,7 @@ const envioCorreo = async (name,email,mensaje,subjet, res) => {
 
     
     const mailOptions = {
-      from: "hoteldeveloperfull@gmail.com",
+      from: process.env.USER_CORREO,
       to: `${email}`,
       subject: `${subjet}`,
       html: `
