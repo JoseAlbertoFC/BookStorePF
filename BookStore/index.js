@@ -12,7 +12,7 @@ require('./swagger')(server);
 
 //TODO ###################################################################################################################################################
 
-conn.sync({ alter : true }).then(() => {
+conn.sync({ force : false }).then(() => {
   server.listen(process.env.PORT || 8000, () => {
     console.log(`Listening on port ${process.env.PORT}`);
   });

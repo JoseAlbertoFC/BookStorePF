@@ -14,6 +14,8 @@ const {routeUsers} = require("./user.js");
 
 const { ChatGptRoute } = require("./ChatGpt");
 
+const { Pays } = require("./Pays")
+
 
 const router = Router();
 
@@ -34,6 +36,10 @@ router.use('/', StripePay)
 //ChatGpt
 
 router.use('/', ChatGptRoute)
+
+//Pays
+
+router.use('/', Pays)
 
 //TODO Espacio de Dany Ruiz************************************************************************************************
 
