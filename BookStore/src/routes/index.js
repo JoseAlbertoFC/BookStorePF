@@ -18,6 +18,7 @@ const { ChatGptRoute } = require("./ChatGpt");
 const router = Router();
 
 //TODO Espacio de Dany Ruiz************************************************************************************************
+
 //Mercado Pago
 
 router.use("/", PayMercado);
