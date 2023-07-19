@@ -15,17 +15,21 @@ const readBooks = async () => {
       const dbDataBooks = [];
 
       for (let book of api) {
+        const authors = book.volumeInfo.authors
+          ? book.volumeInfo.authors.join(", ") 
+          : "Author not Available";
+
+        const categories = book.volumeInfo.categories
+          ? book.volumeInfo.categories.join(", ") 
+          : "Gender not Available";
+
         const apiData = {
           title: book.volumeInfo.title || "Title not Available",
-          author: book.volumeInfo.authors
-            ? book.volumeInfo.authors
-            : ["Author not Available"],
+          author: authors, 
           country: book.accessInfo.country,
           language: book.volumeInfo.language,
           image: book.volumeInfo.imageLinks?.thumbnail || "Image not Available",
-          gender: book.volumeInfo.categories
-            ? book.volumeInfo.categories
-            : ["Gender not Available"],
+          gender: categories, 
           sinopsis: book.volumeInfo.description || "Sinopsis not available.",
           price: book.saleInfo.listPrice?.amount || 0.0,
           publishedDate: book.volumeInfo.publishedDate || "Published Date not available",
@@ -48,6 +52,7 @@ const readBooks = async () => {
       return verifyDb;
     }
   } catch (error) {
+    console.log(error.message)
     throw new Error(error.message);
   }
 };
