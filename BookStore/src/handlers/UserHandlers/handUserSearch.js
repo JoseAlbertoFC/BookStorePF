@@ -3,18 +3,19 @@ const { getAllUsers,getUserByIdentificator, getUserByParams } = require("../../c
 //, 
 
 const getUsers = async (req, res) => {
-    const querysUser = req.query;
+    const {page} = req.query
+    const querysUser = req.body;
     const cantQuerys = Object.keys(querysUser).length;
     try {
         if (cantQuerys === 0) {
-             const dataUsers = await getAllUsers();
+             const dataUsers = await getAllUsers(page);
              if (dataUsers.state) {
                 res.status(200).json(dataUsers)            
             }else {
                 res.status(400).json(dataUsers)
             }
         } else {
-           const dataUsers = await getUserByParams(querysUser)
+           const dataUsers = await getUserByParams(querysUser,page)
            if (dataUsers.state) {
             res.status(200).json(dataUsers)            
         }else {

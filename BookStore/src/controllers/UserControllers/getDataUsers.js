@@ -1,24 +1,42 @@
 const {User} = require("../../db.js")
 const { Op } = require("sequelize");
 
-const getAllUsers = async()=>{
+const getAllUsers = async(page = 1)=>{
     const  dataState = {
         state: false,
         text:"",
         detail:""        
         };
     try{
-        const users = await User.findAll()
-        if (users.length > 0){
-            dataState.state = true;
-            dataState.text = "Search successful";
-            dataState.detail = users;
-            return dataState
-        }else{
-            dataState.state = false;
-            dataState.text = "No users found";
-            return dataState
-        }        
+        // const page = 1; // Número de página que deseas mostrar (comienza en 1)
+        const pageSize = 4; // Cantidad de resultados por página
+        const offset = (parseInt(page) - 1) * pageSize;
+        // console.log("page---",page);
+       // console.log("pageSize---",pageSize);
+        // console.log("offset",offset)
+
+            const { rows: findusers, count: totalUsers } = await User.findAndCountAll({            
+                offset: offset,
+                limit: pageSize,
+                order: [['createdAt', 'DESC']],
+                // where: {
+                //   // Aquí puedes agregar condiciones de búsqueda si es necesario
+                // },
+              })
+               console.log("findusers --->" ,findusers)
+            //   console.log("countUsers-->",countData)
+            if (findusers.length > 0){
+                // const result = { countData: countData, users: findusers };
+                dataState.state = true;
+                dataState.text = "Search successful";
+                dataState.detail = { totalUsers ,findusers} ;                
+                return dataState
+            }else{
+                dataState.state = false;
+                dataState.text = "No users found :::";
+                return dataState
+            }    
+            
     } catch(err){
         dataState.state = false;
         dataState.text = err.message;
@@ -77,7 +95,7 @@ const getUserByIdentificator = async(idUser)=>{
 }
 
 
-const getUserByParams = async(querysVars)=>{
+const getUserByParams = async(querysVars,page = 1)=>{
     const  dataState = {
         state: false,
         text:"",
@@ -99,23 +117,34 @@ const getUserByParams = async(querysVars)=>{
               whereCondition[key] = { [Op.iLike]: `%${value}%` };
             }
           }
-            console.log(whereCondition)
+            // console.log(whereCondition)
 
-          const userFind = await User.findAll({ 
-            where: whereCondition,
-        });
-        if(userFind.length >0){
-            dataState.state = true;
-            dataState.text = "Search successful***";
-            dataState.detail = userFind;
-            return dataState
-        }else{
-            dataState.state = false;
-            dataState.text = "Search not found";
-            dataState.detail = userFind;
-            return dataState
-        }
-
+            // console.log("page_2---",page);
+            // const page = 1; // Número de página que deseas mostrar (comienza en 1)
+             const pageSize = 4; // Cantidad de resultados por página
+            //  console.log("pageSize_2---",pageSize);
+             const offset = (parseInt(page) - 1) * pageSize;
+            //  console.log("offset_2",offset)
+     
+        
+                const { rows: userFind, count: totalUsers } = await User.findAndCountAll({ 
+                    offset: offset,
+                    limit: pageSize,
+                    where: whereCondition,
+                    order: [['createdAt', 'DESC']],
+                });
+                if(userFind.length > 0){                    
+                    dataState.state = true;
+                    dataState.text = "Search successful";
+                    dataState.detail = { totalUsers ,userFind} ;
+                    return dataState
+                }else{
+                    dataState.state = false;
+                    dataState.text = "Search not found";
+                    dataState.detail = userFind;
+                    return dataState
+                }
+             
 
     }catch(err){
         //throw Error(err.message);
