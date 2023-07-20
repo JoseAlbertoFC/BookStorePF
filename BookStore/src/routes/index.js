@@ -10,7 +10,7 @@ const {StripePay} = require('./Stripe');
 
 const { commentsRoutes } = require("./Comments");
 
-const {routeUsers} = require("./user.js");
+const {routeUsers} = require("./user.js")
 
 const { ChatGptRoute } = require("./ChatGpt");
 

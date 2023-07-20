@@ -9,7 +9,7 @@ const paranoidBook = async (id) => {
       );
       return await bookToRestore.restore();
     } catch (error) {
-      console.log(error.message)
+      // console.log(error.message)
       throw new Error({ error: error.message });
     }
   };

@@ -32,7 +32,7 @@ const createBook = async (
 
     return newBook;
   } catch (error) {
-    console.log(error.message)
+    // console.log(error.message)
     throw new Error({ error: error.message });
   }
 };
