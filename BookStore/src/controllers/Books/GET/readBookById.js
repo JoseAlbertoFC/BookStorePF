@@ -2,6 +2,7 @@ const { Book, Comment } = require("../../../db");
 
 const readBookById = async (id) => {
     try {
+      // console.log("id",id)
         return await Book.findByPk(id, {
           include: [
             {
@@ -12,7 +13,7 @@ const readBookById = async (id) => {
           ],
         });
       } catch (error) {
-        console.log(error.message);
+        // console.log(error.message);
         throw new Error({ error: error.message });
       }
 }

@@ -23,7 +23,7 @@ const getAllUsers = async(page = 1)=>{
                 //   // Aquí puedes agregar condiciones de búsqueda si es necesario
                 // },
               })
-               console.log("findusers --->" ,findusers)
+            //    console.log("findusers --->" ,findusers)
             //   console.log("countUsers-->",countData)
             if (findusers.length > 0){
                 // const result = { countData: countData, users: findusers };
@@ -52,19 +52,19 @@ const getUserByIdentificator = async(idUser)=>{
         };
     try{
         let userFind ={}
-        console.log("valID",idUser)
+        // console.log("valID",idUser)
         if(validateUUID(idUser)){
-            console.log("valID(1)",idUser)
+            // console.log("valID(1)",idUser)
             userFind = await User.findByPk(idUser)
-            console.log("userFind--",userFind.length)
+            // console.log("userFind--",userFind.length)
         }else{
             if(!validateEmail(idUser) ){
-                console.log("validateEmail--",validateEmail)
+                // console.log("validateEmail--",validateEmail)
                 dataState.state = false;
                 dataState.text = "No users found";
                 return dataState
             }else   {
-                console.log("valID(2)",idUser)
+                // console.log("valID(2)",idUser)
                 userFind = await User.findOne({
                     where: {
                         email: idUser
@@ -72,7 +72,7 @@ const getUserByIdentificator = async(idUser)=>{
                 })
             }
         }
-        console.log("userFind......",userFind)
+        // console.log("userFind......",userFind)
         if(userFind !== null){
             
             dataState.state = true;
@@ -86,7 +86,7 @@ const getUserByIdentificator = async(idUser)=>{
             return dataState
         }       
     } catch(err){
-        console.log(err);
+        // console.log(err);
         dataState.state = false;
         dataState.text = err;
         dataState.detail = err;

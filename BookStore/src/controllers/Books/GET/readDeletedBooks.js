@@ -14,7 +14,7 @@ const readDeletedBooks = async () => {
   
       return booksDeleted;
     } catch (error) {
-      console.log(error.message);
+      // console.log(error.message);
       throw new Error({ error: error.message });
     }
   };

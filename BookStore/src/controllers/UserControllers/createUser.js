@@ -13,7 +13,7 @@ const userRegister = async (name, birthday,country, phone, phoneCode, gender, em
         };
         try {      
             const objdata= {name, birthday,country, phone, phoneCode, gender, email, password, dniPasaport, status, rol, photoUser, listWish}
-            console.log(objdata)
+            // console.log(objdata)
 
             const hashedPassword = await bcrypt.hash(password, saltRounds);
             const token = crypto.randomBytes(7).toString('hex');
@@ -49,7 +49,7 @@ const userRegister = async (name, birthday,country, phone, phoneCode, gender, em
               
             // console.log("entro try",users);  
             // console.log("created",created); 
-            console.log("entro created");
+            // console.log("entro created");
             if (newUser) {
                 // userNotification = async (typeNotification,dataNotification)               
                 const dataNotification = {
@@ -72,7 +72,7 @@ const userRegister = async (name, birthday,country, phone, phoneCode, gender, em
                 throw  Error(JSON.stringify(dataState));
             }
           } catch (error) {
-            console.log(error);
+            // console.log(error);
             dataState.state = false;
             dataState.text = "ERROR INSERTANDO USER";
             dataState.detail = error.data ;            

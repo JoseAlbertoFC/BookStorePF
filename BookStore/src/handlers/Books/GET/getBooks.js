@@ -4,22 +4,20 @@ const {
 } = require("../../../controllers/Books/GET/readBookByQuery");
 
 const getBooks = async (req, res) => {
-  const querysVars = req.query;
-  try {
+  const {page} = req.query
+    const querysVars = req.body;
+    const cantQuerys = Object.keys(querysVars).length;
 
-    if (querysVars) {
-      const cantQuerys = Object.keys(querysVars).length;
-      if (cantQuerys > 0) {
-        const result = await readBookByQuery(querysVars);
+  try {
+      if (cantQuerys === 0) {
+        const result = await readBooks(page);
         res.status(200).json(result);
-      } else {
-        const result = await readBooks();
+      }else{   
+        console.log("page_2--> ",page )
+        const result = await readBookByQuery(querysVars,page);
         res.status(200).json(result);
       }
-    } else {
-      const result = await readBooks();
-      res.status(200).json(result);
-    }
+    
   } catch (error) {
     console.log(error.message);
     res.status(400).json({ error: error.message });

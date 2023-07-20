@@ -151,16 +151,13 @@ const booksRoutes = Router();
  */
 
 
-booksRoutes.get("/getBooks", getBooks);
+booksRoutes.post("/getBooks", getBooks);
+booksRoutes.post("/bookDetail/:id", getBookById);
+booksRoutes.post("/postBook", postBook);
 
 booksRoutes.get("/getDeletedBooks", getDeletedBooks);
 
-booksRoutes.get("/bookDetail/:id", getBookById);
-
-booksRoutes.post("/postBook", postBook);
-
 booksRoutes.put("/updateBook/:id", putBook);
-
 booksRoutes.put("/restoreBook/:id", restoreBook);
 
 booksRoutes.delete("/deleteBook/:id", deleteBook);

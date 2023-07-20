@@ -8,14 +8,14 @@ const updUserData =  async(idUser, updatedData) => {
         };
 
     try{
-        console.log("idUser",idUser)
+        // console.log("idUser",idUser)
         if(!idUser){           
             dataState.text = "The id User is required";
             return dataState;            
         }
 
             const UserExist = await User.findByPk(idUser);
-            console.log("UserExist",UserExist)
+            // console.log("UserExist",UserExist)
             if(!UserExist){              
                 dataState.text = "The user does not exist";
                 return dataState;            
@@ -23,7 +23,7 @@ const updUserData =  async(idUser, updatedData) => {
                 //console.log("******************updatedData***",updatedData)
                 const userUpd = await UserExist.update(updatedData);
 
-                console.log("******************userUpd ***",userUpd )
+                // console.log("******************userUpd ***",userUpd )
                 if(userUpd){
                     dataState.state = true;
                     dataState.text = "The user has been updated";

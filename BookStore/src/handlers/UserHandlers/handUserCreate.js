@@ -10,10 +10,10 @@ const registerUser = async(req, res) => {
         if (user.state) {
             res.status(200).json(user)            
         }else {
-            res.status(502).json(user)
+            res.status(400).json(user)
         }
     } catch (error) {
-        console.log(error)
+        // console.log(error)
         res.status(500).json(error)
     }
 }
