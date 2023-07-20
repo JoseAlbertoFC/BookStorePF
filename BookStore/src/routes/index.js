@@ -12,6 +12,11 @@ const { commentsRoutes } = require("./Comments");
 
 const {routeUsers} = require("./user.js");
 
+const { ChatGptRoute } = require("./ChatGpt");
+
+const { Pays } = require("./Pays")
+
+
 const router = Router();
 
 //TODO Espacio de Dany Ruiz************************************************************************************************
@@ -25,7 +30,16 @@ router.use("/", Whatsapp);
 
 //Stripe
 
-router.use('/',StripePay)
+router.use('/', StripePay)
+
+
+//ChatGpt
+
+router.use('/', ChatGptRoute)
+
+//Pays
+
+router.use('/', Pays)
 
 //TODO Espacio de Dany Ruiz************************************************************************************************
 

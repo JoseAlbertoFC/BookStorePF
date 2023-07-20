@@ -5,16 +5,17 @@ const { updatePay } = require("../../../controllers/Pay-Controllers/UPDATE/Updat
 const updatedataPay = async (req,res) => {
   const id  = req.params.id;
 const {   
-  amount,paymentDate,paymentStatus
+  paymentStatus
  } = req.body;
 
 
   
   
 
-  try {
+    try {
+     
 
-    const result = await updatePay({id,amount,paymentDate,paymentStatus});
+    const result = await updatePay({id,paymentStatus});
     
     if(result === null) throw new Error('Pago no encontrado.') 
     

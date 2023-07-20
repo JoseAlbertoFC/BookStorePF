@@ -15,9 +15,13 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
 
-      },
+        },
+        bookIds: {
+            type: DataTypes.ARRAY(DataTypes.STRING), 
+            allowNull: false,
+        },
       idpay:{
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: false,
       },
       orderNumber:{
@@ -66,10 +70,8 @@ module.exports = (sequelize) => {
       },
       paymentDate: {
         type: DataTypes.STRING,
-        allowNull: false,
-        validate: {
-          isDate: true,
-        },
+        allowNull: true,
+        
       },
       paymentStatus: {
         type: DataTypes.STRING,

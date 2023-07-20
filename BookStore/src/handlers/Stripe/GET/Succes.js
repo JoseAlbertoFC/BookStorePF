@@ -1,4 +1,5 @@
-const {envioCorreo} = require("../../../controllers/EnvioCorreos/send-Succes/Post-Emails");
+const { envioCorreo } = require("../../../controllers/EnvioCorreos/send-Succes/Post-Emails");
+const { updatedataPay } = require("../../../handlers/Pay-Handlers/UPDATE/updatePayments");
 const Succes = async (req,res) => {
   const {idBook,user,email,session_id} = req.query
   

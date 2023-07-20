@@ -15,7 +15,7 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       author: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
+        type: DataTypes.STRING,
         allowNull: false,
       },
       country: {
@@ -31,7 +31,7 @@ module.exports = (sequelize) => {
         allowNull: false,
       },
       gender: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
+        type: DataTypes.STRING,
         allowNull: true,
       },
       sinopsis: {

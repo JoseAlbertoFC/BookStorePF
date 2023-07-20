@@ -5,10 +5,11 @@ const { envioCorreo } = require("../../EnvioCorreos/Post-Emails");
 
 // La funcion de pago captura el id  el pago el bokingid y el userid para poder generar el recibo con la informacion de pago.
 
-const WEBHOOK_PAY = async ({payment,id, IdBook, email, name,userId}) => {
+const WEBHOOK_PAY = async ({ payment, id, IdBook, email, name, userId }) => {
+    
   try {
     if (payment.type === "payment") {
-      const data = await mercadopago.payment.findById(id);
+        const data = await mercadopago.payment.findById(id);
       dataPay = {
         ip: data.body.additional_info.ip_address,
         idpay: data.body.id,
@@ -23,11 +24,22 @@ const WEBHOOK_PAY = async ({payment,id, IdBook, email, name,userId}) => {
         email: email,
         name: name,
         IdBook: IdBook,
-        userId:userId,
+          userId: userId,
+          title: data.body.additional_info.items?.map((item) => (item.title)),
+          quantity: data.body.additional_info.items?.map((item) => (item.quantity)),
+          unit_price: data.body.additional_info.items?.map((item) => (item.unit_price)),
+          category_id: data.body.additional_info.items?.map((item) => (item.category_id)),
+          description: data.body.additional_info.items?.map((item) => (item.description)),
+          bookIds: data.body.additional_info.items?.map((item) => (item.category_id)),
+
+          
+
         
-      };
+        };
+
       
-    }
+      }
+    
     // Se envia la data del recibo de pago a la funcion para crear el nuego pago en la base de datos.
     const pay = await newPay(dataPay);
     // se Mandan los datos a la funcion correo  para poder enviar en automatico el correo una vez que realiza el pago.

@@ -4,27 +4,37 @@ const mercadopago = require("mercadopago");
 const { ACCES_TOKEN } = process.env;
 
 // Esta funcion genera una orden de pago recibe el carrito y el userid junto con el bokingid para poder registrar los datos de la reserva que el cliente esta haciendo.
-const ORDER_PAY = async ({carrito, name, email,typeMoney,IdBook,userId}) => {
-  mercadopago.configure({
-    access_token: ACCES_TOKEN,
-  });
+const ORDER_PAY = async ({ carrito, name, email, IdBook, typeMoney, userId }) => {
+    mercadopago.configure({
+        access_token: ACCES_TOKEN,
+    });
 
-  const items = carrito.map((item) => ({
-    title: item.nombre,
-    unit_price: item.precio,
-    currency_id: typeMoney,
-    quantity: item.cantidad,
-  }));
-
+    const items = carrito.map((item) => ({
+        IdBook: item.IdBook,
+        title: item.nombre,
+        unit_price: item.precio,
+        currency_id: item.typeMoney,
+        quantity: item.cantidad,
+        category_id: item.IdBook,
+        description: item.description,
+    }));
+    
+    
   // En este apartado en desarrollo tienes que correr el ngrok en una consola aparte y copiar el url que te brinda.
-  const notificationURL ="https://ebc6-2806-2f0-49a1-ff6e-712d-3ad9-efdd-9086.ngrok.io/webhook-pago";
+    const notificationURL ="https://42a8-2806-2f0-49a1-ff6e-f2c4-effd-14bf-3d6b.ngrok.io/webhook-pago";
   const additionalData = {
     IdBook: IdBook,
     email: email,
     name: name,
-    userId:userId,
-  };
+    userId: userId,
+      
+     
+      
+     
 
+
+    };
+ 
   const encodedData = Object.entries(additionalData)
     .map(
       ([key, value]) =>
@@ -37,9 +47,9 @@ const ORDER_PAY = async ({carrito, name, email,typeMoney,IdBook,userId}) => {
   const compra = await mercadopago.preferences.create({
     items,
     back_urls: {
-      success: "https://ebc6-2806-2f0-49a1-ff6e-712d-3ad9-efdd-9086.ngrok.io/succes",
-      failure: "https://ebc6-2806-2f0-49a1-ff6e-712d-3ad9-efdd-9086.ngrok.io/failure",
-      pending: "https://ebc6-2806-2f0-49a1-ff6e-712d-3ad9-efdd-9086.ngrok.io/pending",
+        success: "https://f130-2806-2f0-49a1-ff6e-a16d-2783-cab5-f207.ngrok.io/succes",
+        failure: "https://f130-2806-2f0-49a1-ff6e-a16d-2783-cab5-f207.ngrok.io/failure",
+        pending: "https://f130-2806-2f0-49a1-ff6e-a16d-2783-cab5-f207.ngrok.io/pending",
     },
     notification_url: notificationURLWithParams,
   });
