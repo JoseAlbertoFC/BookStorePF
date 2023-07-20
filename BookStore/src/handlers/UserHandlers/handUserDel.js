@@ -9,9 +9,9 @@ const deleteUser = async(req,res) =>{
         // console.log(idHotel);
         const dataUser = await userDelete(idUser)
         if(dataUser.state){
-            res.status(200).json(dataHotels );        
+            res.status(200).json(dataUser );        
         }else{
-            res.status(400).json(dataHotels );        
+            res.status(400).json(dataUser );        
         }       
         
     }catch(error){
@@ -21,5 +21,5 @@ const deleteUser = async(req,res) =>{
 
 
 module.exports = {
-    deleteHotel   
+    deleteUser   
 }

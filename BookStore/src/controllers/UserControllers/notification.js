@@ -6,14 +6,17 @@ const userNotification = async (dataNotification) => {
     try {
         console.log(dataNotification)
         const {idNotification,idUser,name,email,token}= dataNotification
+        const subjet = "E-Books"         
+        const mensaje = "E-Books portal de venta ed libros electronicos"
 
         if(idNotification === 1){
-            let mensaje = "mensaje de prueba del cuerpo del texto"
-            let subjet = "correo de bienvenida"
-            await envioCorreo(name,email,mensaje,subjet)
+            subjet = "Bienvenido a E-Books"         
+            mensaje = `Gracias por registrarte en el portal de `
         }
+
+        await envioCorreo(name,email,mensaje,subjet)
         
-        //await envioCorreo("<NAME>","<EMAIL>","Mensaje de prueba","Mensaje de prueba")
+        
         return true
     } catch (error) {
         console.log(error)

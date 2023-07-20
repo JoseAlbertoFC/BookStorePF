@@ -78,8 +78,7 @@ const envioCorreo = async (name,email,mensaje,subjet, res) => {
         <div class="container">
             <h1>Mensaje de  E-Books</h1>
            
-                <p><strong>Querido(a) ${name}</strong></p>
-                
+                <p><strong>¡Hola!  Apreciado(a) ${name} </strong></p>
            
             <h2>Mensaje:</h2>
             <p>${mensaje}</p>
