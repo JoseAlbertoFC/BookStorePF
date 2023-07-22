@@ -9,6 +9,7 @@ const userNotification = async (dataNotification) => {
         // console.log(dataNotification)
         const {idNotification,idUser,name,email,token}= dataNotification
         const serverWeb = process.env.URL_SERVER 
+        console.log(serverWeb);
         let subjet = "E-Books"         
         let mensaje = "E-Books portal de venta de libros electronicos"
         
