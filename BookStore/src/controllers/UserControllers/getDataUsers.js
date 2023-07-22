@@ -9,11 +9,11 @@ const getAllUsers = async(page = 1)=>{
         };
     try{
         // const page = 1; // Número de página que deseas mostrar (comienza en 1)
-        const pageSize = 4; // Cantidad de resultados por página
+        const pageSize = process.env.PAGES_ITEMS ; // Cantidad de resultados por página
         const offset = (parseInt(page) - 1) * pageSize;
-        // console.log("page---",page);
-       // console.log("pageSize---",pageSize);
-        // console.log("offset",offset)
+    //     console.log("page---",page);
+    //    console.log("pageSize---",pageSize);
+    //     console.log("offset",offset)
 
             const { rows: findusers, count: totalUsers } = await User.findAndCountAll({            
                 offset: offset,
@@ -117,11 +117,11 @@ const getUserByParams = async(querysVars,page = 1)=>{
               whereCondition[key] = { [Op.iLike]: `%${value}%` };
             }
           }
-            // console.log(whereCondition)
+            console.log(whereCondition)
 
             // console.log("page_2---",page);
             // const page = 1; // Número de página que deseas mostrar (comienza en 1)
-             const pageSize = 4; // Cantidad de resultados por página
+             const pageSize = process.env.PAGES_ITEMS; // Cantidad de resultados por página
             //  console.log("pageSize_2---",pageSize);
              const offset = (parseInt(page) - 1) * pageSize;
             //  console.log("offset_2",offset)
@@ -133,6 +133,7 @@ const getUserByParams = async(querysVars,page = 1)=>{
                     where: whereCondition,
                     order: [['createdAt', 'DESC']],
                 });
+
                 if(userFind.length > 0){                    
                     dataState.state = true;
                     dataState.text = "Search successful";

@@ -5,6 +5,7 @@ const {registerUser} = require("./handUserCreate.js")
 const {deleteUser} = require("./handUserDel.js")
 const { restoreUsers } = require("./handUserRestore.js")
 const { getDeletedUsers } = require("./handReadDelUsers.js")
+const {getActiveUsers} = require("./handActivateUser.js")
 module.exports = {
     registerUser,
     getUsersbyId, 
@@ -12,5 +13,6 @@ module.exports = {
     putEditUser,
     deleteUser,
     restoreUsers,
-    getDeletedUsers
+    getDeletedUsers,
+    getActiveUsers
 }

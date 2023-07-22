@@ -9,6 +9,7 @@ const { userNotification } = require("./notification.js");
 const { userDelete } = require("./delUser.js");
 const { paranoidUser } = require("./restoreUser.js");
 const { readDeletedUsers } = require("./readDelUsers.js");
+const {userTokenActiv} = require("./activateUser.js")
 
 module.exports = {
   userRegister,
@@ -20,4 +21,5 @@ module.exports = {
   userDelete,
   paranoidUser,
   readDeletedUsers,
+  userTokenActiv
 };

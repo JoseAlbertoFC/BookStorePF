@@ -5,18 +5,18 @@ const {userNotification} = require('./notification.js');
 
 const saltRounds = 11;
 
-const userRegister = async (name, birthday,country, phone, phoneCode, gender, email, password, dniPasaport, status, rol, photoUser, listWish) => {
+const userRegister = async (name, birthday,country, phone, phoneCode, gender, email, password, dniPasaport, photoUser, listWish) => {
     const  dataState = {
         state: false,
         text:"",
         detail:""        
         };
         try {      
-            const objdata= {name, birthday,country, phone, phoneCode, gender, email, password, dniPasaport, status, rol, photoUser, listWish}
+            const objdata= {name, birthday,country, phone, phoneCode, gender, email, password, dniPasaport, photoUser, listWish}
             // console.log(objdata)
 
             const hashedPassword = await bcrypt.hash(password, saltRounds);
-            const token = crypto.randomBytes(7).toString('hex');
+            const token = crypto.randomBytes(13).toString('hex');
 
             const userFind = await User.findOne({
                 where: {
@@ -39,9 +39,7 @@ const userRegister = async (name, birthday,country, phone, phoneCode, gender, em
                     gender:gender, 
                     email:email, 
                     password:hashedPassword,
-                    dniPasaport:dniPasaport,
-                    status: status,
-                    rol:rol,
+                    dniPasaport:dniPasaport,                  
                     photoUser:photoUser,
                     listWish:listWish,
                     token:token
