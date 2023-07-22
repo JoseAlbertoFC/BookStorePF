@@ -19,18 +19,18 @@ const userNotification = async (dataNotification) => {
             subjet = "Bienvenido a E-Books"         
             mensaje = `            
            <h1>Gracias por registrarte en el portal de "E-Books"</h1>
-            <p>Aqu√≠ podr√°s encontrar una gran variedad de libros en l√≠nea.</p>
-            <p>Para poder activar tu usuario en el portal, haz clic en el siguiente bot√≥n:</p>
+            <p>AquÌ podr·s encontrar una gran variedad de libros en lÌnea.</p>
+            <p>Para poder activar tu usuario en el portal, haz clic en el siguiente botÛn:</p>
             <a href="${serverWeb}?valtoken=${TokenEmail}" class="activation-button">Activar Usuario</a>
             <p>Deseamos que disfrutes la lectura con nosotros.</p>
             ` }
 
             if(idNotification === 2){
-                subjet = "Cambio de Contrase√±a para E-Books"         
+                subjet = "Cambio de ContraseÒa para E-Books"         
                 mensaje = `            
-               <h1>Usted ha solicitado Cambio de contrase√±a para el portal de "E-Books"</h1>
+               <h1>Usted ha solicitado Cambio de contraseÒa para el portal de "E-Books"</h1>
                 
-                <p>Para realizar el cambio ed contrase√±a, haz clic en el siguiente bot√≥n:</p>
+                <p>Para realizar el cambio ed contraseÒa, haz clic en el siguiente botÛn:</p>
                 <a href="${serverWeb}?valtoken=${TokenEmail}" class="activation-button">Cambiar PassWord</a>
                 
                 ` } 
