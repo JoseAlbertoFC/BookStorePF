@@ -10,6 +10,8 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
+console.log('Funciono')
+
 const ChatGptController = async (prompt) => {
   
     try { 
