@@ -47,7 +47,7 @@ const readBookByQuery = async (querysVars, page) => {
 
     if (findBook.length > 0) {
       const totalPages = Math.ceil(totalBooks / pageSize); 
-      return (totalPages,findBook );
+      return ({ totalPages:totalPages, book: findBook });
     } else {
       return ({ mensaje: "No se encontraron coincidencias." });
     }
