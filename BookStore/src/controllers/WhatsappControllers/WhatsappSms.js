@@ -7,103 +7,90 @@ const client = twilio(accountSid, authToken);
 
 // Función para Enviar Mensajes de WhatsApp Automáticos.
 const WhatsappSms = (message, sender) => {
+    const options = [
+        'hola',
+        'libros',
+        'disponibilidad',
+        'precios',
+        'comprar',
+        'cancelar',
+        'ayuda',
+        'adios'
+    ]
+
     try {
-        if (message === 'hola') {
-            const mensagge = client.messages.create({
-                from: 'whatsapp:+14155238886',
-                to: sender,
-                body: automaticResponses[0].response
-            }).then((mensagge) => {
-                console.log('Respuesta enviada con éxito.');
-            }).catch((err) => {
-                console.error('Error al enviar la respuesta:', err);
-            });
-        } else if (message === 'habitaciones') {
-            const mensagge = client.messages.create({
-                from: 'whatsapp:+14155238886',
-                to: sender,
-                body: automaticResponses[1].response
-            }).then((mensagge) => {
-                console.log('Respuesta enviada con éxito.');
-            }).catch((err) => {
-                console.error('Error al enviar la respuesta:', err);
-            });
-        } else if (message === 'disponibilidad') {
-            const mensagge = client.messages.create({
-                from: 'whatsapp:+14155238886',
-                to: sender,
-                body: automaticResponses[2].response
-            }).then((mensagge) => {
-                console.log('Respuesta enviada con éxito.');
-            }).catch((err) => {
-                console.error('Error al enviar la respuesta:', err);
-            });
-        } else if (message === 'tarifas') {
-            const mensagge = client.messages.create({
-                from: 'whatsapp:+14155238886',
-                to: sender,
-                body: automaticResponses[3].response
-            }).then((mensagge) => {
-                console.log('Respuesta enviada con éxito.');
-            }).catch((err) => {
-                console.error('Error al enviar la respuesta:', err);
-            });
-        } else if (message === 'reservar') {
-            const mensagge = client.messages.create({
-                from: 'whatsapp:+14155238886',
-                to: sender,
-                body: automaticResponses[4].response
-            }).then((mensagge) => {
-                console.log('Respuesta enviada con éxito.');
-            }).catch((err) => {
-                console.error('Error al enviar la respuesta:', err);
-            });
-        } else if (message === 'cancelar') {
-            const mensagge = client.messages.create({
-                from: 'whatsapp:+14155238886',
-                to: sender,
-                body: automaticResponses[5].response
-            }).then((mensagge) => {
-                console.log('Respuesta enviada con éxito.');
-            }).catch((err) => {
-                console.error('Error al enviar la respuesta:', err);
-            });
-        } else if (message === 'ayuda') {
-            const mensagge = client.messages.create({
-                from: 'whatsapp:+14155238886',
-                to: sender,
-                body: automaticResponses[6].response
-            }).then((mensagge) => {
-                console.log('Respuesta enviada con éxito.');
-            }).catch((err) => {
-                console.error('Error al enviar la respuesta:', err);
-            });
-        } else if (message === 'adios') {
-            const mensagge = client.messages.create({
-                from: 'whatsapp:+14155238886',
-                to: sender,
-                body: automaticResponses[7].response
-            }).then((mensagge) => {
-                console.log('Respuesta enviada con éxito.');
-            }).catch((err) => {
-                console.error('Error al enviar la respuesta:', err);
-            });
-        } else if (message) {
-            const mensagge = client.messages.create({
-                from: 'whatsapp:+14155238886',
-                to: sender,
-                body: automaticResponses[8].response
-            }).then((mensagge) => {
-                console.log('Respuesta enviada con éxito.');
-            }).catch((err) => {
-                console.error('Error al enviar la respuesta:', err);
-            });
+
+        switch (message) {
+            case 'hola':
+                const message1 = client.messages.create({
+                    from: 'whatsapp:+14155238886',
+                    to: sender,
+                    body: automaticResponses[0].response
+                });
+                return { message: 'Mensaje Enviado', Options: options, Message: automaticResponses[0].response };
+            case 'libros':
+                const message2 = client.messages.create({
+                    from: 'whatsapp:+14155238886',
+                    to: sender,
+                    body: automaticResponses[1].response
+                });
+                return { message: 'Mensaje Enviado', Options: options, Message: automaticResponses[1].response };
+            case 'disoponibilidad':
+                const message3 = client.messages.create({
+                    from: 'whatsapp:+14155238886',
+                    to: sender,
+                    body: automaticResponses[2].response
+                });
+                return { message: 'Mensaje Enviado', Options: options, Message: automaticResponses[2].response };
+            case 'precios':
+                const message4 = client.messages.create({
+                    from: 'whatsapp:+14155238886',
+                    to: sender,
+                    body: automaticResponses[3].response
+                });
+                return { message: 'Mensaje Enviado', Options: options, Message: automaticResponses[3].response };
+            case 'comprar':
+                const message5 = client.messages.create({
+                    from: 'whatsapp:+14155238886',
+                    to: sender,
+                    body: automaticResponses[4].response
+                });
+                return { message: 'Mensaje Enviado', Options: options, Message: automaticResponses[4].response };
+            case 'cancelar':
+                const message6 = client.messages.create({
+                    from: 'whatsapp:+14155238886',
+                    to: sender,
+                    body: automaticResponses[5].response
+                });
+                return { message: 'Mensaje Enviado', Options: options, Message: automaticResponses[5].response };
+            case 'ayuda':
+                const message7 = client.messages.create({
+                    from: 'whatsapp:+14155238886',
+                    to: sender,
+                    body: automaticResponses[6].response
+                });
+                return { message: 'Mensaje Enviado', Options: options, Message: automaticResponses[6].response };
+            case 'adios':
+                const message8 = client.messages.create({
+                    from: 'whatsapp:+14155238886',
+                    to: sender,
+                    body: automaticResponses[7].response
+                });
+                return { message: 'Mensaje Enviado', Options: options, Message: automaticResponses[7].response };
+            default:
+                const message9 = client.messages.create({
+                    from: 'whatsapp:+14155238886',
+                    to: sender,
+                    body: automaticResponses[8].response
+                });
+                return { message: 'Disculpa, no he entendido tu pregunta. Por favor, Elije una opcion Valida.', Options: options, Message: automaticResponses[8].response };
         }
 
-        return message;
+     
     } catch (error) {
-        throw new Error({ error: error.message });
+      return ({ error: error.message });
     }
+      
 };
 
 module.exports = WhatsappSms;
