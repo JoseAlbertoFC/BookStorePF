@@ -32,7 +32,7 @@ const readBooks = async (page = 1) => {
       
     }
   } catch (error) {
-    // console.log(error.message);
+    console.log(error.message);
     throw new Error(error.message);
   }
 };
