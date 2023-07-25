@@ -10,8 +10,6 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-console.log('Funciono')
-
 const ChatGptController = async (prompt) => {
   
     try { 
@@ -26,7 +24,7 @@ const ChatGptController = async (prompt) => {
         console.log(response)
     } catch (error) {
         console.error('Error al llamar a la API de OpenAI:', error.message);
-        throw new Error('Ocurrió un error al procesar la solicitud.');
+        throw new Error('OcurriÃ³ un error al procesar la solicitud.');
     } 
 
 }
