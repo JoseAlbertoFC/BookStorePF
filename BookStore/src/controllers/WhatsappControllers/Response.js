@@ -33,7 +33,7 @@ const automaticResponses = [
     },
     {
     keyword: 'default',
-    response: 'Disculpa, no he entendido tu pregunta. Por favor, sé más específico en tu consulta.'
+        response: 'Disculpa, no he entendido tu pregunta. Por favor, Elije una opcion Valida.'
     }
     ];
 
