@@ -34,7 +34,7 @@ let capsEntries = entries.map((entry) => [
 ]);
 sequelize.models = Object.fromEntries(capsEntries);
 
-const { User, Book, Comment, Pay } = sequelize.models;
+const { User, Book, Comment, Pay, SettingsBooks  } = sequelize.models;
 
 User.hasMany(Pay, { as: "pays", foreignKey: "userId" });
 User.hasMany(Comment, { as: "comments", foreignKey: "userId" });
