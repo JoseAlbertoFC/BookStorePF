@@ -4,23 +4,23 @@ const {SettingsBooks} = require("../../db.js")
 const { Op } = require("sequelize");
 
 
-const insertSettingsDatabase = async () => {
+const insertSettCattegories = async () => {
 
 try{
-
+    
     for( let dataBook of book) {
         
         //console.log("dataBook",dataBook);
 
-        const authors = dataBook.volumeInfo.authors;
-        if(dataBook.volumeInfo.authors){
+        const categori = dataBook.volumeInfo.categories;
+        if(dataBook.volumeInfo.categories){
             //console.log("authors ok");
-            //console.log("authors ",authors );
-         const authorPromises = authors.map(async (author) => {
+            console.log("categori ",categori );
+         const authorPromises = categori.map(async (categories) => {
        
-        const type = "AUTHORS";
-        const nameType = author;
-            // console.log("author",author);
+        const type = "CATEGORIES";
+        const nameType = categories;
+            console.log("categori----",categories);
             //const { rows: findusers, count: totalUsers } = await User.findAndCountAll() 
             const existingAuthor = await  SettingsBooks.count({
                 where: {
@@ -29,12 +29,12 @@ try{
                       }
             })
         if (existingAuthor === 0) {
-            // console.log("********************************");
+            console.log("********************************");
           // Si el autor no existe, crear un nuevo registro en la tabla SettingsBooks
           await SettingsBooks.create({
             type,
             nameType,
-            descType: "Description for author",
+            descType: "Categories",
             status: true,
           });
         }
@@ -68,5 +68,5 @@ try{
 
   module.exports = {
 
-    insertSettingsDatabase
+    insertSettCattegories
   }
