@@ -15,12 +15,12 @@ try{
         const categori = dataBook.volumeInfo.categories;
         if(dataBook.volumeInfo.categories){
             //console.log("authors ok");
-            console.log("categori ",categori );
+            // console.log("categori ",categori );
          const authorPromises = categori.map(async (categories) => {
        
         const type = "CATEGORIES";
         const nameType = categories;
-            console.log("categori----",categories);
+            // console.log("categori----",categories);
             //const { rows: findusers, count: totalUsers } = await User.findAndCountAll() 
             const existingAuthor = await  SettingsBooks.count({
                 where: {
@@ -29,7 +29,7 @@ try{
                       }
             })
         if (existingAuthor === 0) {
-            console.log("********************************");
+            // console.log("********************************");
           // Si el autor no existe, crear un nuevo registro en la tabla SettingsBooks
           await SettingsBooks.create({
             type,
