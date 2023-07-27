@@ -58,6 +58,7 @@ const userRegister = async (name, birthday,country, phone, phoneCode, gender, em
                     token: newUser.token
                 }
                 const enviacorreo = await userNotification(dataNotification)
+                
             // await db.query("INSERT INTO users SET?", objRegister);
             dataState.state = true;
             dataState.text = "User registered successfully";
@@ -70,7 +71,7 @@ const userRegister = async (name, birthday,country, phone, phoneCode, gender, em
                 throw  Error(JSON.stringify(dataState));
             }
           } catch (error) {
-            // console.log(error);
+             console.log(error);
             dataState.state = false;
             dataState.text = "ERROR INSERTANDO USER";
             dataState.detail = error.data ;            

@@ -117,7 +117,7 @@ const getUserByParams = async(querysVars,page = 1)=>{
               whereCondition[key] = { [Op.iLike]: `%${value}%` };
             }
           }
-            // console.log(whereCondition)
+            console.log(whereCondition)
 
             // console.log("page_2---",page);
             // const page = 1; // Número de página que deseas mostrar (comienza en 1)

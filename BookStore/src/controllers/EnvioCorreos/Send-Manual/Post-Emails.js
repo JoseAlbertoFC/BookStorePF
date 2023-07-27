@@ -13,7 +13,10 @@ const envioCorreo = async (name,email,mensaje,subjet, res) => {
         user: process.env.USER_CORREO,
         pass: process.env.USER_PASS_CORREO,
       },
-      secure: true, // Habilitar la conexión segura
+      secure: false, // Habilitar la conexión segura
+      tls: {
+        rejectUnauthorized: false,
+      },
     });
 
     
@@ -71,6 +74,17 @@ const envioCorreo = async (name,email,mensaje,subjet, res) => {
                 height: auto;
                 border: 1px solid #ccc;
                 box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            }
+            /* Estilos del botón */
+            .activation-button {
+              background-color: #007bff;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              border-radius: 5px;
+              text-decoration: none;
+              font-size: 16px;
+              cursor: pointer;
             }
         </style>
     </head>
