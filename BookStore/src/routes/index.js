@@ -15,6 +15,7 @@ const {routeUsers} = require("./user.js")
 const { ChatGptRoute } = require("./ChatGpt");
 
 const { Pays } = require("./Pays")
+const {routeSettings} = require("./settingsBooks.js")
 
 
 const router = Router();
@@ -52,6 +53,7 @@ router.use("/", commentsRoutes);
 //TODO Espacio de Jose A Fuenmayor*****************************************************************************************
 
 router.use("/", routeUsers);
+router.use("/", routeSettings);
 
 
 module.exports = router;
