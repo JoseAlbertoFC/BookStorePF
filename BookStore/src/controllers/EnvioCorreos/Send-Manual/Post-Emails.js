@@ -13,7 +13,10 @@ const envioCorreo = async (name,email,mensaje,subjet, res) => {
         user: process.env.USER_CORREO,
         pass: process.env.USER_PASS_CORREO,
       },
-      secure: true, // Habilitar la conexión segura
+      secure: false, // Habilitar la conexión segura
+      tls: {
+        rejectUnauthorized: false,
+      },
     });
 
     
