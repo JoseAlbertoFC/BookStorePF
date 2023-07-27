@@ -12,7 +12,7 @@ const WhatsappHandler = async  (req, res,next) => {
 
        
 
-        res.status(200).json({ Whatsapp: "Enviado con exito" });
+        res.status(200).json({ Whatsapp: result });
 
     } catch (error) {
         res.status(404).json({ Whatsapp: "Mensaje no Enviado Error -->" ,error: error.message})
