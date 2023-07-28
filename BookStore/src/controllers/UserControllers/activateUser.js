@@ -135,7 +135,7 @@ const userTokenActiv = async (querysUser) => {
                     
                     //const tokenEmail = await urlToken(idUser,token)
                     const dataNotification = {
-                        idNotification : 4,
+                        idNotification : 2,
                         idUser: idUser,
                         name: nameUser,
                         email: data1,
@@ -255,7 +255,7 @@ const changeUser = async (whereCondition, newValor) => {
 const tokenDecrypt =(cryptKey)=>{
     let x, y;
     let position = cryptKey.substring(cryptKey.length - 2, cryptKey.length); //longituddel token
-    (x = 10), (y = x + parseInt(position));
+    (x = 9), (y = x + parseInt(position));
     // console.log(x,y)
     let part2 = cryptKey.substring(x, y);
     (x = y), (y = y + 26); //y+26

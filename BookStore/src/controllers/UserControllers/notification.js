@@ -22,11 +22,11 @@ const userNotification = async (dataNotification) => {
            <h1>Gracias por registrarte en el portal de "E-Books"</h1>
             <p>Aquí podrás encontrar una gran variedad de libros en línea.</p>
             <p>Para poder activar tu usuario en el portal, haz clic en el siguiente botón:</p>
-            <a href="${serverWeb}?valtoken=${idNotification}${TokenEmail}" class="activation-button">Activar Usuario</a>
+            <a href="${serverWeb}?valtoken=${TokenEmail}" class="activation-button">Activar Usuario</a>
             <p>Deseamos que disfrutes la lectura con nosotros.</p>
             ` }
 
-            if(idNotification === 4){
+            if(idNotification === 2){
                 subjet = "Cambio de Contraseña para E-Books"         
                 mensaje = `            
                <h1>Usted ha solicitado Cambio de contraseña para el portal de "E-Books"</h1>
