@@ -39,8 +39,6 @@ server.use('/', routes);
 
 server.use(express.static(path.resolve("src/handlers/Stripe/Templates-Prueba")));
 
-insertDBAuthors()
-insertDBCategories()
 
 
 server.use((err, req, res, next) => {
