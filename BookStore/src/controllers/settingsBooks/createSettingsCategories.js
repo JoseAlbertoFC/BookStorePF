@@ -24,7 +24,7 @@ try{
             //const { rows: findusers, count: totalUsers } = await User.findAndCountAll() 
             const existingAuthor = await  SettingsBooks.count({
                 where: {
-                        type: type,
+                        type: "AUTHORS",
                         nameType: nameType,
                       }
             })
