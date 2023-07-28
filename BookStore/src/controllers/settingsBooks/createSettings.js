@@ -7,7 +7,6 @@ const { Op } = require("sequelize");
 const insertSettingsDatabase = async () => {
 
 try{
-
     for( let dataBook of book) {
         
         //console.log("dataBook",dataBook);
@@ -15,29 +14,37 @@ try{
         const authors = dataBook.volumeInfo.authors;
         if(dataBook.volumeInfo.authors){
             //console.log("authors ok");
-            //console.log("authors ",authors );
+            console.log("authors ",authors );
          const authorPromises = authors.map(async (author) => {
        
         const type = "AUTHORS";
         const nameType = author;
-            // console.log("author",author);
+            console.log("author",author);
             //const { rows: findusers, count: totalUsers } = await User.findAndCountAll() 
-            const existingAuthor = await  SettingsBooks.count({
-                where: {
-                        type: "AUTHORS",
-                        nameType: nameType,
-                      }
-            })
-        if (existingAuthor === 0) {
-            // console.log("********************************");
-          // Si el autor no existe, crear un nuevo registro en la tabla SettingsBooks
-          await SettingsBooks.create({
-            type,
-            nameType,
-            descType: "Description for author",
-            status: true,
-          });
-        }
+            // const dataBD = await  SettingsBooks.findAndCountAll({
+            //     where: {
+            //             type: "AUTHORS",
+            //             nameType: nameType,
+            //           }
+            // })
+                                  
+        // // Verificar si el autor ya existe en la base de datos
+        // const existingAuthor = await SettingsBooks.count({
+        //   where: {
+        //     type: "AUTHORS",
+        //     nameType: nameType,
+        //   },
+        // });
+
+        // if (existingAuthor === 0) {
+        //   // Si el autor no existe, crear un nuevo registro en la tabla SettingsBooks
+        //   await SettingsBooks.create({
+        //     type,
+        //     nameType,
+        //     descType: "Description for author",
+        //     status: true,
+        //   });
+        // }
       });
 
         }
