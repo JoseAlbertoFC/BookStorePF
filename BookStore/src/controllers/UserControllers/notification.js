@@ -32,8 +32,7 @@ const userNotification = async (dataNotification) => {
                <h1>Usted ha solicitado Cambio de contraseña para el portal de "E-Books"</h1>
                 
                 <p>Para realizar el cambio ed contraseña, haz clic en el siguiente botón:</p>
-                <a href="${serverWeb}?valtokenPass=${TokenEmail}" class="activation-button">Cambiar PassWord</a>
-                
+                <a href="${serverWeb}?valtoken=${idNotification}${TokenEmail}" class="activation-button">Cambiar PassWord</a>
                 ` } 
         await envioCorreo(name,email,mensaje,subjet)
         
