@@ -6,7 +6,7 @@ const cors = require('cors');
 const routes = require('./routes/index.js');
 require('./db.js');
 const stripe = require('stripe')('process.env.Sripe_SECRET');
-const {insertSettingsDatabase} = require("./controllers/settingsBooks/createSettings.js")
+const {insertDBAuthors,insertDBCategories} = require("./controllers/settingsBooks/createSettings.js")
 
 const server = express();
 server.name = 'API';
@@ -35,11 +35,14 @@ server.use((req, res, next) => {
 server.set('view engine', 'ejs');
 server.use('/', routes);
 
-//Stripe
+
 
 server.use(express.static(path.resolve("src/handlers/Stripe/Templates-Prueba")));
 
-insertSettingsDatabase()
+insertDBAuthors()
+insertDBCategories()
+
+
 server.use((err, req, res, next) => {
   const status = err.status || 500;
   const message = err.message || err;
