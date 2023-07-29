@@ -21,7 +21,7 @@ const ORDER_PAY = async ({ carrito, name, email, IdBook, typeMoney, userId }) =>
     
     
   // En este apartado en desarrollo tienes que correr el ngrok en una consola aparte y copiar el url que te brinda.
-    const notificationURL ="https://bookstorepf-production.up.railway.app//webhook-pago";
+    const notificationURL ="https://bookstorepf-production.up.railway.app/webhook-pago";
   const additionalData = {
     IdBook: IdBook,
     email: email,
@@ -47,9 +47,9 @@ const ORDER_PAY = async ({ carrito, name, email, IdBook, typeMoney, userId }) =>
   const compra = await mercadopago.preferences.create({
     items,
     back_urls: {
-        success: "https://bookstorepf-production.up.railway.app//succes",
-        failure: "https://bookstorepf-production.up.railway.app//failure",
-        pending: "https://bookstorepf-production.up.railway.app//pending",
+        success: "https://bookstorepf-production.up.railway.app/succes",
+        failure: "https://bookstorepf-production.up.railway.app/failure",
+        pending: "https://bookstorepf-production.up.railway.app/pending",
     },
     notification_url: notificationURLWithParams,
   });
