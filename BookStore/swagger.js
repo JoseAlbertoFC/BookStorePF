@@ -11,7 +11,7 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:8000/" // Cambia esta URL por la URL de producción cuando esté en producción
+        url: "https://bookstorepf-production.up.railway.app/" // Cambia esta URL por la URL de producción cuando esté en producción
       }
     ]
   },
