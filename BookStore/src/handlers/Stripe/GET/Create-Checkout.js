@@ -8,7 +8,7 @@ const Checkout = async (req,res) => {
       if(result.id) throw new Error("No se pudo crear el pago en la base de datos")
     res.status(200).json(result)
   } catch (error) {
-      console.log(error.message)
+      console.log(error)
     res.status(400).json({error:error.message})
   }
 

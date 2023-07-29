@@ -50,6 +50,7 @@ const newPay = async (
     return payWithDetails;
   } catch (error) {
     console.log(error.message);
+    console.log(error)
     throw new Error({ error: error.message });
   }
 };
