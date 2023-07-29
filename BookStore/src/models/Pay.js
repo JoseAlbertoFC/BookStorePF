@@ -64,8 +64,7 @@ module.exports = (sequelize) => {
         allowNull: false,
         validate: {
           isDecimal: true,
-          min: 0, // Mínimo valor permitido
-          max: 100000, // Máximo valor permitido
+          
         },
       },
       paymentDate: {
