@@ -27,8 +27,8 @@ const createSession = async ({ items, email, idBook, user, userId }) => {
 	  const session = await stripe.checkout.sessions.create({
 		  line_items: lineItems,
 		  mode: "payment",
-		  success_url: "https://bookstorepf-production.up.railway.app//success?idBook=" + idBook + "&user=" + user + "&email=" + email + "&session_id={CHECKOUT_SESSION_ID}",
-		  cancel_url: "https://bookstorepf-production.up.railway.app//cancel?user=" + user + "&email=" + email,
+		  success_url: "https://bookstorepf-production.up.railway.app/success?idBook=" + idBook + "&user=" + user + "&email=" + email + "&session_id={CHECKOUT_SESSION_ID}",
+		  cancel_url: "https://bookstorepf-production.up.railway.app/cancel?user=" + user + "&email=" + email,
 		  metadata: {
 			  idBooks: idBooks.join(),
 			  
@@ -43,6 +43,7 @@ const createSession = async ({ items, email, idBook, user, userId }) => {
 		  url: session.url	  });
    
   } catch (error) {
+	console.log(error)
 	throw new Error({error:error.message})
   }  
 };
