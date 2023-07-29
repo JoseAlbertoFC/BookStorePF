@@ -8,6 +8,7 @@ const stripe = new Stripe(Sripe_SECRET);
 
 
 const createSession = async ({ items, email, idBook, user, userId }) => {
+	console.log(items)
   try {
 	  const lineItems = items.map((item) => ({
 	  price_data: {
