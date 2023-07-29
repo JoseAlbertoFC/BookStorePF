@@ -1,4 +1,4 @@
-const {envioCorreo} = require("../../../controllers/EnvioCorreos/send-Cancel/Post-Emails");
+const {envioCorreo} = require("../../../controllers/EnvioCorreos/Send-Cancel/Post-Emails");
 const Cancel = async (req,res) => {
   const {email,user} = req.query
   try{
