@@ -24,7 +24,7 @@
     "express-session": "^1.17.3",
     "json": "^11.0.0",
     "jsonwebtoken": "^9.0.1",
-    "mercadopago": "^0.0.6",
+    "mercadopago": "^1.5.17",
     "morgan": "^1.10.0",
     "node-fetch": "^3.3.2",
     "nodemailer": "^6.9.3",
