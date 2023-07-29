@@ -7,9 +7,9 @@ const stripe = new Stripe(Sripe_SECRET);
 
 
 
-const createSession = async ({ carrito, email, IdBook, name, userId}) => {
+const createSession = async ({ items, email, idBook, user, userId }) => {
   try {
-	  const lineItems = carrito.map((item) => ({
+	  const lineItems = items.map((item) => ({
 	  price_data: {
 		product_data: {
 			  name: item.name,	  
@@ -22,12 +22,12 @@ const createSession = async ({ carrito, email, IdBook, name, userId}) => {
 		quantity: item.quantity,
 	   
 	  }));
-	  const idBooks = carrito.map((item) => item.IdBook);
+	  const idBooks = items.map((item) => item.idBook);
 	  const session = await stripe.checkout.sessions.create({
 		  line_items: lineItems,
 		  mode: "payment",
-		  success_url: "https://bookstorepf-production.up.railway.app/success?idBook=" + IdBook + "&user=" + name + "&email=" + email + "&session_id={CHECKOUT_SESSION_ID}",
-		  cancel_url: "https://bookstorepf-production.up.railway.app/cancel?user=" + name + "&email=" + email,
+		  success_url: "https://bookstorepf-production.up.railway.app//success?idBook=" + idBook + "&user=" + user + "&email=" + email + "&session_id={CHECKOUT_SESSION_ID}",
+		  cancel_url: "https://bookstorepf-production.up.railway.app//cancel?user=" + user + "&email=" + email,
 		  metadata: {
 			  idBooks: idBooks.join(),
 			  
@@ -36,7 +36,7 @@ const createSession = async ({ carrito, email, IdBook, name, userId}) => {
 
 
 	  
-	  senEmail({ email, IdBook, session, user, userId,lineItems })
+	  senEmail({ email, idBook, session, user, userId,lineItems })
 
 	  return ({
 		  url: session.url	  });
@@ -46,7 +46,7 @@ const createSession = async ({ carrito, email, IdBook, name, userId}) => {
   }  
 };
 
-const senEmail = async ({ email, IdBook, user, session, userId, lineItems }) => {
+const senEmail = async ({ email, idBook, user, session, userId, lineItems }) => {
 	
 	const dataPay = {
 	ip: "Stripe Default",
@@ -57,7 +57,7 @@ const senEmail = async ({ email, IdBook, user, session, userId, lineItems }) => 
 	amount: '00.00',
 	paymentStatus:"Pending",
 	email:email,
-	order:IdBook,
+	order:idBook,
 	name:user,
 	idpay:session.id,
 	total_paid_amount:session.amount_total,
@@ -66,7 +66,7 @@ const senEmail = async ({ email, IdBook, user, session, userId, lineItems }) => 
 	data_aprove:session.payment_status,
 	pqyment_method_option: session.payment_method_options,
 	userId: userId,
-	bookId: IdBook,
+	bookId: idBook,
 	bookIds: session.metadata.idBooks.split(","),
 	bookTitle: lineItems?.map((item) => item.price_data.product_data.name),
 	quantity: lineItems?.map((item) => item.quantity),
