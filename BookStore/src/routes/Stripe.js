@@ -19,7 +19,7 @@ const StripePay = Router();
  * @swagger
  * /create-checkout-session:
  *   post:
- *     summary: Crear sesión de pago con Stripe
+ *     summary: Crear sesion de pago con Stripe
  *     description: Crea una sesión de pago con Stripe para iniciar el proceso de checkout.
  *     tags: [Stripe Pay]
  *     requestBody:
@@ -39,7 +39,7 @@ const StripePay = Router();
  *                 type: number
  *     responses:
  *       200:
- *         description: Sesión de pago creada exitosamente.
+ *         description: Sesion de pago creada exitosamente.
  *       400:
  *         description: Error en la solicitud.
  */

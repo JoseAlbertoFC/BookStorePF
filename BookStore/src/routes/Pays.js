@@ -16,7 +16,7 @@ const Pays = Router();
  * @swagger
  * tags:
  *   name: Whatsapp
- *   description: Operaciones relacionadas con el envío de mensajes de WhatsApp.
+ *   description: Operaciones relacionadas con el envio de mensajes de WhatsApp.
  */
 
 /**
@@ -24,7 +24,7 @@ const Pays = Router();
  * /SMS-Whatsapp:
  *   post:
  *     summary: Enviar un mensaje de WhatsApp
- *     description: Envía un mensaje de WhatsApp a través de la API.
+ *     description: Envia un mensaje de WhatsApp a traves de la API.
  *     tags: [Whatsapp]
  *     requestBody:
  *       required: true

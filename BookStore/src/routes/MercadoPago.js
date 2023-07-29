@@ -72,7 +72,7 @@ const PayMercado = Router();
  *         name: payment
  *         schema:
  *           type: object
- *         description: Objeto que representa la información del pago recibido en el webhook.
+ *         description: Objeto que representa la informacion del pago recibido en el webhook.
  *       - in: query
  *         name: name
  *         schema:
@@ -82,7 +82,7 @@ const PayMercado = Router();
  *         name: email
  *         schema:
  *           type: string
- *         description: El correo electrónico del usuario asociado al pago.
+ *         description: El correo electronico del usuario asociado al pago.
  *       - in: query
  *         name: IdBook
  *         schema:
@@ -110,7 +110,7 @@ const PayMercado = Router();
  * /succes:
  *   get:
  *     summary: Pago exitoso
- *     description: Ruta para mostrar la página de éxito después de un pago exitoso.
+ *     description: Ruta para mostrar la página de exito después de un pago exitoso.
  *     tags: [Mercado Pago]
  *     responses:
  *       200:
@@ -122,7 +122,7 @@ const PayMercado = Router();
  * /failure:
  *   get:
  *     summary: Pago fallido
- *     description: Ruta para mostrar la página de error después de un pago fallido.
+ *     description: Ruta para mostrar la pagina de error después de un pago fallido.
  *     tags: [Mercado Pago]
  *     responses:
  *       200:

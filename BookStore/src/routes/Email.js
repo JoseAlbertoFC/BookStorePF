@@ -10,8 +10,8 @@ const Email = Router();
  * @swagger
  * /sendEmail:
  *   post:
- *     summary: Enviar correo electrónico
- *     description: Ruta para enviar un correo electrónico.
+ *     summary: Enviar correo electronico
+ *     description: Ruta para enviar un correo electronico.
  *     tags: [Email]
  *     requestBody:
  *       required: true
@@ -30,9 +30,9 @@ const Email = Router();
  *                 type: string
  *     responses:
  *       200:
- *         description: Correo electrónico enviado correctamente.
+ *         description: Correo electronico enviado correctamente.
  *       400:
- *         description: Error en la solicitud de envío de correo electrónico.
+ *         description: Error en la solicitud de envío de correo electronico.
  */
 
 Email.post("/sendEmail", SendEmailHandler);
