@@ -16,7 +16,7 @@ const Succes = async (req,res) => {
     envioCorreo(dataPay)
   
 
-    res.redirect('/success.html')
+    res.redirect('https://book-store-pf-gqng.vercel.app/')
   }catch(error){
     res.status(400).json({message:error.message})
   }

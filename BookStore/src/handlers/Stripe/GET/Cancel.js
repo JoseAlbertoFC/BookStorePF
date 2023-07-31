@@ -9,7 +9,7 @@ const Cancel = async (req,res) => {
     
     envioCorreo(dataCancel)
   
-   res.redirect('/cancel.html')
+    res.redirect('https://book-store-pf-gqng.vercel.app/')
   }catch(error){
     res.status(400).json({message:error.message})
   }

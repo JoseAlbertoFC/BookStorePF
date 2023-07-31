@@ -6,7 +6,7 @@ const succes = async (req,res) => {
   try {
     const result = await SUCCES_PAGO()
 
-    res.status(200).json(result)
+    res.redirect('https://book-store-pf-gqng.vercel.app/')
     
   } catch (error) {
     res.status(400).json({message:error.message})
