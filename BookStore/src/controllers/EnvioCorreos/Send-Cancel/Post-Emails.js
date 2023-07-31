@@ -17,7 +17,7 @@ const envioCorreo = async (result, res) => {
 
     const name = `${result.name}`;
     const mailOptions = {
-      from: "hoteldeveloperfull@gmail.com",
+      from: process.env.USER_CORREO,
       to: `${result.email}`,
       subject: "Lamentamos Tu decision",
       html: `

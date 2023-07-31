@@ -20,7 +20,7 @@ const envioCorreo = async (result, res) => {
         }));
 
         const mailOptions = {
-            from: "hoteldeveloperfull@gmail.com",
+            from: process.env.USER_CORREO,
             to: `${result.email}`,
             subject: "Comprobante de pago",
             html: `
