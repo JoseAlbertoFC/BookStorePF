@@ -3,6 +3,8 @@ const { Router } = require("express")
 
 const { readallPays } = require('../handlers/Pay-Handlers/GET/readPayments')
 
+const { getPayByUserId } = require('../handlers/Pay-Handlers/GET/getPayByUserId')
+
 const { updatedataPay } = require('../handlers/Pay-Handlers/UPDATE/updatePayments')
 
 const Pays = Router();
@@ -44,6 +46,8 @@ const Pays = Router();
  *         description: Error en la solicitud.
  */
 Pays.get("/read-pays", readallPays)
+
+Pays.get("/read-pays/:id", getPayByUserId)
 
 
 Pays.put("/update-pay/:id", updatedataPay)
