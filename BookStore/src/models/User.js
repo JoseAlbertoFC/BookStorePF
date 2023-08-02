@@ -13,23 +13,23 @@ module.exports = (sequelize) => {
       },
       name: {
         type: DataTypes.STRING,
-        allowNull: true,
+        allowNull: false,
       },
       birthday: {
         type: DataTypes.STRING,
-        allowNull: true,
+        allowNull: false,
       },
       country: {
         type: DataTypes.STRING,
-        allowNull: true,
+        allowNull: false,
       },
       phone: {
         type: DataTypes.STRING,
-        allowNull: true,
+        allowNull: false,
       },
       phoneCode: {
         type: DataTypes.STRING,
-        allowNull: true,
+        allowNull: false,
       },
       gender: {
         type: DataTypes.STRING,
@@ -42,7 +42,7 @@ module.exports = (sequelize) => {
       },
       password: {
         type: DataTypes.STRING,
-        allowNull: true,
+        allowNull: false,
       },    
       dniPasaport: {
         type: DataTypes.STRING,
