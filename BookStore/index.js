@@ -1,6 +1,6 @@
 const server = require("./src/app");
 const { conn } = require("./src/db");
-const { insertDBAuthors, insertDBCategories }= require("./src/controllers/settingsBooks/createSettings")
+const { insertDBAuthors, insertDBCategories,insertDB }= require("./src/controllers/settingsBooks/createSettings")
 
 //TODO Documentacion de Swwagger No Borrar Este Comentario
 
@@ -18,5 +18,6 @@ conn.sync({ force : false }).then(() => {
     console.log(`Listening on port ${process.env.PORT}`);
     insertDBAuthors()
     insertDBCategories()
+    insertDB()
   });
 });
