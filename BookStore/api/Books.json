@@ -188,19 +188,19 @@
         "smallThumbnail": "http://books.google.com/books/content?id=8ERFrYv9VAIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=8ERFrYv9VAIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=8ERFrYv9VAIC&printsec=frontcover&dq=%22%22&hl=&cd=3&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=8ERFrYv9VAIC&source=gbs_api",
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=8ERFrYv9VAIC"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "FREE",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=8ERFrYv9VAIC&rdid=book-8ERFrYv9VAIC&rdot=1&source=gbs_api"
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "CO",
       "viewability": "ALL_PAGES",
       "embeddable": true,
       "publicDomain": true,
@@ -260,13 +260,13 @@
         "smallThumbnail": "http://books.google.com/books/content?id=yhbwCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=yhbwCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=yhbwCwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=4&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=yhbwCwAAQBAJ&source=gbs_api",
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=yhbwCwAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "CO",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -293,7 +293,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "CO",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -352,13 +352,13 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lG1bAAAAMAAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "CO",
       "saleability": "FREE",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=lG1bAAAAMAAJ&rdid=book-lG1bAAAAMAAJ&rdot=1&source=gbs_api"
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "ALL_PAGES",
       "embeddable": true,
       "publicDomain": true,
@@ -421,12 +421,12 @@
       "canonicalVolumeLink": "https://books.google.com/books/about/Empieza_con_el_porqu%C3%A9_c%C3%B3mo_los_grandes.html?hl=&id=EAtvswEACAAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "CO",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "CO",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
@@ -577,13 +577,13 @@
         "smallThumbnail": "http://books.google.com/books/content?id=0Xt6CgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=0Xt6CgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=0Xt6CgAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=8&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=0Xt6CgAAQBAJ&source=gbs_api",
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=0Xt6CgAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -610,7 +610,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -670,7 +670,7 @@
         "smallThumbnail": "http://books.google.com/books/content?id=s-o0DQAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=s-o0DQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=s-o0DQAAQBAJ&pg=PP1&dq=%22%22&hl=&cd=9&source=gbs_api",
       "infoLink": "http://books.google.com.ar/books?id=s-o0DQAAQBAJ&dq=%22%22&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/La_magia_desde_dentro_as%C3%AD_se_hizo_anima.html?hl=&id=s-o0DQAAQBAJ"
@@ -736,18 +736,18 @@
         "smallThumbnail": "http://books.google.com/books/content?id=qG70DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=qG70DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=qG70DwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=10&source=gbs_api",
       "infoLink": "http://books.google.com.ar/books?id=qG70DwAAQBAJ&dq=%22%22&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Las_maravillas.html?hl=&id=qG70DwAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "MX",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "MX",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -813,12 +813,12 @@
       "canonicalVolumeLink": "https://books.google.com/books/about/Juego_Infinito_El.html?hl=&id=tK1AyAEACAAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
@@ -878,12 +878,12 @@
       "canonicalVolumeLink": "https://books.google.com/books/about/Reinicia.html?hl=&id=ew7TbwAACAAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "CO",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "CO",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
@@ -947,7 +947,7 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=YAhBEAAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "MX",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -974,7 +974,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "MX",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -1040,7 +1040,7 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=JfnPrNPyYC4C"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -1067,7 +1067,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -1129,13 +1129,13 @@
         "smallThumbnail": "http://books.google.com/books/content?id=3Tb7DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=3Tb7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=3Tb7DwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=15&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=3Tb7DwAAQBAJ&source=gbs_api",
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=3Tb7DwAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -1222,7 +1222,7 @@
         "smallThumbnail": "http://books.google.com/books/content?id=InpOEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=InpOEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=InpOEAAAQBAJ&pg=PA1&dq=%22%22&hl=&cd=16&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=InpOEAAAQBAJ&source=gbs_api",
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=InpOEAAAQBAJ"
@@ -1255,7 +1255,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "CO",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -1309,12 +1309,12 @@
       "canonicalVolumeLink": "https://books.google.com/books/about/Alcoh%C3%B3licos_an%C3%B3nimos.html?hl=&id=LmoyzwEACAAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "CO",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
@@ -1369,18 +1369,18 @@
         "smallThumbnail": "http://books.google.com/books/content?id=qxccEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=qxccEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=qxccEAAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=18&source=gbs_api",
       "infoLink": "http://books.google.com.ar/books?id=qxccEAAAQBAJ&dq=%22%22&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Klara_y_el_Sol.html?hl=&id=qxccEAAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -1443,7 +1443,7 @@
         "smallThumbnail": "http://books.google.com/books/content?id=piI0DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=piI0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=piI0DwAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=19&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=piI0DwAAQBAJ&source=gbs_api",
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=piI0DwAAQBAJ"
@@ -1542,12 +1542,12 @@
       "canonicalVolumeLink": "https://books.google.com/books/about/H%C3%A1bitos_at%C3%B3micos.html?hl=&id=yalGzgEACAAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "MX",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
@@ -1610,7 +1610,7 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_f90DwAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "MX",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -1637,7 +1637,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "CO",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -1702,12 +1702,12 @@
       "canonicalVolumeLink": "https://books.google.com/books/about/La_ardilla_miedosa_encuentra_un_amigo.html?hl=&id=A02-pwAACAAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "CO",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "MX",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
@@ -1864,7 +1864,7 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=86hsAwAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -1951,18 +1951,18 @@
         "smallThumbnail": "http://books.google.com/books/content?id=ERImDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=ERImDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=ERImDgAAQBAJ&pg=PP1&dq=%22%22&hl=&cd=25&source=gbs_api",
       "infoLink": "http://books.google.com.ar/books?id=ERImDgAAQBAJ&dq=%22%22&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Yo_no_hice_mi_tarea_porque.html?hl=&id=ERImDgAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "CO",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "CO",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -2022,13 +2022,13 @@
         "smallThumbnail": "http://books.google.com/books/content?id=VsUdBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=VsUdBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=VsUdBgAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=26&source=gbs_api",
       "infoLink": "http://books.google.com.ar/books?id=VsUdBgAAQBAJ&dq=%22%22&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Los_dones_de_la_imperfecci%C3%B3n.html?hl=&id=VsUdBgAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "CO",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
@@ -2093,18 +2093,18 @@
         "smallThumbnail": "http://books.google.com/books/content?id=9of-AgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=9of-AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=9of-AgAAQBAJ&printsec=frontcover&dq=%22%22&hl=&cd=27&source=gbs_api",
       "infoLink": "http://books.google.com.ar/books?id=9of-AgAAQBAJ&dq=%22%22&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Elantris.html?hl=&id=9of-AgAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -2170,7 +2170,7 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=le6-DwAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -2197,7 +2197,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -2263,7 +2263,7 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zk0aEAAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -2290,7 +2290,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -2345,18 +2345,18 @@
         "containsEpubBubbles": false,
         "containsImageBubbles": false
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=EhDWzgEACAAJ&dq=%22%22&hl=&cd=30&source=gbs_api",
       "infoLink": "http://books.google.com.ar/books?id=EhDWzgEACAAJ&dq=%22%22&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/La_vida_invisible_de_Addie_LaRue.html?hl=&id=EhDWzgEACAAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "MX",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "MX",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
@@ -2401,13 +2401,13 @@
         "smallThumbnail": "http://books.google.com/books/content?id=W1o5EAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=W1o5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=W1o5EAAAQBAJ&pg=PP1&dq=%22%22&hl=&cd=31&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=W1o5EAAAQBAJ&source=gbs_api",
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=W1o5EAAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "MX",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -2434,7 +2434,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -2490,18 +2490,18 @@
         "smallThumbnail": "http://books.google.com/books/content?id=4oa4DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=4oa4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=4oa4DwAAQBAJ&pg=PP1&dq=%22%22&hl=&cd=32&source=gbs_api",
       "infoLink": "http://books.google.com.ar/books?id=4oa4DwAAQBAJ&dq=%22%22&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Horton_cuida_un_nido_Horton_Hatches_the.html?hl=&id=4oa4DwAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
@@ -2564,7 +2564,7 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=XB4lCwAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "MX",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -2591,7 +2591,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "CO",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -2650,13 +2650,13 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=daxCZbpW5OUC"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "CO",
       "saleability": "FREE",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=daxCZbpW5OUC&rdid=book-daxCZbpW5OUC&rdot=1&source=gbs_api"
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "CO",
       "viewability": "ALL_PAGES",
       "embeddable": true,
       "publicDomain": true,
@@ -2713,13 +2713,13 @@
         "smallThumbnail": "http://books.google.com/books/content?id=KUydDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=KUydDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
       },
-      "language": "es",
+      "language": "en",
       "previewLink": "http://books.google.com.ar/books?id=KUydDwAAQBAJ&dq=%22%22&hl=&cd=35&source=gbs_api",
       "infoLink": "http://books.google.com.ar/books?id=KUydDwAAQBAJ&dq=%22%22&hl=&source=gbs_api",
       "canonicalVolumeLink": "https://books.google.com/books/about/Buenas_noches_camioncito_azul.html?hl=&id=KUydDwAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "MX",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
@@ -2815,7 +2815,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -2887,7 +2887,7 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=C9U6EAAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "FOR_SALE",
       "isEbook": true,
       "listPrice": {
@@ -2914,7 +2914,7 @@
       ]
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "PARTIAL",
       "embeddable": true,
       "publicDomain": false,
@@ -2971,12 +2971,12 @@
       "canonicalVolumeLink": "https://books.google.com/books/about/Ardilla_Miedosa.html?hl=&id=nHwnAAAACAAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
@@ -3040,12 +3040,12 @@
       "canonicalVolumeLink": "https://books.google.com/books/about/La_ladrona_de_fruta.html?hl=&id=MfHADwAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "CO",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "CO",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
@@ -3108,12 +3108,12 @@
       "canonicalVolumeLink": "https://books.google.com/books/about/La_Casa_Holandesa.html?hl=&id=aIsIEAAAQBAJ"
     },
     "saleInfo": {
-      "country": "AR",
+      "country": "PE",
       "saleability": "NOT_FOR_SALE",
       "isEbook": false
     },
     "accessInfo": {
-      "country": "AR",
+      "country": "PE",
       "viewability": "NO_PAGES",
       "embeddable": false,
       "publicDomain": false,
