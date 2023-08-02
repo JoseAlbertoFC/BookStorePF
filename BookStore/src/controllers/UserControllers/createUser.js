@@ -1,6 +1,7 @@
 const {User} = require("../../db.js")
 const bcrypt = require('bcrypt');
 const crypto = require('crypto');
+const jwt = require("jsonwebtoken");
 const {userNotification} = require('./notification.js');
 
 const saltRounds = 11;
@@ -49,6 +50,8 @@ const userRegister = async (name, birthday,country, phone, phoneCode, gender, em
             // console.log("created",created); 
             // console.log("entro created");
             if (newUser) {
+                const tokenJwt = jwt.sign({ userId: newUser.id }, process.env.JWT_SECRET_KEY, { expiresIn: "24h" });
+                    console.log("tokenJwt",tokenJwt)
                 // userNotification = async (typeNotification,dataNotification)               
                 const dataNotification = {
                     idNotification : 1,
@@ -61,7 +64,7 @@ const userRegister = async (name, birthday,country, phone, phoneCode, gender, em
             // await db.query("INSERT INTO users SET?", objRegister);
             dataState.state = true;
             dataState.text = "User registered successfully";
-            dataState.detail =newUser
+            dataState.detail ={newUser,tokenJwt: tokenJwt}
             return dataState;
             } else {           
                 dataState.state = false;     
