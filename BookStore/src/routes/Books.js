@@ -152,7 +152,7 @@ const booksRoutes = Router();
 
 
 booksRoutes.post("/getBooks", getBooks);
-booksRoutes.post("/bookDetail/:id", getBookById);
+booksRoutes.post("/bookDetail/:id?", getBookById);
 booksRoutes.post("/postBook", postBook);
 
 booksRoutes.get("/getDeletedBooks", getDeletedBooks);
