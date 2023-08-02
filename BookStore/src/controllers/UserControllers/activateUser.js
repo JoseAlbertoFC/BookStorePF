@@ -229,6 +229,11 @@ const userTokenActiv = async (querysUser) => {
                 dataState.detail = { userFind, tokenJwt: t_JWT };
                 console.log(dataState);
                 return dataState;
+              }else{
+                dataState.state = false;
+                dataState.text = "Error validating credentials";                
+                console.log(dataState);
+                return dataState;
               }
             } else {
               dataState.state = false;
