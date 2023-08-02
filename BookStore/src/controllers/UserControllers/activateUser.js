@@ -227,18 +227,13 @@ const userTokenActiv = async (querysUser) => {
                 dataState.state = true;
                 dataState.text = "User Validate successfully";
                 dataState.detail = { userFind, tokenJwt: t_JWT };
-                // console.log(dataState);
-                return dataState;
-              }else{
-                dataState.state = false;
-                dataState.text = "Error validating credentials";                
-                // console.log(dataState);
+                console.log(dataState);
                 return dataState;
               }
             } else {
               dataState.state = false;
               dataState.text = "User already exists, Validate Password";
-              // console.log(dataState);
+              console.log(dataState);
               return dataState;
             }
           } else {
@@ -253,12 +248,12 @@ const userTokenActiv = async (querysUser) => {
               dataState.state = true;
               dataState.text = "User registered successfully";
               dataState.detail = { newUser, tokenJwt: t_JWT };
-              // console.log(dataState);
+              console.log(dataState);
               return dataState;
             } else {
               dataState.state = false;
               dataState.text = "error validating user - Gmail";
-              // console.log(dataState);
+              console.log(dataState);
               return dataState;
             }
           }
@@ -297,7 +292,7 @@ const userTokenActiv = async (querysUser) => {
           if(!userauthorization.est){
             dataState.state = false;
             dataState.text = userauthorization.data;
-            // console.log(dataState);
+            console.log(dataState);
             return dataState;
           }else{
 
@@ -311,7 +306,7 @@ const userTokenActiv = async (querysUser) => {
               dataState.state = true;
               dataState.text = "User Authorization successfully";
               dataState.detail = { userValidate, tokenJwt: data2 };
-              // console.log(dataState);
+              console.log(dataState);
               return dataState;
             }
           }
@@ -350,13 +345,12 @@ const validatokenJWT = async (token) => {
     } else {
       const userId = decodedToken.id;
       const userEmail = decodedToken.email;
-      //console.log("userId", userId);
-      //console.log("userEmail", userEmail);
+      console.log("userId", userId);
+      console.log("userEmail", userEmail);
       return { est: true, data: decodedToken.id };
     }
   } catch (error) {
-    return { est: false, data: `Error Token: ${error.message}` };
-    // console.log("Error al validar el token:", err.message);
+    console.log("Error al validar el token:", err.message);
   }
 };
 
