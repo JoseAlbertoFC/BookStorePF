@@ -5,17 +5,17 @@ const path = require("path");
 
 //const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
 
-const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
+// const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
 
-const sequelize = new Sequelize(
-  `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/books`,
-  {
-    logging: false,
-    native: false,
-  }
-);
+// const sequelize = new Sequelize(
+//   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/books`,
+//   {
+//     logging: false,
+//     native: false,
+//   }
+// );
 
-if(process.env.SERVERPG_CONNECT){
+// if(process.env.SERVERPG_CONNECT){
   const sequelize = new Sequelize({
     database: process.env.PGDATABASE,
     dialect: process.env.DB_USER,
@@ -37,7 +37,7 @@ if(process.env.SERVERPG_CONNECT){
     },
     ssl: true,
   });
-}
+//}
 
 
 ////////////////////////////////////// 
