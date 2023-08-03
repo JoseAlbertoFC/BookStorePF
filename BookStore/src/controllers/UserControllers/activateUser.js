@@ -239,11 +239,11 @@ const userTokenActiv = async (querysUser) => {
           } else {
             const newUser = await User.create({
               email: data1,
-              thirdPartyCreated: true,
-              password: data2,
               name:data3,
               photoUser:data4,
+              password: data2,
               rol: "user",
+              thirdPartyCreated: true,
             });
             if (newUser) {
               const t_JWT = await tokenJWTgenerate(newUser.id);
