@@ -19,7 +19,7 @@ const userTokenActiv = async (querysUser) => {
     };
     //console.log(querysUser)
     //console.log(valtoken)
-    const { id, data1, data2 } = querysUser;
+    const { id, data1, data2,data3,data4 } = querysUser;
     // console.log("id--->", id);
     switch (id) {
       // activar : 1 --- token ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -241,6 +241,8 @@ const userTokenActiv = async (querysUser) => {
               email: data1,
               thirdPartyCreated: true,
               password: data2,
+              name:data3,
+              photoUser:data4,
               rol: "user",
             });
             if (newUser) {
