@@ -276,7 +276,13 @@ const userTokenActiv = async (querysUser) => {
           //console.log("userValidate",userValidate)
 
           if (userValidate.cantUser > 0) {
-            return tokenJWTgenerate(userValidate.findUser.id);
+            const newJWT = await tokenJWTgenerate(userValidate.findUser.id);
+            console.log("newJWT ",newJWT )
+            dataState.state = true;
+            dataState.text = newJWT
+            console.log(dataState);
+            return dataState;
+            
           }
         } catch (err) {
           dataState.state = false;
