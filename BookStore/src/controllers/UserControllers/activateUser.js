@@ -244,11 +244,11 @@ const userTokenActiv = async (querysUser) => {
           } else {
             const newUser = await User.create({
               email: data1,
-              thirdPartyCreated: true,
-              password: data2,
               name:data3,
               photoUser:data4,
+              password: data2,
               rol: "user",
+              thirdPartyCreated: true,
             });
             if (newUser) {
               const t_JWT = await tokenJWTgenerate(newUser.id);
@@ -281,7 +281,13 @@ const userTokenActiv = async (querysUser) => {
           //console.log("userValidate",userValidate)
 
           if (userValidate.cantUser > 0) {
-            return tokenJWTgenerate(userValidate.findUser.id);
+            const newJWT = await tokenJWTgenerate(userValidate.findUser.id);
+            console.log("newJWT ",newJWT )
+            dataState.state = true;
+            dataState.text = newJWT
+            console.log(dataState);
+            return dataState;
+            
           }
         } catch (err) {
           dataState.state = false;
