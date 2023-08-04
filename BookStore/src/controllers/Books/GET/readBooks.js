@@ -58,7 +58,7 @@ const readJson = async () => {
       sinopsis: book.volumeInfo.description || "Sinopsis not available.",
       price: book.saleInfo.listPrice?.amount || 0.0,
       publishedDate:
-        book.volumeInfo.publishedDate || "Published Date not available",
+      book.volumeInfo.publishedDate || "Published Date not available",
       pdfLink: book.volumeInfo.previewLink,
       editorial: book.volumeInfo.publisher || "Publisher not available",
       numPages: book.pageCount || 0,

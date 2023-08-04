@@ -9,11 +9,11 @@ const readPayByUserId = async (id) => {
             include: [
                 {
                     model: User, as: 'user',
-                    attributes: ['name', 'email', 'rol', 'listWish']
+                    attributes: ['name', 'email', 'rol']
                 },
                 {
                     model: Book, as: 'books',
-                    attributes: ['title', 'country', 'author', 'price', 'image',]
+                    attributes: ["id", 'title', 'country', 'author', 'price', 'image', "pdfLink"]
                 },
             ]
         });

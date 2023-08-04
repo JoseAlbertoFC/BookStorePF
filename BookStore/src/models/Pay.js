@@ -11,51 +11,43 @@ module.exports = (sequelize) => {
         allowNull: false,
         defaultValue: Sequelize.UUIDV4,
       },
-      ip:{
-        type: DataTypes.STRING,
-        allowNull: false,
-
-        },
-        bookIds: {
-            type: DataTypes.ARRAY(DataTypes.STRING), 
-            allowNull: false,
-        },
-      idpay:{
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      orderNumber:{
+      ip: {
         type: DataTypes.STRING,
         allowNull: false,
 
       },
-      orderType:{
+      orderNumber: {
         type: DataTypes.STRING,
         allowNull: false,
 
       },
-      operationType:{
+      orderType: {
+        type: DataTypes.STRING,
+        allowNull: false,
+
+      },
+      operationType: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      metodo:{
+      metodo: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      currentOperation:{
+      currentOperation: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      data_aprove:{
+      data_aprove: {
         type: DataTypes.STRING,
         allowNull: false,
-        
+
       },
-      total_paid_amount:{
+      total_paid_amount: {
         type: DataTypes.FLOAT,
         allowNull: false,
       },
-      net_received_amount:{
+      net_received_amount: {
         type: DataTypes.FLOAT,
         allowNull: false,
       },
@@ -64,13 +56,13 @@ module.exports = (sequelize) => {
         allowNull: false,
         validate: {
           isDecimal: true,
-          
+
         },
       },
       paymentDate: {
         type: DataTypes.STRING,
         allowNull: true,
-        
+
       },
       paymentStatus: {
         type: DataTypes.STRING,
@@ -78,7 +70,9 @@ module.exports = (sequelize) => {
       },
     },
 
-    { timestamps: true, 
-      paranoid: true }
+    {
+      timestamps: true,
+      paranoid: true
+    }
   );
 };
