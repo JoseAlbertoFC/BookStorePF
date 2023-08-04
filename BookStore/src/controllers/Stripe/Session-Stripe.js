@@ -53,7 +53,7 @@ const senEmail = async ({ email, idBook, user, session, userId, lineItems }) => 
 	const dataPay = {
 	ip: "Stripe Default",
 	orderNumber: "Stripe Default",
-	metodo: "Stripe Prending",
+	metodo: "Stripe Aprovado",
 	currentOperation: "Stripe Default",
 	net_received_amount: session.amount_total,
 	amount: '00.00',
