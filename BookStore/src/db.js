@@ -74,11 +74,11 @@ User.hasMany(Book, { as: "books", foreignKey: "userId" });
 
 Book.hasMany(Comment, { as: "comments", foreignKey: "bookId" });
 Book.belongsTo(User, { as: "user", foreignKey: "userId" });
-Book.belongsTo(Pay, { as: "pay", foreignKey: "payId" });
+Book.hasMany(Pay, { as: "pays", foreignKey: "payId" });
 
 Pay.belongsTo(User, { as: "user", foreignKey: "userId" });
-//Pay.hasMany(Book, { as: "books", foreignKey: "payId" });
-Pay.belongsTo(Book, { as: "books", foreignKey: "bookId" });
+Pay.hasMany(Book, { as: "books", foreignKey: "bookId" });
+//Pay.belongsTo(Book, { as: "books", foreignKey: "bookId" });
 
 Comment.belongsTo(Book, { as: "books", foreignKey: "bookId" });
 Comment.belongsTo(User, { as: "user", foreignKey: "userId" });
