@@ -16,7 +16,7 @@ const Succes = async (req,res) => {
     envioCorreo(dataPay)
   
 
-    res.redirect('http://localhost:3000/payment/sucessfulpay')
+    res.redirect('https://book-store-client-coral.vercel.app/payment/sucessfulpay')
   }catch(error){
     res.status(400).json({message:error.message})
   }
