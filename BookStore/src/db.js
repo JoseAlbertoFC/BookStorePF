@@ -3,20 +3,15 @@ const { Sequelize } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
 
-//const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
 
-// const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
+const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
 
-// const sequelize = new Sequelize(
-//   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/books`,
-//   {
-//     logging: false,
-//     native: false,
-//   }
-// );
+let sequelize; // Declarar la variable fuera de los bloques if y else
+const estconnect_server  = process.env.SERVERPG_CONNECT
 
-// if(process.env.SERVERPG_CONNECT){
-  const sequelize = new Sequelize({
+console.log(estconnect_server);
+if (estconnect_server ==="SI") {
+  sequelize = new Sequelize({
     database: process.env.PGDATABASE,
     dialect: process.env.DB_USER,
     host: process.env.PGHOST,
@@ -37,7 +32,15 @@ const path = require("path");
     },
     ssl: true,
   });
-//}
+} else {
+  sequelize = new Sequelize(
+    `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/books`,
+    {
+      logging: false,
+      native: false,
+    }
+  );
+}
 
 
 ////////////////////////////////////// 
