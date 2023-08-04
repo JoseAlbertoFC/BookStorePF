@@ -103,10 +103,10 @@ const envioCorreo = async (result, res) => {
                   <tr>
                     <td>${index + 1}</td>
                     <td>${result.bookTitle[index]}</td>
-                    <td>${result.quantity[index]}</td>
+                    <td>${result.quantity[index]?result.quantity[index]:result.quantity}</td>
                     <td>$${result.price[index]}</td>
                     <td>${result.typeMoney[index]}</td>
-                    <td>$${result.price[index] * result.quantity[index]}</td>
+                    <td>$${result.price[index] * result.quantity[index]?result.price[index] * result.quantity[index]:0}</td>
                   </tr>
                 `).join('')}
               </tbody>

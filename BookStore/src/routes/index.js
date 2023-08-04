@@ -16,7 +16,11 @@ const { ChatGptRoute } = require("./ChatGpt");
 
 const { Pays } = require("./Pays")
 
-const {routeSettings} =require("./SettingBook.js")
+const {Freebooks} = require("./FreeBook.js")
+
+const {routeSettings} =require("./SettingBook.js");
+
+const { freemem } = require("os");
 
 const router = Router();
 
@@ -42,6 +46,9 @@ router.use('/', ChatGptRoute)
 
 router.use('/', Pays)
 
+// Ruta de libros Free
+
+router.use("/",Freebooks)
 //TODO Espacio de Dany Ruiz************************************************************************************************
 
 //TODO Espacio de Jose A Fuenmayor*****************************************************************************************
