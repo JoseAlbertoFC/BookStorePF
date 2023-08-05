@@ -24,8 +24,8 @@ const Freebook = async (req, res) => {
         pqyment_method_option:'free',
         userId: result.userId,
         bookId:result.bookIds[0],
-        bookIds: result.bookIds,
-        bookTitle: result.bookTitle,
+        bookIds: result.bookIds.split(", "),
+        bookTitle: result.bookTitle.split(", "),
         quantity:result.bookIds.length,
         price: 0.00,
         typeMoney: 'free',
@@ -33,7 +33,7 @@ const Freebook = async (req, res) => {
     }
     console.log(dataFreebook)
     try {
-        //await newPay(dataFreebook);
+        await newPay(dataFreebook);
         await envioCorreo(result, res);
         res.status(200).json({ message: "Correo enviado" });
         
