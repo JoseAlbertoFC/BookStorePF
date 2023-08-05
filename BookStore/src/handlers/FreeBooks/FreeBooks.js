@@ -24,8 +24,6 @@ const Freebook = async (req, res) => {
         pqyment_method_option:'free',
         userId: result.userId,
         bookId:result.bookIds[0],
-        bookIds: result.bookIds.split(", "),
-        bookTitle: result.bookTitle.split(", "),
         quantity:result.bookIds.length,
         price: 0.00,
         typeMoney: 'free',
