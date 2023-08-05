@@ -25,6 +25,8 @@ const Freebook = async (req, res) => {
         userId: result.userId,
         bookId:result.bookIds[0],
         quantity:result.bookIds.length,
+        bookIds: result.bookIds.map((item) => item),
+        bookTitle: result.bookTitle.map((item) => item),
         price: 0.00,
         typeMoney: 'free',
     
