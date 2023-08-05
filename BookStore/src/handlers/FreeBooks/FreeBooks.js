@@ -24,9 +24,9 @@ const Freebook = async (req, res) => {
         pqyment_method_option:'free',
         userId: result.userId,
         bookId:result.bookIds[0],
-        bookIds: result?.map((item) => item.bookIds),
-        bookTitle: result?.map((item) => item.bookTitle),
-        quantity:result?.map((item) => item.bookIds.length),
+        bookIds: result.bookIds?.map((item) => item.bookIds),
+        bookTitle: result.bookTitle?.map((item) => item.bookTitle),
+        quantity:result.bookIds?.map((item) => item.bookIds.length),
         price: 0.00,
         typeMoney: 'free',
     
