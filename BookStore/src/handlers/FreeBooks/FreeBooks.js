@@ -31,9 +31,9 @@ const Freebook = async (req, res) => {
         typeMoney: 'free',
     
     }
-    
+    console.log(dataFreebook)
     try {
-        await newPay(dataFreebook);
+        //await newPay(dataFreebook);
         await envioCorreo(result, res);
         res.status(200).json({ message: "Correo enviado" });
         
