@@ -5,7 +5,7 @@ const { envioCorreo } = require("../../EnvioCorreos/Post-Emails");
 
 // La funcion de pago captura el id  el pago el bokingid y el userid para poder generar el recibo con la informacion de pago.
 
-const WEBHOOK_PAY = async ({ payment, id, IdBook, email, name, userId }) => {
+const WEBHOOK_PAY = async ({ payment, id, IdBook, email, name, userId, pdfLink}) => {
     
   try {
     if (payment.type === "payment") {
@@ -24,20 +24,20 @@ const WEBHOOK_PAY = async ({ payment, id, IdBook, email, name, userId }) => {
         email: email,
         name: name,
         IdBook: IdBook,
-          userId: userId,
-          title: data.body.additional_info.items?.map((item) => (item.title)),
-          quantity: data.body.additional_info.items?.map((item) => (item.quantity)),
-          unit_price: data.body.additional_info.items?.map((item) => (item.unit_price)),
-          category_id: data.body.additional_info.items?.map((item) => (item.category_id)),
-          description: data.body.additional_info.items?.map((item) => (item.description)),
-          bookIds: data.body.additional_info.items?.map((item) => (item.category_id)),
-          pdfLink: data.body.additional_info.items?.map((item) => (item.pdfLink)),
+        userId: userId,
+        title: data.body.additional_info.items?.map((item) => (item.title)),
+        quantity: data.body.additional_info.items?.map((item) => (item.quantity)),
+        unit_price: data.body.additional_info.items?.map((item) => (item.unit_price)),
+        category_id: data.body.additional_info.items?.map((item) => (item.category_id)),
+        description: data.body.additional_info.items?.map((item) => (item.description)),
+        bookIds: data.body.additional_info.items?.map((item) => (item.category_id)),
+        pdfLink:pdfLink.split(", ")
 
           
 
         
         };
-        console.log(data.body.additional_info)
+        console.log(datapay)
 
       
       }

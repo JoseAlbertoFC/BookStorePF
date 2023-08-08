@@ -16,18 +16,18 @@ const ORDER_PAY = async ({ carrito, name, email, IdBook, typeMoney, userId }) =>
     quantity: item.cantidad,
     category_id: item.IdBook,
     description: item.description,
-    pdfLink: item.pdfLink
   }));
-  console.log(carrito.pdfLink, "Soy tu sexy Carrito")
   
     
   // En este apartado en desarrollo tienes que correr el ngrok en una consola aparte y copiar el url que te brinda.
+  const pdfLink = carrito?.map((item) => item.pdfLink)
     const notificationURL ="https://bookstorepf-production.up.railway.app/webhook-pago";
   const additionalData = {
     IdBook: IdBook,
     email: email,
     name: name,
     userId: userId,
+    pdfLink: pdfLink.join(),
       
      
       
