@@ -10,7 +10,6 @@ const ORDER_PAY = async ({ carrito, name, email, IdBook, typeMoney, userId }) =>
   });
   const items = carrito.map((item) => ({
     IdBook: item.IdBook,
-    pdfLink: item.pdfLink,
     title: item.nombre,
     unit_price: item.precio,
     currency_id: item.typeMoney,
