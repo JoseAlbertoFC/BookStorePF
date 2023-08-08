@@ -7,13 +7,23 @@ const newPay = async (
 
 
 ) => {
+// Obtener la fecha actual
+const currentDate = new Date();
+
+// Obtener día, mes y año
+const day = currentDate.getDate().toString().padStart(2, '0');
+const month = (currentDate.getMonth() + 1).toString().padStart(2, '0'); // Los meses en JavaScript son de 0 a 11
+const year = currentDate.getFullYear();
+
+// Crear la cadena en el formato "dd/mm/aaaa"
+const formattedDate = `${day}/${month}/${year}`;
 
   // Recibe el Pago con Todos los  datos  del recibo.
   try {
     const newPay = await Pay.create({
       amount: result.total_paid_amount,
-      paymentDate: result.data_aprove,
-      paymentStatus: result.metodo,
+      paymentDate: formattedDate,
+      paymentStatus: result.paymentStatus,
       ip: result.ip,
       idpay: result.idpay,
       orderNumber: result.order,
@@ -50,7 +60,7 @@ const newPay = async (
       },
       include: [
         { model: User, as: 'user', attributes: ['name', 'email', 'rol', 'listWish'] },
-        { model: Book, as: 'books', attributes: ["id", 'title', 'country', 'author', 'price', 'image', "pdfLink"] },
+        { model: Book, as: 'books', attributes: ["id", 'title', 'country', 'author', 'price', 'image','gender', "pdfLink"] },
       ],
     });
 
