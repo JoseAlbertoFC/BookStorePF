@@ -31,6 +31,7 @@ const WEBHOOK_PAY = async ({ payment, id, IdBook, email, name, userId}) => {
         category_id: data.body.additional_info.items?.map((item) => (item.category_id)),
         description: data.body.additional_info.items?.map((item) => (item.description)),
         bookIds: data.body.additional_info.items?.map((item) => (item.category_id)),
+        pdfLink: data.body.additional_info.items?.map((item) => (item.pdfLink)),
 
 
           
