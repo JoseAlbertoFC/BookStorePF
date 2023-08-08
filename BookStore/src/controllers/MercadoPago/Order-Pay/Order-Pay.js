@@ -8,7 +8,7 @@ const ORDER_PAY = async ({ carrito, name, email, IdBook, typeMoney, userId }) =>
     mercadopago.configure({
         access_token: ACCES_TOKEN,
     });
-
+    console.log(carrito, "Soy tu sexy Carrito")
     const items = carrito.map((item) => ({
         IdBook: item.IdBook,
         title: item.nombre,
