@@ -5,10 +5,10 @@ const { ACCES_TOKEN } = process.env;
 
 // Esta funcion genera una orden de pago recibe el carrito y el userid junto con el bokingid para poder registrar los datos de la reserva que el cliente esta haciendo.
 const ORDER_PAY = async ({ carrito, name, email, IdBook, typeMoney, userId }) => {
+  console.log(carrito, "Soy tu sexy Carrito")
     mercadopago.configure({
         access_token: ACCES_TOKEN,
     });
-    console.log(carrito, "Soy tu sexy Carrito")
     const items = carrito.map((item) => ({
         IdBook: item.IdBook,
         title: item.nombre,
