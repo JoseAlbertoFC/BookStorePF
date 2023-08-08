@@ -5,7 +5,7 @@ const { envioCorreo } = require("../../EnvioCorreos/Post-Emails");
 
 // La funcion de pago captura el id  el pago el bokingid y el userid para poder generar el recibo con la informacion de pago.
 
-const WEBHOOK_PAY = async ({ payment, id, IdBook, email, name, userId, pdfLink}) => {
+const WEBHOOK_PAY = async ({ payment, id, IdBook, email, name, userId}) => {
     
   try {
     if (payment.type === "payment") {
@@ -31,7 +31,7 @@ const WEBHOOK_PAY = async ({ payment, id, IdBook, email, name, userId, pdfLink})
         category_id: data.body.additional_info.items?.map((item) => (item.category_id)),
         description: data.body.additional_info.items?.map((item) => (item.description)),
         bookIds: data.body.additional_info.items?.map((item) => (item.category_id)),
-        pdfLink:pdfLink.split(", ")
+
 
           
 
