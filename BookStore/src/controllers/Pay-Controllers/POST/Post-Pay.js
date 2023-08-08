@@ -23,7 +23,7 @@ const formattedDate = `${day}/${month}/${year}`;
     const newPay = await Pay.create({
       amount: result.total_paid_amount,
       paymentDate: result.data_aprove,
-      paymentStatus: result.result.metodo,
+      paymentStatus: result.metodo,
       ip: result.ip,
       idpay: result.idpay,
       orderNumber: result.order,
