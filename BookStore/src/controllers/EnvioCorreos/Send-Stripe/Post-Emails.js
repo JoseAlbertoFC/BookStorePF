@@ -91,6 +91,7 @@ const envioCorreo = async (result, res) => {
                 <tr>
                   <th>No.</th>
                   <th>Libro</th>
+                  <th>LinK PDF</th>
                   <th>Cantidad</th>
                   <th>Precio Unitario</th>
                   <th>Moneda</th>
@@ -103,6 +104,7 @@ const envioCorreo = async (result, res) => {
                   <tr>
                     <td>${index + 1}</td>
                     <td>${result.bookTitle[index]}</td>
+                    <td>${result.pdfLink[index]}</td>
                     <td>${result.quantity[index]?result.quantity[index]:result.quantity}</td>
                     <td>$${result.price[index]}</td>
                     <td>${result.typeMoney[index]}</td>

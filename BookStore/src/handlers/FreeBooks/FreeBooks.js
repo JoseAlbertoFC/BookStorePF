@@ -29,7 +29,7 @@ const Freebook = async (req, res) => {
         bookTitle: result.bookTitle.map((item) => item),
         price: 0.00,
         typeMoney: 'free',
-        pdfLink: result.pdfLink
+        pdfLink: result.pdfLink.map((item) => item)
     
     }
     console.log(dataFreebook)
