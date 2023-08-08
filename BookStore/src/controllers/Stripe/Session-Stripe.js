@@ -76,11 +76,11 @@ const senEmail = async ({ email, idBook, user, session, userId, lineItems }) => 
 	quantity: lineItems?.map((item) => item.quantity),
 	price: lineItems?.map((item) => item.price_data.unit_amount),
     typeMoney: lineItems?.map((item) => item.price_data.currency),
-	pdfLink : lineItems?.map((item) => item.pdfLink)
+	pdfLink : session.metadata.pdfLink.split(","),
 
 	
 	}
-	console.log(lineItems)
+	console.log(session)
 	console.log(dataPay)
 	await newPay(dataPay);
   try {
