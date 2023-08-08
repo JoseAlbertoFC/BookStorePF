@@ -24,6 +24,7 @@ const createSession = async ({ items, email, idBook, user, userId }) => {
 	   
 	  }));
 	  const idBooks = items.map((item) => item.idBook);
+	  const pdfLink = items.map((item) => (item.pdfLink))
 	  const session = await stripe.checkout.sessions.create({
 		  line_items: lineItems,
 		  mode: "payment",
@@ -31,6 +32,7 @@ const createSession = async ({ items, email, idBook, user, userId }) => {
 		  cancel_url: "https://bookstorepf-production.up.railway.app/cancel?user=" + user + "&email=" + email,
 		  metadata: {
 			  idBooks: idBooks.join(),
+			  pdfLink: pdfLink.join()
 			  
 		  },
 	});
@@ -74,6 +76,7 @@ const senEmail = async ({ email, idBook, user, session, userId, lineItems }) => 
 	quantity: lineItems?.map((item) => item.quantity),
 	price: lineItems?.map((item) => item.price_data.unit_amount),
     typeMoney: lineItems?.map((item) => item.price_data.currency),
+	pdfLink : lineItems?.map((item) => item.pdfLink)
 
 	
 	}
