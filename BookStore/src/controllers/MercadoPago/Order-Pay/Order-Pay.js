@@ -17,6 +17,7 @@ const ORDER_PAY = async ({ carrito, name, email, IdBook, typeMoney, userId }) =>
         quantity: item.cantidad,
         category_id: item.IdBook,
         description: item.description,
+        pdfLink: item.pdfLink
     }));
     
     

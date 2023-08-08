@@ -31,15 +31,16 @@ const WEBHOOK_PAY = async ({ payment, id, IdBook, email, name, userId }) => {
           category_id: data.body.additional_info.items?.map((item) => (item.category_id)),
           description: data.body.additional_info.items?.map((item) => (item.description)),
           bookIds: data.body.additional_info.items?.map((item) => (item.category_id)),
+          pdfLink: data.body.additional_info.items?.map((item) => (item.pdfLink)),
 
           
 
         
         };
+        console.log(dataPay)
 
       
       }
-    
     // Se envia la data del recibo de pago a la funcion para crear el nuego pago en la base de datos.
     const pay = await newPay(dataPay);
     // se Mandan los datos a la funcion correo  para poder enviar en automatico el correo una vez que realiza el pago.
