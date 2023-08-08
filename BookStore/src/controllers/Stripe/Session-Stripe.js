@@ -80,6 +80,7 @@ const senEmail = async ({ email, idBook, user, session, userId, lineItems }) => 
 
 	
 	}
+	console.log(lineItems)
 	console.log(dataPay)
 	await newPay(dataPay);
   try {
