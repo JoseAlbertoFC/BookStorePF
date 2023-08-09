@@ -16,7 +16,7 @@ const createSession = async ({ items, email, idBook, user, userId }) => {
 			  name: item.name,	  
 		},
 		currency: item.typeMoney,
-		unit_amount: item.price,
+		unit_amount: item.price + "00",
 	   
 
 	  },
