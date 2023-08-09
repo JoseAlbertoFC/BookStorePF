@@ -13,6 +13,7 @@ const envioCorreo = async (result, res) => {
         });
 
         const name = `${result.name}`;
+        const pdfLink = "https://na01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fbooks.google.com.ar%2Fbooks%3Fid%3DLmoyzwEACAAJ%26dq%3D%2522%2522%26hl%3D%26cd%3D17%26source%3Dgbs_api&data=05%7C01%7C%7C725d47abc01d4d8d93f408db985204d1%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638271250251555934%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=0sPYu0bcqoEDsSHvGPNlsidxb32RIj%2BN47Z5i5tk95Q%3D&reserved=0"
         const items = result.title.map((title, index) => ({
             title: title,
             quantity: result.quantity[index],
@@ -95,6 +96,7 @@ const envioCorreo = async (result, res) => {
               <tr>
                 <th>No.</th>
                 <th>Producto</th>
+                <th>Link PDF</th>
                 <th>Cantidad</th>
                 <th>Precio Unitario</th>
                 <th>Total</th>
@@ -107,6 +109,7 @@ const envioCorreo = async (result, res) => {
                     <tr>
                       <td>${index + 1}</td>
                       <td>${item.title}</td>
+                      <td><a href="${pdfLink}">${pdfLink}</a></td>
                       <td>${item.quantity}</td>
                       <td>$${item.unit_price}</td>
                       <td>$${(item.quantity * item.unit_price).toFixed(2)}</td>
