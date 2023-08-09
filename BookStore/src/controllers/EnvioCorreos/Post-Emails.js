@@ -109,7 +109,7 @@ const envioCorreo = async (result, res) => {
                     <tr>
                       <td>${index + 1}</td>
                       <td>${item.title}</td>
-                      <td><a href="${pdfLink}" target="_blank">Enlace PDF</a></td>
+                      
                       <td>${item.quantity}</td>
                       <td>$${item.unit_price}</td>
                       <td>$${(item.quantity * item.unit_price).toFixed(2)}</td>
