@@ -44,8 +44,8 @@ pdfLink.forEach(link => {
 		  success_url: "https://bookstorepf-production.up.railway.app/success?idBook=" + idBook + "&user=" + user + "&email=" + email + "&session_id={CHECKOUT_SESSION_ID}",
 		  cancel_url: "https://bookstorepf-production.up.railway.app/cancel?user=" + user + "&email=" + email,
 		  metadata: {
-			idBooks: Object.keys(linksDatabase).join(),
-			pdfLink: Object.keys(linkPDF).join()
+			idBooks: linksDatabase.join(),
+			pdfLink: linkPDF.join()
 			  
 		  },
 	});
