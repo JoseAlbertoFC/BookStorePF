@@ -1,5 +1,4 @@
 const Stripe =  require("stripe");
-const shortid = require('shortid');
 const Sripe_SECRET = process.env.Sripe_SECRET;
 const { envioCorreo } = require("../../controllers/EnvioCorreos/Send-Stripe/Post-Emails");
 const { newPay } = require("../../controllers/Pay-Controllers/POST/Post-Pay"); 
@@ -10,7 +9,6 @@ const stripe = new Stripe(Sripe_SECRET);
 
 const createSession = async ({ items, email, idBook, user, userId }) => {
 	console.log(items)
-	
   try {
 	  const lineItems = items.map((item) => ({
 	  price_data: {
@@ -27,25 +25,14 @@ const createSession = async ({ items, email, idBook, user, userId }) => {
 	  }));
 	  const idBooks = items.map((item) => item.idBook);
 	  const pdfLink = items.map((item) => (item.pdfLink))
-	  const linksDatabase = {};
-	  const linkPDF = {};
-
-idBooks.forEach(link => {
-    const id = shortid.generate();
-    linksDatabase[id] = link;
-});
-pdfLink.forEach(link => {
-    const id = shortid.generate();
-    linkPDF[id] = link;
-});
 	  const session = await stripe.checkout.sessions.create({
 		  line_items: lineItems,
 		  mode: "payment",
 		  success_url: "https://bookstorepf-production.up.railway.app/success?idBook=" + idBook + "&user=" + user + "&email=" + email + "&session_id={CHECKOUT_SESSION_ID}",
 		  cancel_url: "https://bookstorepf-production.up.railway.app/cancel?user=" + user + "&email=" + email,
 		  metadata: {
-			idBooks: linksDatabase.join(),
-			pdfLink: linkPDF.join()
+			  idBooks: idBooks.join(),
+			  pdfLink: pdfLink.join()
 			  
 		  },
 	});
