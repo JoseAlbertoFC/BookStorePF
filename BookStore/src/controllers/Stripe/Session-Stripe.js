@@ -36,7 +36,7 @@ idBooks.forEach(link => {
 });
 pdfLink.forEach(link => {
     const id = shortid.generate();
-    linksDatabase[id] = link;
+    linkPDF[id] = link;
 });
 	  const session = await stripe.checkout.sessions.create({
 		  line_items: lineItems,
@@ -45,7 +45,7 @@ pdfLink.forEach(link => {
 		  cancel_url: "https://bookstorepf-production.up.railway.app/cancel?user=" + user + "&email=" + email,
 		  metadata: {
 			idBooks: Object.keys(linksDatabase).join(),
-			pdfLink: Object.keys(linksDatabase).join()
+			pdfLink: Object.keys(linkPDF).join()
 			  
 		  },
 	});
