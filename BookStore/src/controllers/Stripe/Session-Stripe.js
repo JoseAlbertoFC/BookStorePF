@@ -1,4 +1,5 @@
 const Stripe =  require("stripe");
+const shortid = require('shortid');
 const Sripe_SECRET = process.env.Sripe_SECRET;
 const { envioCorreo } = require("../../controllers/EnvioCorreos/Send-Stripe/Post-Emails");
 const { newPay } = require("../../controllers/Pay-Controllers/POST/Post-Pay"); 
